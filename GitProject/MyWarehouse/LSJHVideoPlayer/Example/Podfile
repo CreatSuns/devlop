@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LSJHVideoPlayer_Example' do
+  pod 'LSJHVideoPlayer', :path => '../'
+
+  target 'LSJHVideoPlayer_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

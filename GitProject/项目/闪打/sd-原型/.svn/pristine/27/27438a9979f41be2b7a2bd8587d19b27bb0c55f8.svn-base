@@ -1,0 +1,419 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>D2分组发货</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/d2分组发货/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/d2分组发货/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5126" class="ax_default _三级标题">
+        <div id="u5126_div" class=""></div>
+        <div id="u5126_text" class="text ">
+          <p><span style="text-decoration:none;">未发货列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (主导航) -->
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5128" class="ax_default box_2">
+        <div id="u5128_div" class=""></div>
+        <div id="u5128_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5129" class="ax_default box_1">
+        <div id="u5129_div" class=""></div>
+        <div id="u5129_text" class="text ">
+          <p><span style="text-decoration:none;">修订历史</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5130" class="ax_default box_1">
+        <div id="u5130_div" class=""></div>
+        <div id="u5130_text" class="text ">
+          <p><span style="text-decoration:none;">整体说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5131" class="ax_default box_1">
+        <div id="u5131_div" class=""></div>
+        <div id="u5131_text" class="text ">
+          <p><span style="text-decoration:none;">闪打v1.1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5132" class="ax_default box_1">
+        <div id="u5132_div" class=""></div>
+        <div id="u5132_text" class="text ">
+          <p><span style="text-decoration:none;">功能列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5133" class="ax_default box_1">
+        <div id="u5133_div" class=""></div>
+        <div id="u5133_text" class="text ">
+          <p><span style="text-decoration:none;">原型图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5134" class="ax_default box_1">
+        <div id="u5134_div" class=""></div>
+        <div id="u5134_text" class="text ">
+          <p><span style="text-decoration:none;">数据分析</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5135" class="ax_default box_1">
+        <div id="u5135_div" class=""></div>
+        <div id="u5135_text" class="text ">
+          <p><span style="text-decoration:none;">体系规则</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Triangle) -->
+      <div id="u5136" class="ax_default _流程形状">
+        <img id="u5136_img" class="img " src="images/思维导图/u15.svg"/>
+        <div id="u5136_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5137" class="ax_default box_2">
+        <div id="u5137_div" class=""></div>
+        <div id="u5137_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5138" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u5138_div" class=""></div>
+        <div id="u5138_text" class="text ">
+          <p><span style="text-decoration:none;">A交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5139" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u5139_div" class=""></div>
+        <div id="u5139_text" class="text ">
+          <p><span style="text-decoration:none;">B交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5140" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u5140_div" class=""></div>
+        <div id="u5140_text" class="text ">
+          <p><span style="text-decoration:none;">C交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Triangle) -->
+      <div id="u5141" class="ax_default _流程形状">
+        <img id="u5141_img" class="img " src="images/思维导图/u15.svg"/>
+        <div id="u5141_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5142" class="ax_default box_2">
+        <div id="u5142_div" class=""></div>
+        <div id="u5142_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5143" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u5143_div" class=""></div>
+        <div id="u5143_text" class="text ">
+          <p><span style="text-decoration:none;">A交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5144" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u5144_div" class=""></div>
+        <div id="u5144_text" class="text ">
+          <p><span style="text-decoration:none;">B交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5145" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u5145_div" class=""></div>
+        <div id="u5145_text" class="text ">
+          <p><span style="text-decoration:none;">C交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5146" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u5146_div" class=""></div>
+        <div id="u5146_text" class="text ">
+          <p><span style="text-decoration:none;">全局说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5147" class="ax_default box_1">
+        <div id="u5147_div" class=""></div>
+        <div id="u5147_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5148" class="ax_default box_3">
+        <div id="u5148_div" class=""></div>
+        <div id="u5148_text" class="text ">
+          <p><span style="text-decoration:none;">分组发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5149" class="ax_default label">
+        <div id="u5149_div" class=""></div>
+        <div id="u5149_text" class="text ">
+          <p><span style="text-decoration:none;">╳</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5150" class="ax_default box_3">
+        <div id="u5150_div" class=""></div>
+        <div id="u5150_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5151" class="ax_default primary_button">
+        <div id="u5151_div" class=""></div>
+        <div id="u5151_text" class="text ">
+          <p><span style="text-decoration:none;">批量发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5152" class="ax_default button">
+        <div id="u5152_div" class=""></div>
+        <div id="u5152_text" class="text ">
+          <p><span style="text-decoration:none;">取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5153" class="ax_default _一级标题">
+        <div id="u5153_div" class=""></div>
+        <div id="u5153_text" class="text ">
+          <p><span style="text-decoration:none;">点击“分组发货”的窗口</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5154" class="ax_default box_1">
+        <div id="u5154_div" class=""></div>
+        <div id="u5154_text" class="text ">
+          <p><span style="font-family:'微软雅黑';font-weight:400;text-decoration:none;">&nbsp;&nbsp;&nbsp; 目前待发货发货单共 </span><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;text-decoration:none;">1234</span><span style="font-family:'微软雅黑';font-weight:400;text-decoration:none;"> 个，可分组发货 </span><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;text-decoration:none;">876</span><span style="font-family:'微软雅黑';font-weight:400;text-decoration:none;">个</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5155" class="ax_default label">
+        <div id="u5155_div" class=""></div>
+        <div id="u5155_text" class="text ">
+          <p><span style="text-decoration:none;">选择发货标记：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u5156" class="ax_default radio_button">
+        <label for="u5156_input" style="position: absolute; left: 0px;">
+          <img id="u5156_img" class="img " src="images/d2分组发货/u5156.svg"/>
+          <div id="u5156_text" class="text ">
+            <p><span style="text-decoration:none;">无（56）</span></p>
+          </div>
+        </label>
+        <input id="u5156_input" type="radio" value="radio" name="u5156"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u5157" class="ax_default radio_button">
+        <label for="u5157_input" style="position: absolute; left: 0px;">
+          <img id="u5157_img" class="img " src="images/d2分组发货/u5157.svg"/>
+          <div id="u5157_text" class="text ">
+            <p><span style="text-decoration:none;">&nbsp;&nbsp;&nbsp; （21）</span></p>
+          </div>
+        </label>
+        <input id="u5157_input" type="radio" value="radio" name="u5157"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u5158" class="ax_default radio_button">
+        <label for="u5158_input" style="position: absolute; left: 0px;">
+          <img id="u5158_img" class="img " src="images/d2分组发货/u5158.svg"/>
+          <div id="u5158_text" class="text ">
+            <p><span style="text-decoration:none;">&nbsp;&nbsp; （58）</span></p>
+          </div>
+        </label>
+        <input id="u5158_input" type="radio" value="radio" name="u5158"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5159" class="ax_default label">
+        <div id="u5159_div" class=""></div>
+        <div id="u5159_text" class="text ">
+          <p><span style="text-decoration:none;">⚑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5160" class="ax_default label">
+        <div id="u5160_div" class=""></div>
+        <div id="u5160_text" class="text ">
+          <p><span style="text-decoration:none;">⚑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u5161" class="ax_default radio_button">
+        <label for="u5161_input" style="position: absolute; left: 0px;">
+          <img id="u5161_img" class="img " src="images/d2分组发货/u5161.svg"/>
+          <div id="u5161_text" class="text ">
+            <p><span style="text-decoration:none;">&nbsp;&nbsp; （48）</span></p>
+          </div>
+        </label>
+        <input id="u5161_input" type="radio" value="radio" name="u5161"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u5162" class="ax_default radio_button">
+        <label for="u5162_input" style="position: absolute; left: 0px;">
+          <img id="u5162_img" class="img " src="images/d2分组发货/u5162.svg"/>
+          <div id="u5162_text" class="text ">
+            <p><span style="text-decoration:none;">&nbsp;&nbsp; （71）</span></p>
+          </div>
+        </label>
+        <input id="u5162_input" type="radio" value="radio" name="u5162"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5163" class="ax_default label">
+        <div id="u5163_div" class=""></div>
+        <div id="u5163_text" class="text ">
+          <p><span style="text-decoration:none;">⚑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5164" class="ax_default label">
+        <div id="u5164_div" class=""></div>
+        <div id="u5164_text" class="text ">
+          <p><span style="text-decoration:none;">⚑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5165" class="ax_default _二级标题">
+        <div id="u5165_div" class=""></div>
+        <div id="u5165_text" class="text ">
+          <p><span style="text-decoration:none;">发货处理（目前有 </span><span style="text-decoration:none;color:#FF0033;">1234</span><span style="text-decoration:none;"> 个发货单未发货）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u5166" class="ax_default droplist">
+        <div id="u5166_div" class=""></div>
+        <select id="u5166_input" class="u5166_input">
+          <option class="u5166_input_option" selected value="全部订单（3）">全部订单（3）</option>
+          <option class="u5166_input_option" value="打印分组1（2）">打印分组1（2）</option>
+          <option class="u5166_input_option" value="订单分组2（1）">订单分组2（1）</option>
+          <option class="u5166_input_option" value="List Item1">List Item1</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5167" class="ax_default _二级标题">
+        <div id="u5167_div" class=""></div>
+        <div id="u5167_text" class="text ">
+          <p><span style="text-decoration:none;">请选择需要批量发货的打印分组</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u5168" class="ax_default radio_button selected">
+        <label for="u5168_input" style="position: absolute; left: 0px;">
+          <img id="u5168_img" class="img " src="images/d2分组发货/u5168_selected.svg"/>
+          <div id="u5168_text" class="text ">
+            <p><span style="text-decoration:none;">全部（123）</span></p>
+          </div>
+        </label>
+        <input id="u5168_input" type="radio" value="radio" name="u5168" checked/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5169" class="ax_default axuretraining">
+        <div id="u5169_div" class=""></div>
+        <div id="u5169_text" class="text ">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-style:normal;text-decoration:none;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span></p><p><span style="font-family:'Arial Normal', 'Arial';font-style:normal;text-decoration:none;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-style:normal;text-decoration:none;">&nbsp;</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-style:normal;text-decoration:none;">选择旗标后，下方的打印分组显示的订单数量相应筛选减少；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-style:normal;text-decoration:none;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-style:normal;text-decoration:none;">分组发货操作前不需要多选；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-style:normal;text-decoration:none;">点击发货后，此窗口不会关闭，仍回到全部待发货状态，刷新待发货数量；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-style:normal;text-decoration:none;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-style:normal;text-decoration:none;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-style:normal;text-decoration:none;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-style:normal;text-decoration:none;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-style:normal;text-decoration:none;"><br></span></p><p><span style="font-family:'Arial Cursiva', 'Arial Normal', 'Arial';font-style:italic;text-decoration:none;color:#999999;">Need help? Go to &quot;Help &gt; Submit Feedback or Bug&quot;.</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

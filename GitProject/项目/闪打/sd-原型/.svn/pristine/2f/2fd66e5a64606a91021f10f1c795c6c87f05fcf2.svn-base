@@ -1,0 +1,1538 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>A12订单详情 (异常订单)</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/a12订单详情__异常订单_/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/a12订单详情__异常订单_/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6223" class="ax_default box_1">
+        <div id="u6223_div" class=""></div>
+        <div id="u6223_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6224" class="ax_default _三级标题">
+        <div id="u6224_div" class=""></div>
+        <div id="u6224_text" class="text ">
+          <p><span style="text-decoration:none;">订单详情信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (主导航) -->
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6226" class="ax_default box_2">
+        <div id="u6226_div" class=""></div>
+        <div id="u6226_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6227" class="ax_default box_1">
+        <div id="u6227_div" class=""></div>
+        <div id="u6227_text" class="text ">
+          <p><span style="text-decoration:none;">修订历史</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6228" class="ax_default box_1">
+        <div id="u6228_div" class=""></div>
+        <div id="u6228_text" class="text ">
+          <p><span style="text-decoration:none;">整体说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6229" class="ax_default box_1">
+        <div id="u6229_div" class=""></div>
+        <div id="u6229_text" class="text ">
+          <p><span style="text-decoration:none;">闪打v1.1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6230" class="ax_default box_1">
+        <div id="u6230_div" class=""></div>
+        <div id="u6230_text" class="text ">
+          <p><span style="text-decoration:none;">功能列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6231" class="ax_default box_1">
+        <div id="u6231_div" class=""></div>
+        <div id="u6231_text" class="text ">
+          <p><span style="text-decoration:none;">原型图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6232" class="ax_default box_1">
+        <div id="u6232_div" class=""></div>
+        <div id="u6232_text" class="text ">
+          <p><span style="text-decoration:none;">数据分析</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6233" class="ax_default box_1">
+        <div id="u6233_div" class=""></div>
+        <div id="u6233_text" class="text ">
+          <p><span style="text-decoration:none;">体系规则</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Triangle) -->
+      <div id="u6234" class="ax_default _流程形状">
+        <img id="u6234_img" class="img " src="images/思维导图/u15.svg"/>
+        <div id="u6234_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6235" class="ax_default box_2">
+        <div id="u6235_div" class=""></div>
+        <div id="u6235_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6236" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u6236_div" class=""></div>
+        <div id="u6236_text" class="text ">
+          <p><span style="text-decoration:none;">A交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6237" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u6237_div" class=""></div>
+        <div id="u6237_text" class="text ">
+          <p><span style="text-decoration:none;">B交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6238" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u6238_div" class=""></div>
+        <div id="u6238_text" class="text ">
+          <p><span style="text-decoration:none;">C交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Triangle) -->
+      <div id="u6239" class="ax_default _流程形状">
+        <img id="u6239_img" class="img " src="images/思维导图/u15.svg"/>
+        <div id="u6239_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6240" class="ax_default box_2">
+        <div id="u6240_div" class=""></div>
+        <div id="u6240_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6241" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u6241_div" class=""></div>
+        <div id="u6241_text" class="text ">
+          <p><span style="text-decoration:none;">A交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6242" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u6242_div" class=""></div>
+        <div id="u6242_text" class="text ">
+          <p><span style="text-decoration:none;">B交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6243" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u6243_div" class=""></div>
+        <div id="u6243_text" class="text ">
+          <p><span style="text-decoration:none;">C交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6244" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u6244_div" class=""></div>
+        <div id="u6244_text" class="text ">
+          <p><span style="text-decoration:none;">全局说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6245" class="ax_default box_1">
+        <div id="u6245_div" class=""></div>
+        <div id="u6245_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6246" class="ax_default box_1">
+        <div id="u6246_div" class=""></div>
+        <div id="u6246_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6247" class="ax_default box_1">
+        <div id="u6247_div" class=""></div>
+        <div id="u6247_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6248" class="ax_default _二级标题">
+        <div id="u6248_div" class=""></div>
+        <div id="u6248_text" class="text ">
+          <p><span style="text-decoration:none;">闪打</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6249" class="ax_default label">
+        <div id="u6249_div" class=""></div>
+        <div id="u6249_text" class="text ">
+          <p><span style="text-decoration:none;">{用户名}</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6250" class="ax_default label">
+        <div id="u6250_div" class=""></div>
+        <div id="u6250_text" class="text ">
+          <p><span style="text-decoration:none;">退出</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6251" class="ax_default label">
+        <div id="u6251_div" class=""></div>
+        <div id="u6251_text" class="text ">
+          <p><span style="text-decoration:none;">订单号：20180614153001024985</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6252" class="ax_default label">
+        <div id="u6252_div" class=""></div>
+        <div id="u6252_text" class="text ">
+          <p><span style="text-decoration:none;">（异常订单）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6253" class="ax_default button ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u6253_div" class=""></div>
+        <div id="u6253_text" class="text ">
+          <p><span style="text-decoration:none;">发货单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6254" class="ax_default button ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u6254_div" class=""></div>
+        <div id="u6254_text" class="text ">
+          <p><span style="text-decoration:none;">快递单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6255" class="ax_default button">
+        <div id="u6255_div" class=""></div>
+        <div id="u6255_text" class="text ">
+          <p><span style="text-decoration:none;">操作记录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u6256" class="ax_default icon">
+        <img id="u6256_img" class="img " src="images/a8复审订单/u297.svg"/>
+        <div id="u6256_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u6257" class="ax_default icon">
+        <img id="u6257_img" class="img " src="images/a8复审订单/u298.svg"/>
+        <div id="u6257_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Placeholder) -->
+      <div id="u6258" class="ax_default placeholder">
+        <img id="u6258_img" class="img " src="images/a8复审订单/u299.svg"/>
+        <div id="u6258_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6259" class="ax_default box_1">
+        <div id="u6259_div" class=""></div>
+        <div id="u6259_text" class="text ">
+          <p><span style="text-decoration:none;">注</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6260" class="ax_default box_1">
+        <div id="u6260_div" class=""></div>
+        <div id="u6260_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6261" class="ax_default label">
+        <div id="u6261_div" class=""></div>
+        <div id="u6261_text" class="text ">
+          <p><span style="text-decoration:none;">商品信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6262" class="ax_default box_2">
+        <div id="u6262_div" class=""></div>
+        <div id="u6262_text" class="text ">
+          <p><span style="text-decoration:none;">货号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6263" class="ax_default box_2">
+        <div id="u6263_div" class=""></div>
+        <div id="u6263_text" class="text ">
+          <p><span style="text-decoration:none;">商品名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6264" class="ax_default box_2">
+        <div id="u6264_div" class=""></div>
+        <div id="u6264_text" class="text ">
+          <p><span style="text-decoration:none;">价格</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6265" class="ax_default box_2">
+        <div id="u6265_div" class=""></div>
+        <div id="u6265_text" class="text ">
+          <p><span style="text-decoration:none;">小计</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6266" class="ax_default box_2">
+        <div id="u6266_div" class=""></div>
+        <div id="u6266_text" class="text ">
+          <p><span style="text-decoration:none;">规格</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6267" class="ax_default box_2">
+        <div id="u6267_div" class=""></div>
+        <div id="u6267_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6268" class="ax_default box_2">
+        <div id="u6268_div" class=""></div>
+        <div id="u6268_text" class="text ">
+          <p><span style="text-decoration:none;">联想（ThinkVision）T2224z 21.5英寸 1080p高清摄像头数字麦克风 IPS屏办</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6269" class="ax_default box_2">
+        <div id="u6269_div" class=""></div>
+        <div id="u6269_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6270" class="ax_default box_2">
+        <div id="u6270_div" class=""></div>
+        <div id="u6270_text" class="text ">
+          <p><span style="text-decoration:none;">￥1172.39</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6271" class="ax_default box_2">
+        <div id="u6271_div" class=""></div>
+        <div id="u6271_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6272" class="ax_default box_2">
+        <div id="u6272_div" class=""></div>
+        <div id="u6272_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6273" class="ax_default box_2">
+        <div id="u6273_div" class=""></div>
+        <div id="u6273_text" class="text ">
+          <p><span style="text-decoration:none;">ikbc DC-108 白色 红轴 蓝牙机械键盘 原厂cherry轴 樱桃轴 108键 游戏键盘 </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6274" class="ax_default box_2">
+        <div id="u6274_div" class=""></div>
+        <div id="u6274_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6275" class="ax_default box_2">
+        <div id="u6275_div" class=""></div>
+        <div id="u6275_text" class="text ">
+          <p><span style="text-decoration:none;">￥1172.39</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6276" class="ax_default box_2">
+        <div id="u6276_div" class=""></div>
+        <div id="u6276_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6277" class="ax_default box_2">
+        <div id="u6277_div" class=""></div>
+        <div id="u6277_text" class="text ">
+          <p><span style="text-decoration:none;">数量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6278" class="ax_default box_2">
+        <div id="u6278_div" class=""></div>
+        <div id="u6278_text" class="text ">
+          <p><span style="text-decoration:none;">12</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6279" class="ax_default box_2">
+        <div id="u6279_div" class=""></div>
+        <div id="u6279_text" class="text ">
+          <p><span style="text-decoration:none;">18</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6280" class="ax_default box_2">
+        <div id="u6280_div" class=""></div>
+        <div id="u6280_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6281" class="ax_default box_2">
+        <div id="u6281_div" class=""></div>
+        <div id="u6281_text" class="text ">
+          <p><span style="text-decoration:none;">联想（ThinkVision）T2224z 21.5英寸 1080p高清摄像头数字麦克风 IPS屏办</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6282" class="ax_default box_2">
+        <div id="u6282_div" class=""></div>
+        <div id="u6282_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6283" class="ax_default box_2">
+        <div id="u6283_div" class=""></div>
+        <div id="u6283_text" class="text ">
+          <p><span style="text-decoration:none;">￥1172.39</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6284" class="ax_default box_2">
+        <div id="u6284_div" class=""></div>
+        <div id="u6284_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6285" class="ax_default box_2">
+        <div id="u6285_div" class=""></div>
+        <div id="u6285_text" class="text ">
+          <p><span style="text-decoration:none;">12</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6286" class="ax_default label">
+        <div id="u6286_div" class=""></div>
+        <div id="u6286_text" class="text ">
+          <p><span style="text-decoration:none;">⚑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6287" class="ax_default box_1">
+        <div id="u6287_div" class=""></div>
+        <div id="u6287_text" class="text ">
+          <p><span style="text-decoration:none;">合</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6288" class="ax_default label">
+        <div id="u6288_div" class=""></div>
+        <div id="u6288_text" class="text ">
+          <p><span style="text-decoration:none;">订单号：20180614153001024985</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6289" class="ax_default label">
+        <div id="u6289_div" class=""></div>
+        <div id="u6289_text" class="text ">
+          <p><span style="text-decoration:none;">获取时间：2018-06-16 13:29:22</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6290" class="ax_default label">
+        <div id="u6290_div" class=""></div>
+        <div id="u6290_text" class="text ">
+          <p><span style="text-decoration:none;">【自动获取/员工账号】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6291" class="ax_default label">
+        <div id="u6291_div" class=""></div>
+        <div id="u6291_text" class="text ">
+          <p><span style="text-decoration:none;">来源店铺：WDS微商系统</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6292" class="ax_default label">
+        <div id="u6292_div" class=""></div>
+        <div id="u6292_text" class="text ">
+          <p><span style="text-decoration:none;">下单时间：2018-06-16&nbsp; 13:17:01</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6293" class="ax_default label">
+        <div id="u6293_div" class=""></div>
+        <div id="u6293_text" class="text ">
+          <p><span style="text-decoration:none;">订单金额：¥101.90</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6294" class="ax_default label">
+        <div id="u6294_div" class=""></div>
+        <div id="u6294_text" class="text ">
+          <p><span style="text-decoration:none;">支付金额：¥91.90</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6295" class="ax_default label">
+        <div id="u6295_div" class=""></div>
+        <div id="u6295_text" class="text ">
+          <p><span style="text-decoration:none;">运费：¥9.90</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6296" class="ax_default label">
+        <div id="u6296_div" class=""></div>
+        <div id="u6296_text" class="text ">
+          <p><span style="text-decoration:none;">收货人：刘姥姥</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6297" class="ax_default label">
+        <div id="u6297_div" class=""></div>
+        <div id="u6297_text" class="text ">
+          <p><span style="text-decoration:none;">新疆乌鲁木齐市沙依巴克区城区西山路139号麓溪花园小区27号楼1单元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6298" class="ax_default label">
+        <div id="u6298_div" class=""></div>
+        <div id="u6298_text" class="text ">
+          <p><span style="text-decoration:none;">地址：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6299" class="ax_default label">
+        <div id="u6299_div" class=""></div>
+        <div id="u6299_text" class="text ">
+          <p><span style="text-decoration:none;">电话：15558110120</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6300" class="ax_default label">
+        <div id="u6300_div" class=""></div>
+        <div id="u6300_text" class="text ">
+          <p><span style="text-decoration:none;">会员名：巧姐儿</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6301" class="ax_default label">
+        <div id="u6301_div" class=""></div>
+        <div id="u6301_text" class="text ">
+          <p><span style="text-decoration:none;">买家留言：德邦快递</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6302" class="ax_default label">
+        <div id="u6302_div" class=""></div>
+        <div id="u6302_text" class="text ">
+          <p><span style="text-decoration:none;">客服备注：95554</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (导航项目) -->
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6304" class="ax_default label">
+        <div id="u6304_div" class=""></div>
+        <div id="u6304_text" class="text ">
+          <p><span style="text-decoration:none;">订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6305" class="ax_default label">
+        <div id="u6305_div" class=""></div>
+        <div id="u6305_text" class="text ">
+          <p><span style="text-decoration:none;">系统</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6306" class="ax_default label">
+        <div id="u6306_div" class=""></div>
+        <div id="u6306_text" class="text ">
+          <p><span style="text-decoration:none;">订单审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6307" class="ax_default label">
+        <div id="u6307_div" class=""></div>
+        <div id="u6307_text" class="text ">
+          <p><span style="text-decoration:none;">复审订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6308" class="ax_default label">
+        <div id="u6308_div" class=""></div>
+        <div id="u6308_text" class="text ">
+          <p><span style="text-decoration:none;">异常订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6309" class="ax_default label">
+        <div id="u6309_div" class=""></div>
+        <div id="u6309_text" class="text ">
+          <p><span style="text-decoration:none;">待打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6310" class="ax_default label">
+        <div id="u6310_div" class=""></div>
+        <div id="u6310_text" class="text ">
+          <p><span style="text-decoration:none;">已打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6311" class="ax_default label">
+        <div id="u6311_div" class=""></div>
+        <div id="u6311_text" class="text ">
+          <p><span style="text-decoration:none;">发货配置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6312" class="ax_default label">
+        <div id="u6312_div" class=""></div>
+        <div id="u6312_text" class="text ">
+          <p><span style="text-decoration:none;">打印模板</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6313" class="ax_default label">
+        <div id="u6313_div" class=""></div>
+        <div id="u6313_text" class="text ">
+          <p><span style="text-decoration:none;">基础设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6314" class="ax_default label">
+        <div id="u6314_div" class=""></div>
+        <div id="u6314_text" class="text ">
+          <p><span style="text-decoration:none;">已发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6315" class="ax_default label">
+        <div id="u6315_div" class=""></div>
+        <div id="u6315_text" class="text ">
+          <p><span style="text-decoration:none;">已签收</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6316" class="ax_default label ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u6316_div" class=""></div>
+        <div id="u6316_text" class="text ">
+          <p><span style="text-decoration:none;">暂停列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6317" class="ax_default label">
+        <div id="u6317_div" class=""></div>
+        <div id="u6317_text" class="text ">
+          <p><span style="text-decoration:none;">前端店铺</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6318" class="ax_default label">
+        <div id="u6318_div" class=""></div>
+        <div id="u6318_text" class="text ">
+          <p><span style="text-decoration:none;">员工账号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6319" class="ax_default label">
+        <div id="u6319_div" class=""></div>
+        <div id="u6319_text" class="text ">
+          <p><span style="text-decoration:none;">系统日志</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6320" class="ax_default label">
+        <div id="u6320_div" class=""></div>
+        <div id="u6320_text" class="text ">
+          <p><span style="text-decoration:none;">发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6321" class="ax_default label">
+        <div id="u6321_div" class=""></div>
+        <div id="u6321_text" class="text ">
+          <p><span style="text-decoration:none;">待发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6322" class="ax_default label">
+        <div id="u6322_div" class=""></div>
+        <div id="u6322_text" class="text ">
+          <p><span style="text-decoration:none;">归档订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6323" class="ax_default box_2">
+        <div id="u6323_div" class=""></div>
+        <div id="u6323_text" class="text ">
+          <p><span style="text-decoration:none;">&nbsp; 异常订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u6324" class="ax_default text_field">
+        <div id="u6324_div" class=""></div>
+        <input id="u6324_input" type="text" value="搜索订单号或发货单号" class="u6324_input"/>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u6325" class="ax_default" data-left="1182" data-top="237" data-width="34" data-height="29">
+
+        <!-- Unnamed (Shape) -->
+        <div id="u6326" class="ax_default icon">
+          <img id="u6326_img" class="img " src="images/a8复审订单/u349.svg"/>
+          <div id="u6326_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u6327" class="ax_default ellipse">
+          <img id="u6327_img" class="img " src="images/a8复审订单/u350.svg"/>
+          <div id="u6327_text" class="text ">
+            <p><span style="text-decoration:none;">3</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6328" class="ax_default label">
+        <div id="u6328_div" class=""></div>
+        <div id="u6328_text" class="text ">
+          <p><span style="text-decoration:none;">收货信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6329" class="ax_default label">
+        <div id="u6329_div" class=""></div>
+        <div id="u6329_text" class="text ">
+          <p><span style="text-decoration:none;">基本信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6330" class="ax_default button">
+        <div id="u6330_div" class=""></div>
+        <div id="u6330_text" class="text ">
+          <p><span style="text-decoration:none;">返回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u6331" class="ax_default line">
+        <img id="u6331_img" class="img " src="images/c7已打印发货单/u1179.svg"/>
+        <div id="u6331_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6332" class="ax_default button">
+        <div id="u6332_div" class=""></div>
+        <div id="u6332_text" class="text ">
+          <p><span style="text-decoration:none;">订单详情</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6333" class="ax_default label">
+        <div id="u6333_div" class=""></div>
+        <div id="u6333_text" class="text ">
+          <p><span style="text-decoration:none;">支付时间：2018-06-16&nbsp; 13:17:01</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6334" class="ax_default label">
+        <div id="u6334_div" class=""></div>
+        <div id="u6334_text" class="text ">
+          <p><span style="text-decoration:none;">优惠：¥0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6335" class="ax_default label">
+        <div id="u6335_div" class=""></div>
+        <div id="u6335_text" class="text ">
+          <p><span style="text-decoration:none;">购买信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6336" class="ax_default label">
+        <div id="u6336_div" class=""></div>
+        <div id="u6336_text" class="text ">
+          <p><span style="text-decoration:none;">发货备注：95554</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6337" class="ax_default label">
+        <div id="u6337_div" class=""></div>
+        <div id="u6337_text" class="text ">
+          <p><span style="text-decoration:none;">订单号：20180614153001024985</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6338" class="ax_default label">
+        <div id="u6338_div" class=""></div>
+        <div id="u6338_text" class="text ">
+          <p><span style="text-decoration:none;">（异常订单）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6339" class="ax_default button ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u6339_div" class=""></div>
+        <div id="u6339_text" class="text ">
+          <p><span style="text-decoration:none;">发货单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6340" class="ax_default button ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u6340_div" class=""></div>
+        <div id="u6340_text" class="text ">
+          <p><span style="text-decoration:none;">快递单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6341" class="ax_default button">
+        <div id="u6341_div" class=""></div>
+        <div id="u6341_text" class="text ">
+          <p><span style="text-decoration:none;">订单详情</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u6342" class="ax_default icon">
+        <img id="u6342_img" class="img " src="images/a8复审订单/u297.svg"/>
+        <div id="u6342_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u6343" class="ax_default icon">
+        <img id="u6343_img" class="img " src="images/a8复审订单/u298.svg"/>
+        <div id="u6343_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u6344" class="ax_default line">
+        <img id="u6344_img" class="img " src="images/a8复审订单/u291.svg"/>
+        <div id="u6344_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6345" class="ax_default button">
+        <div id="u6345_div" class=""></div>
+        <div id="u6345_text" class="text ">
+          <p><span style="text-decoration:none;">发货信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6346" class="ax_default _三级标题">
+        <div id="u6346_div" class=""></div>
+        <div id="u6346_text" class="text ">
+          <p><span style="text-decoration:none;">发货信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6347" class="ax_default label">
+        <div id="u6347_div" class=""></div>
+        <div id="u6347_text" class="text ">
+          <p><span style="text-decoration:none;">快递单备注：95554</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6348" class="ax_default _三级标题">
+        <div id="u6348_div" class=""></div>
+        <div id="u6348_text" class="text ">
+          <p><span style="text-decoration:none;">审核前没有发货信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6349" class="ax_default button">
+        <div id="u6349_div" class=""></div>
+        <div id="u6349_text" class="text ">
+          <p><span style="text-decoration:none;">操作记录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6350" class="ax_default _三级标题">
+        <div id="u6350_div" class=""></div>
+        <div id="u6350_text" class="text ">
+          <p><span style="text-decoration:none;">（审核后）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6351" class="ax_default button">
+        <div id="u6351_div" class=""></div>
+        <div id="u6351_text" class="text ">
+          <p><span style="text-decoration:none;">处理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6352" class="ax_default label">
+        <div id="u6352_div" class=""></div>
+        <div id="u6352_text" class="text ">
+          <p><span style="text-decoration:none;">订单分组：华北订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6353" class="ax_default label">
+        <div id="u6353_div" class=""></div>
+        <div id="u6353_text" class="text ">
+          <p><span style="text-decoration:none;">异常信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6354" class="ax_default label">
+        <div id="u6354_div" class=""></div>
+        <div id="u6354_text" class="text ">
+          <p><span style="text-decoration:none;">异常时间：2018-06-16 13:29:22</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6355" class="ax_default label">
+        <div id="u6355_div" class=""></div>
+        <div id="u6355_text" class="text ">
+          <p><span style="text-decoration:none;">【发货失败/system】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6356" class="ax_default label">
+        <div id="u6356_div" class=""></div>
+        <div id="u6356_text" class="text ">
+          <p><span style="text-decoration:none;">处理情况：未处理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6357" class="ax_default label">
+        <div id="u6357_div" class=""></div>
+        <div id="u6357_text" class="text ">
+          <p><span style="text-decoration:none;">异常备注：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6358" class="ax_default label">
+        <div id="u6358_div" class=""></div>
+        <div id="u6358_text" class="text ">
+          <p><span style="text-decoration:none;">8月28日缺货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6359" class="ax_default label">
+        <div id="u6359_div" class=""></div>
+        <div id="u6359_text" class="text ">
+          <p><span style="text-decoration:none;">【员工A账号】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6360" class="ax_default label">
+        <div id="u6360_div" class=""></div>
+        <div id="u6360_text" class="text ">
+          <p><span style="text-decoration:none;">修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6361" class="ax_default label">
+        <div id="u6361_div" class=""></div>
+        <div id="u6361_text" class="text ">
+          <p><span style="text-decoration:none;">8月28日缺货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6362" class="ax_default label">
+        <div id="u6362_div" class=""></div>
+        <div id="u6362_text" class="text ">
+          <p><span style="text-decoration:none;">【员工B账号】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6363" class="ax_default label">
+        <div id="u6363_div" class=""></div>
+        <div id="u6363_text" class="text ">
+          <p><span style="text-decoration:none;">添加备注</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6364" class="ax_default box_1">
+        <div id="u6364_div" class=""></div>
+        <div id="u6364_text" class="text ">
+          <p><span style="text-decoration:none;">注</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6365" class="ax_default box_1">
+        <div id="u6365_div" class=""></div>
+        <div id="u6365_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6366" class="ax_default label">
+        <div id="u6366_div" class=""></div>
+        <div id="u6366_text" class="text ">
+          <p><span style="text-decoration:none;">⚑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6367" class="ax_default box_1">
+        <div id="u6367_div" class=""></div>
+        <div id="u6367_text" class="text ">
+          <p><span style="text-decoration:none;">合</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6368" class="ax_default label">
+        <div id="u6368_div" class=""></div>
+        <div id="u6368_text" class="text ">
+          <p><span style="text-decoration:none;">发货单号：20180614153001024985</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6369" class="ax_default label">
+        <div id="u6369_div" class=""></div>
+        <div id="u6369_text" class="text ">
+          <p><span style="text-decoration:none;">生成时间：2018-06-16 13:29:22</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6370" class="ax_default label">
+        <div id="u6370_div" class=""></div>
+        <div id="u6370_text" class="text ">
+          <p><span style="text-decoration:none;">【自动审核/员工账号】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6371" class="ax_default label">
+        <div id="u6371_div" class=""></div>
+        <div id="u6371_text" class="text ">
+          <p><span style="text-decoration:none;">初次打印：2018-06-16 15:29:22</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6372" class="ax_default label">
+        <div id="u6372_div" class=""></div>
+        <div id="u6372_text" class="text ">
+          <p><span style="text-decoration:none;">【一键打印/员工账号】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6373" class="ax_default label">
+        <div id="u6373_div" class=""></div>
+        <div id="u6373_text" class="text ">
+          <p><span style="text-decoration:none;">估算运费：¥9.90</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6374" class="ax_default label">
+        <div id="u6374_div" class=""></div>
+        <div id="u6374_text" class="text ">
+          <p><span style="text-decoration:none;">订单号1 ：20180614152900021954</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6375" class="ax_default label">
+        <div id="u6375_div" class=""></div>
+        <div id="u6375_text" class="text ">
+          <p><span style="text-decoration:none;">【已合并到发货单】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6376" class="ax_default label">
+        <div id="u6376_div" class=""></div>
+        <div id="u6376_text" class="text ">
+          <p><span style="text-decoration:none;">收货人：刘姥姥</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6377" class="ax_default label">
+        <div id="u6377_div" class=""></div>
+        <div id="u6377_text" class="text ">
+          <p><span style="text-decoration:none;">新疆乌鲁木齐市沙依巴克区城区西山路139号麓溪花园小区27号楼1单元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6378" class="ax_default label">
+        <div id="u6378_div" class=""></div>
+        <div id="u6378_text" class="text ">
+          <p><span style="text-decoration:none;">地址：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6379" class="ax_default label">
+        <div id="u6379_div" class=""></div>
+        <div id="u6379_text" class="text ">
+          <p><span style="text-decoration:none;">电话：15558110120</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6380" class="ax_default label">
+        <div id="u6380_div" class=""></div>
+        <div id="u6380_text" class="text ">
+          <p><span style="text-decoration:none;">会员账号：巧姐儿</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6381" class="ax_default label">
+        <div id="u6381_div" class=""></div>
+        <div id="u6381_text" class="text ">
+          <p><span style="text-decoration:none;">买家留言：德邦快递</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6382" class="ax_default label">
+        <div id="u6382_div" class=""></div>
+        <div id="u6382_text" class="text ">
+          <p><span style="text-decoration:none;">客服备注：95554</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6383" class="ax_default label">
+        <div id="u6383_div" class=""></div>
+        <div id="u6383_text" class="text ">
+          <p><span style="text-decoration:none;">发货备注：600026362342572493</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6384" class="ax_default label">
+        <div id="u6384_div" class=""></div>
+        <div id="u6384_text" class="text ">
+          <p><span style="text-decoration:none;">承运人：德邦快递</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6385" class="ax_default label">
+        <div id="u6385_div" class=""></div>
+        <div id="u6385_text" class="text ">
+          <p><span style="text-decoration:none;">承运人电话：95554</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6386" class="ax_default label">
+        <div id="u6386_div" class=""></div>
+        <div id="u6386_text" class="text ">
+          <p><span style="text-decoration:none;">货运单号：600026362342572493</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u6387" class="ax_default _图片">
+        <img id="u6387_img" class="img " src="images/b1详情优化-发货信息/u2921.png"/>
+        <div id="u6387_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6388" class="ax_default label">
+        <div id="u6388_div" class=""></div>
+        <div id="u6388_text" class="text ">
+          <p><span style="text-decoration:none;">物流信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6389" class="ax_default label">
+        <div id="u6389_div" class=""></div>
+        <div id="u6389_text" class="text ">
+          <p><span style="text-decoration:none;">新疆乌鲁木齐市沙依巴克区城区西山路139号麓溪花园小区27号楼1单元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6390" class="ax_default label">
+        <div id="u6390_div" class=""></div>
+        <div id="u6390_text" class="text ">
+          <p><span style="text-decoration:none;">原地址：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6391" class="ax_default label">
+        <div id="u6391_div" class=""></div>
+        <div id="u6391_text" class="text ">
+          <p><span style="text-decoration:none;">发货时间：2018-06-16 17:29:22</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6392" class="ax_default label">
+        <div id="u6392_div" class=""></div>
+        <div id="u6392_text" class="text ">
+          <p><span style="font-family:'微软雅黑';font-weight:400;text-decoration:none;color:#666666;">【</span><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;text-decoration:none;color:#027DB4;">分组发货</span><span style="font-family:'微软雅黑';font-weight:400;text-decoration:none;color:#666666;">/员工账号】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6393" class="ax_default label">
+        <div id="u6393_div" class=""></div>
+        <div id="u6393_text" class="text ">
+          <p><span style="text-decoration:none;">订单号2 ：20180614152900021954</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6394" class="ax_default label">
+        <div id="u6394_div" class=""></div>
+        <div id="u6394_text" class="text ">
+          <p><span style="text-decoration:none;">【已合并到发货单】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6395" class="ax_default label">
+        <div id="u6395_div" class=""></div>
+        <div id="u6395_text" class="text ">
+          <p><span style="text-decoration:none;">签收时间：2018-07-16 13:29:22</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6396" class="ax_default label">
+        <div id="u6396_div" class=""></div>
+        <div id="u6396_text" class="text ">
+          <p><span style="text-decoration:none;">【人工操作/员工账号】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6397" class="ax_default label">
+        <div id="u6397_div" class=""></div>
+        <div id="u6397_text" class="text ">
+          <p><span style="text-decoration:none;">归档时间：2018-07-16 13:29:22</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6398" class="ax_default label">
+        <div id="u6398_div" class=""></div>
+        <div id="u6398_text" class="text ">
+          <p><span style="text-decoration:none;">【手动归档/员工账号】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6399" class="ax_default label">
+        <div id="u6399_div" class=""></div>
+        <div id="u6399_text" class="text ">
+          <p><span style="text-decoration:none;">快递单备注：600026362342572493</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6400" class="ax_default label">
+        <div id="u6400_div" class=""></div>
+        <div id="u6400_text" class="text ">
+          <p><span style="text-decoration:none;">发件人：刘姥姥</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6401" class="ax_default label">
+        <div id="u6401_div" class=""></div>
+        <div id="u6401_text" class="text ">
+          <p><span style="text-decoration:none;">浙江省嘉兴市南湖区天府新区西山路139号麓溪花园小区27号楼1单元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6402" class="ax_default label">
+        <div id="u6402_div" class=""></div>
+        <div id="u6402_text" class="text ">
+          <p><span style="text-decoration:none;">地址：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6403" class="ax_default label">
+        <div id="u6403_div" class=""></div>
+        <div id="u6403_text" class="text ">
+          <p><span style="text-decoration:none;">电话：15558110120</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6404" class="ax_default label">
+        <div id="u6404_div" class=""></div>
+        <div id="u6404_text" class="text ">
+          <p><span style="text-decoration:none;">发货仓库：嘉兴库房</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6405" class="ax_default label">
+        <div id="u6405_div" class=""></div>
+        <div id="u6405_text" class="text ">
+          <p><span style="text-decoration:none;">打印分组：华北订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6406" class="ax_default label">
+        <div id="u6406_div" class=""></div>
+        <div id="u6406_text" class="text ">
+          <p><span style="text-decoration:none;">合并发货时，合并的每个订单号显示出来；异常的订单号后不显示合并发货</span></p><p><span style="text-decoration:none;">发货状态可看到目前订单所走到的位置;</span></p><p><span style="text-decoration:none;">发货信息可能随发货单当前变化而更新</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6407" class="ax_default label">
+        <div id="u6407_div" class=""></div>
+        <div id="u6407_text" class="text ">
+          <p><span style="text-decoration:none;">发货状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6408" class="ax_default label">
+        <div id="u6408_div" class=""></div>
+        <div id="u6408_text" class="text ">
+          <p><span style="text-decoration:none;">备注信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6409" class="ax_default label">
+        <div id="u6409_div" class=""></div>
+        <div id="u6409_text" class="text ">
+          <p><span style="text-decoration:none;">发货信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6410" class="ax_default axuretraining">
+        <div id="u6410_div" class=""></div>
+        <div id="u6410_text" class="text ">
+          <p style="font-size:18px;text-align:center;"><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;font-style:normal;text-decoration:none;color:#EB1F85;">订单详情</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;">异常订单查看详情时，不可更改收货人、快递、发货备注和快递单备注、旗标；</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;">审核通过的异常订单，查看时显示发货信息标签，但不显示发货单和快递单标签；</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;">发货信息页的收货信息和备注、物流单号也不可编辑；</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;">显示“异常信息”为异常处理的当前状态，多次操作只显示当前状态，但显示全部异常备注；</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;">异常备注可以新增，或修改自己添加的备注；</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;">订单详情在异常后不会有变更，发货单信息随实际发货情况更新</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;">查看异常订单详情进入此页时显示订单详情标签</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;">订单详情的操作仅有“处理”，各类异常类型可用操作相同</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Cursiva', 'Arial Normal', 'Arial';font-weight:400;font-style:italic;text-decoration:none;color:#999999;">&quot;.</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

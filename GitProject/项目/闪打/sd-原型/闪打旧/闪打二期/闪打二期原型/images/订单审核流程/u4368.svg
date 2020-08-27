@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" width="101px" height="61px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="50" y1="0" x2="50" y2="60" id="LinearGradient107">
+      <stop id="Stop108" stop-color="#ffffff" offset="0" />
+      <stop id="Stop109" stop-color="#f2f2f2" offset="0" />
+      <stop id="Stop110" stop-color="#e4e4e4" offset="1" />
+      <stop id="Stop111" stop-color="#ffffff" offset="1" />
+    </linearGradient>
+    <mask fill="white" id="clip112">
+      <path d="M 100 0  L 0 0  L 0 60  L 100 60  L 100 0  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g transform="translate(-872 -1625 )">
+    <path d="M 100 0  L 0 0  L 0 60  L 100 60  L 100 0  Z " fill-rule="nonzero" fill="url(#LinearGradient107)" stroke="none" transform="matrix(1 0 0 1 872 1625 )" />
+    <path d="M 100 0  L 0 0  L 0 60  L 100 60  L 100 0  Z " stroke-width="2" stroke="#797979" fill="none" transform="matrix(1 0 0 1 872 1625 )" mask="url(#clip112)" />
+    <rect fill-rule="evenodd" fill="#797979" stroke="none" x="10" y="0" width="1" height="60" />
+    <rect fill-rule="evenodd" fill="#797979" stroke="none" x="89" y="0" width="1" height="60" />
+    <path d="" stroke-width="1" stroke="#797979" fill="none" />
+  </g>
+</svg>

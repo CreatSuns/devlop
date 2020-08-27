@@ -1,0 +1,645 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>C18归档日志</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/c18归档日志/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/c18归档日志/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8082" class="ax_default _三级标题">
+        <div id="u8082_div" class=""></div>
+        <div id="u8082_text" class="text ">
+          <p><span>归档日志</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (主导航) -->
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8084" class="ax_default box_2">
+        <div id="u8084_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8085" class="ax_default box_1">
+        <div id="u8085_div" class=""></div>
+        <div id="u8085_text" class="text ">
+          <p><span>修订历史</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8086" class="ax_default box_1">
+        <div id="u8086_div" class=""></div>
+        <div id="u8086_text" class="text ">
+          <p><span>整体说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8087" class="ax_default box_1">
+        <div id="u8087_div" class=""></div>
+        <div id="u8087_text" class="text ">
+          <p><span>闪打v0.1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8088" class="ax_default box_1">
+        <div id="u8088_div" class=""></div>
+        <div id="u8088_text" class="text ">
+          <p><span>功能列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8089" class="ax_default box_1">
+        <div id="u8089_div" class=""></div>
+        <div id="u8089_text" class="text ">
+          <p><span>原型图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8090" class="ax_default box_1">
+        <div id="u8090_div" class=""></div>
+        <div id="u8090_text" class="text ">
+          <p><span>数据分析</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8091" class="ax_default box_1">
+        <div id="u8091_div" class=""></div>
+        <div id="u8091_text" class="text ">
+          <p><span>体系规则</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Triangle) -->
+      <div id="u8092" class="ax_default _流程形状">
+        <img id="u8092_img" class="img " src="images/思维导图/u17.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8093" class="ax_default box_2">
+        <div id="u8093_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8094" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u8094_div" class=""></div>
+        <div id="u8094_text" class="text ">
+          <p><span>A交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8095" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u8095_div" class=""></div>
+        <div id="u8095_text" class="text ">
+          <p><span>B交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8096" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u8096_div" class=""></div>
+        <div id="u8096_text" class="text ">
+          <p><span>C交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Triangle) -->
+      <div id="u8097" class="ax_default _流程形状">
+        <img id="u8097_img" class="img " src="images/思维导图/u17.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8098" class="ax_default box_2">
+        <div id="u8098_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8099" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u8099_div" class=""></div>
+        <div id="u8099_text" class="text ">
+          <p><span>A交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8100" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u8100_div" class=""></div>
+        <div id="u8100_text" class="text ">
+          <p><span>B交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8101" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u8101_div" class=""></div>
+        <div id="u8101_text" class="text ">
+          <p><span>C交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8102" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u8102_div" class=""></div>
+        <div id="u8102_text" class="text ">
+          <p><span>全局说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8103" class="ax_default box_1">
+        <div id="u8103_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8104" class="ax_default box_1">
+        <div id="u8104_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8105" class="ax_default box_1">
+        <div id="u8105_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8106" class="ax_default _二级标题">
+        <div id="u8106_div" class=""></div>
+        <div id="u8106_text" class="text ">
+          <p><span>闪打</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8107" class="ax_default label">
+        <div id="u8107_div" class=""></div>
+        <div id="u8107_text" class="text ">
+          <p><span>{用户名}</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8108" class="ax_default label">
+        <div id="u8108_div" class=""></div>
+        <div id="u8108_text" class="text ">
+          <p><span>退出</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8109" class="ax_default label">
+        <div id="u8109_div" class=""></div>
+        <div id="u8109_text" class="text ">
+          <p><span>系统日志</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8110" class="ax_default axuretraining">
+        <div id="u8110_div" class=""></div>
+        <div id="u8110_text" class="text ">
+          <p style="font-size:18px;text-align:center;"><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;font-style:normal;color:#EB1F85;">归档日志</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;">手动归档、自动归档每次操作记录日志；</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;">记录总数有限，时间较久的记录会在新增记录时覆盖；</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Cursiva', 'Arial Normal', 'Arial';font-weight:400;font-style:italic;color:#999999;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8111" class="ax_default button">
+        <div id="u8111_div" class=""></div>
+        <div id="u8111_text" class="text ">
+          <p><span>操作日志</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u8112" class="ax_default line">
+        <img id="u8112_img" class="img " src="images/c4发货地址配置/u2219.png"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u8113" class="ax_default icon ax_default_hidden" style="display:none; visibility: hidden">
+        <img id="u8113_img" class="img " src="images/a3获取订单/u210.png"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u8114" class="ax_default icon ax_default_hidden" style="display:none; visibility: hidden">
+        <img id="u8114_img" class="img " src="images/a3获取订单/u211.png"/>
+      </div>
+
+      <!-- Unnamed (Placeholder) -->
+      <div id="u8115" class="ax_default placeholder">
+        <img id="u8115_img" class="img " src="images/a3获取订单/u212.png"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u8116" class="ax_default icon">
+        <img id="u8116_img" class="img " src="images/b1发货待打印/u909.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8117" class="ax_default primary_button">
+        <div id="u8117_div" class=""></div>
+        <div id="u8117_text" class="text ">
+          <p><span>搜索</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8118" class="ax_default box_2">
+        <div id="u8118_div" class=""></div>
+        <div id="u8118_text" class="text ">
+          <p><span>用户名</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8119" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u8119_div" class=""></div>
+        <div id="u8119_text" class="text ">
+          <p><span>归档时间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8120" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u8120_div" class=""></div>
+        <div id="u8120_text" class="text ">
+          <p><span>任务结果</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8121" class="ax_default box_2">
+        <div id="u8121_div" class=""></div>
+        <div id="u8121_text" class="text ">
+          <p><span>system</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8122" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u8122_div" class=""></div>
+        <div id="u8122_text" class="text ">
+          <p><span>2018-02-05 21:02:44</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8123" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u8123_div" class=""></div>
+        <div id="u8123_text" class="text ">
+          <p><span>暂停/打印机故障</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8124" class="ax_default box_2">
+        <div id="u8124_div" class=""></div>
+        <div id="u8124_text" class="text ">
+          <p><span>wya_028</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8125" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u8125_div" class=""></div>
+        <div id="u8125_text" class="text ">
+          <p><span>2018-02-05 20:22:44</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8126" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u8126_div" class=""></div>
+        <div id="u8126_text" class="text ">
+          <p><span>打印完成</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8127" class="ax_default box_2">
+        <div id="u8127_div" class=""></div>
+        <div id="u8127_text" class="text ">
+          <p><span>ID</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8128" class="ax_default box_2">
+        <div id="u8128_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8129" class="ax_default box_2">
+        <div id="u8129_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8130" class="ax_default box_1">
+        <div id="u8130_div" class=""></div>
+        <div id="u8130_text" class="text ">
+          <p><span>&nbsp;&nbsp; &nbsp;&nbsp; 搜索用户名</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u8131" class="ax_default icon">
+        <img id="u8131_img" class="img " src="images/a3获取订单/u204.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8132" class="ax_default label">
+        <div id="u8132_div" class=""></div>
+        <div id="u8132_text" class="text ">
+          <p><span>（共 32个）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8133" class="ax_default box_2">
+        <div id="u8133_div" class=""></div>
+        <div id="u8133_text" class="text ">
+          <p><span>内容</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8134" class="ax_default box_2">
+        <div id="u8134_div" class=""></div>
+        <div id="u8134_text" class="text ">
+          <p><span>开始归档，已完成订单数量 1256</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8135" class="ax_default box_2">
+        <div id="u8135_div" class=""></div>
+        <div id="u8135_text" class="text ">
+          <p><span>开始归档，已完成订单数量 145</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (导航项目) -->
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8137" class="ax_default label">
+        <div id="u8137_div" class=""></div>
+        <div id="u8137_text" class="text ">
+          <p><span>订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8138" class="ax_default label">
+        <div id="u8138_div" class=""></div>
+        <div id="u8138_text" class="text ">
+          <p><span>发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8139" class="ax_default label">
+        <div id="u8139_div" class=""></div>
+        <div id="u8139_text" class="text ">
+          <p><span>系统</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8140" class="ax_default label">
+        <div id="u8140_div" class=""></div>
+        <div id="u8140_text" class="text ">
+          <p><span>订单审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8141" class="ax_default label">
+        <div id="u8141_div" class=""></div>
+        <div id="u8141_text" class="text ">
+          <p><span>暂不发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8142" class="ax_default label">
+        <div id="u8142_div" class=""></div>
+        <div id="u8142_text" class="text ">
+          <p><span>归档订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8143" class="ax_default label">
+        <div id="u8143_div" class=""></div>
+        <div id="u8143_text" class="text ">
+          <p><span>待打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8144" class="ax_default label">
+        <div id="u8144_div" class=""></div>
+        <div id="u8144_text" class="text ">
+          <p><span>已打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8145" class="ax_default label">
+        <div id="u8145_div" class=""></div>
+        <div id="u8145_text" class="text ">
+          <p><span>未录入物流单号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8146" class="ax_default label">
+        <div id="u8146_div" class=""></div>
+        <div id="u8146_text" class="text ">
+          <p><span>发货配置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8147" class="ax_default label">
+        <div id="u8147_div" class=""></div>
+        <div id="u8147_text" class="text ">
+          <p><span>打印模板</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8148" class="ax_default label">
+        <div id="u8148_div" class=""></div>
+        <div id="u8148_text" class="text ">
+          <p><span>基础设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8149" class="ax_default label">
+        <div id="u8149_div" class=""></div>
+        <div id="u8149_text" class="text ">
+          <p><span>已发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8150" class="ax_default label">
+        <div id="u8150_div" class=""></div>
+        <div id="u8150_text" class="text ">
+          <p><span>已签收</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8151" class="ax_default label ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u8151_div" class=""></div>
+        <div id="u8151_text" class="text ">
+          <p><span>暂停列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8152" class="ax_default label">
+        <div id="u8152_div" class=""></div>
+        <div id="u8152_text" class="text ">
+          <p><span>前端店铺</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8153" class="ax_default label">
+        <div id="u8153_div" class=""></div>
+        <div id="u8153_text" class="text ">
+          <p><span>员工账号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8154" class="ax_default label">
+        <div id="u8154_div" class=""></div>
+        <div id="u8154_text" class="text ">
+          <p><span>系统日志</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8155" class="ax_default box_2">
+        <div id="u8155_div" class=""></div>
+        <div id="u8155_text" class="text ">
+          <p><span>&nbsp;&nbsp; 系统日志</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8156" class="ax_default box_2">
+        <div id="u8156_div" class=""></div>
+        <div id="u8156_text" class="text ">
+          <p><span>操作IP</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8157" class="ax_default box_2">
+        <div id="u8157_div" class=""></div>
+        <div id="u8157_text" class="text ">
+          <p><span>36.57.163.29</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8158" class="ax_default box_2">
+        <div id="u8158_div" class=""></div>
+        <div id="u8158_text" class="text ">
+          <p><span>218.72.120.77</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8159" class="ax_default box_2">
+        <div id="u8159_div" class=""></div>
+        <div id="u8159_text" class="text ">
+          <p><span>归档时间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8160" class="ax_default box_2">
+        <div id="u8160_div" class=""></div>
+        <div id="u8160_text" class="text ">
+          <p><span>2018-02-05 21:22:44</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8161" class="ax_default box_2">
+        <div id="u8161_div" class=""></div>
+        <div id="u8161_text" class="text ">
+          <p><span>2018-02-05 21:22:44</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8162" class="ax_default box_1">
+        <div id="u8162_div" class=""></div>
+        <div id="u8162_text" class="text ">
+          <p><span>开始时间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8163" class="ax_default box_1">
+        <div id="u8163_div" class=""></div>
+        <div id="u8163_text" class="text ">
+          <p><span>结束时间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8164" class="ax_default button">
+        <div id="u8164_div" class=""></div>
+        <div id="u8164_text" class="text ">
+          <p><span>打印记录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u8165" class="ax_default line">
+        <img id="u8165_img" class="img " src="images/b5已打印发货单/u1744.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8166" class="ax_default button">
+        <div id="u8166_div" class=""></div>
+        <div id="u8166_text" class="text ">
+          <p><span>归档日志</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

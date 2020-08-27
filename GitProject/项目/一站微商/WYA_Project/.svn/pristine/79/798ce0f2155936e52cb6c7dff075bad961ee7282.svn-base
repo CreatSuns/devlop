@@ -1,0 +1,2701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2102AD9020746B6700362AE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AD8F20746B6700362AE4 /* AppDelegate.m */; };
+		2102AD9320746B6700362AE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AD9220746B6700362AE4 /* ViewController.m */; };
+		2102AD9620746B6700362AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2102AD9420746B6700362AE4 /* Main.storyboard */; };
+		2102AD9820746B6700362AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2102AD9720746B6700362AE4 /* Assets.xcassets */; };
+		2102AD9B20746B6700362AE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2102AD9920746B6700362AE4 /* LaunchScreen.storyboard */; };
+		2102AD9E20746B6700362AE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AD9D20746B6700362AE4 /* main.m */; };
+		2102ADC920746EF100362AE4 /* WYALoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102ADC820746EF100362AE4 /* WYALoginVC.m */; };
+		2102ADCC2074708100362AE4 /* WYABaseNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102ADCB2074708100362AE4 /* WYABaseNetRequest.m */; };
+		2102ADD120749CA200362AE4 /* WYATabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102ADD020749CA200362AE4 /* WYATabbarViewController.m */; };
+		2102ADD420749CFA00362AE4 /* WYANavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102ADD320749CFA00362AE4 /* WYANavigationViewController.m */; };
+		2102ADE720749F1E00362AE4 /* WYAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102ADE620749F1E00362AE4 /* WYAViewController.m */; };
+		2102ADEA2074A06100362AE4 /* WYASchoolVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102ADE92074A06100362AE4 /* WYASchoolVC.m */; };
+		2102ADED2074A08600362AE4 /* WYAWeChatBusinessVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102ADEC2074A08600362AE4 /* WYAWeChatBusinessVC.m */; };
+		2102ADF02074A09900362AE4 /* WYAMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102ADEF2074A09900362AE4 /* WYAMineViewController.m */; };
+		2102ADF32074A14000362AE4 /* WYALoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102ADF22074A14000362AE4 /* WYALoginView.m */; };
+		2102ADF62074CDAA00362AE4 /* UIColor+WYAColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102ADF52074CDAA00362AE4 /* UIColor+WYAColor.m */; };
+		2102AE00207687DC00362AE4 /* WYAArticleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102ADFF207687DC00362AE4 /* WYAArticleVC.m */; };
+		2102AE03207687F900362AE4 /* WYACouresVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE02207687F900362AE4 /* WYACouresVC.m */; };
+		2102AE062076881F00362AE4 /* WYALecturerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE052076881F00362AE4 /* WYALecturerVC.m */; };
+		2102AE092079A64B00362AE4 /* WYALoginNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE082079A64B00362AE4 /* WYALoginNetRequest.m */; };
+		2102AE0D2079B61300362AE4 /* WYAShowMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE0C2079B61300362AE4 /* WYAShowMessageView.m */; };
+		2102AE102079BDEB00362AE4 /* WYAUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE0F2079BDEB00362AE4 /* WYAUserModel.m */; };
+		2102AE132079C19900362AE4 /* WYAUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE122079C19800362AE4 /* WYAUserInfo.m */; };
+		2102AE232079EBA400362AE4 /* WYACouresNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE222079EBA400362AE4 /* WYACouresNetRequest.m */; };
+		2102AE262079F55B00362AE4 /* WYACouresCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE252079F55B00362AE4 /* WYACouresCategory.m */; };
+		2102AE2F2079FBE300362AE4 /* WYATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE2E2079FBE300362AE4 /* WYATableViewController.m */; };
+		2102AE322079FC4600362AE4 /* WYACouresListTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE312079FC4600362AE4 /* WYACouresListTableVC.m */; };
+		2102AE35207A03D500362AE4 /* WYACouresListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE34207A03D500362AE4 /* WYACouresListModel.m */; };
+		2102AE39207A087700362AE4 /* WYACouresListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE37207A087700362AE4 /* WYACouresListCell.m */; };
+		2102AE43207A1B7000362AE4 /* WYAMineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE3D207A1B6F00362AE4 /* WYAMineHeaderView.m */; };
+		2102AE44207A1B7000362AE4 /* WYAMineTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE40207A1B7000362AE4 /* WYAMineTableView.m */; };
+		2102AE45207A1B7000362AE4 /* WYAMineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE41207A1B7000362AE4 /* WYAMineTableViewCell.m */; };
+		2102AE48207A1B9000362AE4 /* WYAMineCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE46207A1B9000362AE4 /* WYAMineCellModel.m */; };
+		2102AE4B207A1BA500362AE4 /* WYAMineCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE4A207A1BA400362AE4 /* WYAMineCellViewModel.m */; };
+		2102AE4F207A1BBB00362AE4 /* UIView+WYALayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102AE4D207A1BBB00362AE4 /* UIView+WYALayout.m */; };
+		21100C0E2089BD9700474F97 /* WYAMineDownloadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 21100C0D2089BD9700474F97 /* WYAMineDownloadVC.m */; };
+		21100C122089BE2000474F97 /* WYAMineDownloadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21100C112089BE2000474F97 /* WYAMineDownloadView.m */; };
+		21100C162089C6A600474F97 /* WYAMineDownloadNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 21100C152089C6A600474F97 /* WYAMineDownloadNetRequest.m */; };
+		21100C1A2089C8CF00474F97 /* WYAMineDownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21100C192089C8CF00474F97 /* WYAMineDownloadModel.m */; };
+		21100C1E2089CC1A00474F97 /* WYAMineInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 21100C1D2089CC1A00474F97 /* WYAMineInfoVC.m */; };
+		21100C222089CCB900474F97 /* WYAMineInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21100C212089CCB900474F97 /* WYAMineInfoCell.m */; };
+		21100C252089D31A00474F97 /* WYACardReportContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21100C242089D31900474F97 /* WYACardReportContentView.m */; };
+		21100C282089D33A00474F97 /* WYATestCaseHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21100C262089D33900474F97 /* WYATestCaseHeaderView.m */; };
+		21100C2C2089D6E600474F97 /* WYAMineInfoNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 21100C2B2089D6E600474F97 /* WYAMineInfoNetRequest.m */; };
+		21100C302089D74C00474F97 /* WYAMineInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21100C2F2089D74C00474F97 /* WYAMineInfoModel.m */; };
+		21100C332089E36B00474F97 /* UIViewController+XHPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 21100C312089E36A00474F97 /* UIViewController+XHPhoto.m */; };
+		21100C362089FB4600474F97 /* WYATestVolimeBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21100C342089FB4500474F97 /* WYATestVolimeBottomView.m */; };
+		211BEFDB208DB2CF00A66270 /* WYAChangerPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BEFDA208DB2CF00A66270 /* WYAChangerPasswordVC.m */; };
+		211BEFDE208DCBFB00A66270 /* WYAMineVideoDownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BEFDD208DCBFB00A66270 /* WYAMineVideoDownloadCell.m */; };
+		211BEFE1208DD11D00A66270 /* WYAMineArticleDownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BEFE0208DD11D00A66270 /* WYAMineArticleDownloadCell.m */; };
+		211BEFE4208DDE5600A66270 /* WYAChooseDownloadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BEFE3208DDE5600A66270 /* WYAChooseDownloadVC.m */; };
+		211BEFE7208DDF4200A66270 /* WYAChooseDownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BEFE6208DDF4200A66270 /* WYAChooseDownloadCell.m */; };
+		211BEFEA208DEB2C00A66270 /* WYAChooseDownloadMolde.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BEFE9208DEB2C00A66270 /* WYAChooseDownloadMolde.m */; };
+		211BEFED208EC1E600A66270 /* WYAChooseDownloadBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BEFEC208EC1E600A66270 /* WYAChooseDownloadBottomView.m */; };
+		211BEFF2208EE09B00A66270 /* WYACardParsingListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BEFEE208EE09A00A66270 /* WYACardParsingListModel.m */; };
+		211BEFF3208EE09B00A66270 /* WYACardParsingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BEFF0208EE09A00A66270 /* WYACardParsingModel.m */; };
+		211BEFF8208EE0B100A66270 /* WYAPadsingDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BEFF4208EE0B000A66270 /* WYAPadsingDetailsCell.m */; };
+		211BEFF9208EE0B100A66270 /* WYACardReportBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BEFF6208EE0B000A66270 /* WYACardReportBottomView.m */; };
+		211BEFFC208EE11700A66270 /* WYAPadsingDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BEFFA208EE11600A66270 /* WYAPadsingDetailsViewController.m */; };
+		211BF012208F232A00A66270 /* WYALocalDownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF011208F232A00A66270 /* WYALocalDownloadModel.m */; };
+		211BF016208F416400A66270 /* WYASearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF015208F416300A66270 /* WYASearchViewController.m */; };
+		211BF01A208F416C00A66270 /* WYASearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF019208F416C00A66270 /* WYASearchModel.m */; };
+		211BF01E208F417A00A66270 /* WYASearchNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF01C208F417900A66270 /* WYASearchNetRequest.m */; };
+		211BF022208F418300A66270 /* WYASearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF021208F418300A66270 /* WYASearchView.m */; };
+		211BF025208F41B000A66270 /* WYASearchCourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF024208F41B000A66270 /* WYASearchCourseModel.m */; };
+		211BF02F209008A200A66270 /* WYAChooseDownloadNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF02E209008A200A66270 /* WYAChooseDownloadNetRequest.m */; };
+		211BF03420905DAA00A66270 /* WYANowDowmloadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF03320905DAA00A66270 /* WYANowDowmloadVC.m */; };
+		211BF0372090618E00A66270 /* WYATableNameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF0362090618E00A66270 /* WYATableNameModel.m */; };
+		211BF03B209065DA00A66270 /* WYANowDownloadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF03A209065DA00A66270 /* WYANowDownloadView.m */; };
+		211BF03E209067A400A66270 /* WYANowDownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF03D209067A400A66270 /* WYANowDownloadCell.m */; };
+		211BF042209074BF00A66270 /* WYANowDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF041209074BF00A66270 /* WYANowDownloadManager.m */; };
+		211BF0452091692300A66270 /* MBProgressHUD+WYAExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF0432091692200A66270 /* MBProgressHUD+WYAExpand.m */; };
+		211BF0482091694E00A66270 /* WYAArticleDetailsHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF0462091694D00A66270 /* WYAArticleDetailsHeaderView.m */; };
+		211BF0512091698C00A66270 /* WYASearchCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF0492091698B00A66270 /* WYASearchCourseViewController.m */; };
+		211BF0522091698C00A66270 /* WYASearchArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF04C2091698C00A66270 /* WYASearchArticleViewController.m */; };
+		211BF0532091698C00A66270 /* WYASearchAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF04E2091698C00A66270 /* WYASearchAllViewController.m */; };
+		211BF0542091698C00A66270 /* WYASearchTeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211BF04F2091698C00A66270 /* WYASearchTeacherViewController.m */; };
+		213695332085DD4B0098F673 /* WYAMineCollectionCourseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 213695322085DD4B0098F673 /* WYAMineCollectionCourseVC.m */; };
+		213695362085DD790098F673 /* WYAMineCollectionArticleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 213695352085DD790098F673 /* WYAMineCollectionArticleVC.m */; };
+		2136953D208600420098F673 /* WYATestQuestionListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136953B208600410098F673 /* WYATestQuestionListModel.m */; };
+		21369543208601770098F673 /* WYATestDoubleSelectedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21369542208601770098F673 /* WYATestDoubleSelectedTableViewCell.m */; };
+		21369546208602B00098F673 /* WYATestVolumeNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 21369544208602B00098F673 /* WYATestVolumeNetRequest.m */; };
+		21369549208603230098F673 /* WYAAnswerCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21369547208603220098F673 /* WYAAnswerCardViewController.m */; };
+		2136954C2086D46E0098F673 /* WYATestScoresVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136954B2086D46E0098F673 /* WYATestScoresVC.m */; };
+		213695532086D6270098F673 /* WYAAnswerCardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136954F2086D6270098F673 /* WYAAnswerCardCollectionViewCell.m */; };
+		213695542086D6270098F673 /* WYAAnswerCardHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 213695512086D6270098F673 /* WYAAnswerCardHeaderView.m */; };
+		213695582086D6710098F673 /* WYAJHAnswerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 213695562086D6700098F673 /* WYAJHAnswerModel.m */; };
+		2136955B2086DE4F0098F673 /* WYATestScoresNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136955A2086DE4F0098F673 /* WYATestScoresNetRequest.m */; };
+		2136955E2086DF260098F673 /* WYAMineTestScoresModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136955D2086DF260098F673 /* WYAMineTestScoresModel.m */; };
+		213695612086E04F0098F673 /* WYAMineTestScoresVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 213695602086E04F0098F673 /* WYAMineTestScoresVC.m */; };
+		213695642086E0AD0098F673 /* WYALowerLeverTestScoresVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 213695632086E0AD0098F673 /* WYALowerLeverTestScoresVC.m */; };
+		213695672086E43E0098F673 /* WYAMineTestScoresCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 213695662086E43E0098F673 /* WYAMineTestScoresCell.m */; };
+		2136956A2086ED440098F673 /* WYALowLeverTestScoresCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 213695692086ED440098F673 /* WYALowLeverTestScoresCell.m */; };
+		213695772086F49A0098F673 /* WYATestPaperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 213695762086F49A0098F673 /* WYATestPaperVC.m */; };
+		2136957A2086F6E40098F673 /* WYATestPaperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 213695792086F6E40098F673 /* WYATestPaperView.m */; };
+		2136957D208719010098F673 /* WYATestPaperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136957C208719010098F673 /* WYATestPaperCell.m */; };
+		2136958020871FF60098F673 /* WYATestPaperNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136957F20871FF60098F673 /* WYATestPaperNetRequest.m */; };
+		213695832087253D0098F673 /* WYATestPaperPeopleAndChapterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 213695822087253D0098F673 /* WYATestPaperPeopleAndChapterModel.m */; };
+		21369586208828FE0098F673 /* WYATestPaperSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21369585208828FE0098F673 /* WYATestPaperSelectorView.m */; };
+		213D2A22208D63D30091905E /* WYANickNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 213D2A21208D63D30091905E /* WYANickNameVC.m */; };
+		213D826620B31B26006E60DF /* SODownloader+WYAVideoDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 213D826520B31B26006E60DF /* SODownloader+WYAVideoDownload.m */; };
+		213D826C20B3BF67006E60DF /* WYAFMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 213D826B20B3BF67006E60DF /* WYAFMDBManager.m */; };
+		213DE7A820887D7F00F0A3F6 /* WYAJHTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 213DE7A720887D7F00F0A3F6 /* WYAJHTools.m */; };
+		213DE7B020887DA900F0A3F6 /* WYAPadsingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 213DE7AB20887DA900F0A3F6 /* WYAPadsingCardViewController.m */; };
+		213DE7B120887DA900F0A3F6 /* WYAReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 213DE7AD20887DA900F0A3F6 /* WYAReportViewController.m */; };
+		213DE7B620887DBB00F0A3F6 /* WYAJHPieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 213DE7B420887DBB00F0A3F6 /* WYAJHPieModel.m */; };
+		213DE7BE20887DC800F0A3F6 /* WYACardReportHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 213DE7B820887DC800F0A3F6 /* WYACardReportHeaderView.m */; };
+		213DE7BF20887DC800F0A3F6 /* WYAJHPieCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 213DE7B920887DC800F0A3F6 /* WYAJHPieCenterView.m */; };
+		213DE7C020887DC800F0A3F6 /* WYAJHPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 213DE7BC20887DC800F0A3F6 /* WYAJHPieChart.m */; };
+		213DE7C32088895300F0A3F6 /* WYATestPaperModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 213DE7C22088895300F0A3F6 /* WYATestPaperModel.m */; };
+		213DE7C620888ED300F0A3F6 /* WYATestPaperCollectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 213DE7C520888ED300F0A3F6 /* WYATestPaperCollectionHeadView.m */; };
+		214CC4392091E276009F65A3 /* WYAArticleDetailsBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214CC4382091E276009F65A3 /* WYAArticleDetailsBottomView.m */; };
+		214CC43C2092B185009F65A3 /* WYANowDownloadEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214CC43B2092B185009F65A3 /* WYANowDownloadEditView.m */; };
+		214CC4402092D05F009F65A3 /* WYAFinishDownloadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 214CC43F2092D05F009F65A3 /* WYAFinishDownloadVC.m */; };
+		214CC4442092D2D5009F65A3 /* WYAFinishDownloadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 214CC4432092D2D5009F65A3 /* WYAFinishDownloadView.m */; };
+		214CC4472092D46E009F65A3 /* WYAFinishDownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 214CC4462092D46E009F65A3 /* WYAFinishDownloadCell.m */; };
+		214CC44B2092E385009F65A3 /* WYAFinishDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 214CC44A2092E385009F65A3 /* WYAFinishDownloadManager.m */; };
+		2155897020C7F2A7009012B8 /* WYACourseShoreIntroductionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2155896E20C7F2A6009012B8 /* WYACourseShoreIntroductionHeaderView.m */; };
+		216E5E7020C54DB500968AFD /* WYALevelPaperListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 216E5E6F20C54DB500968AFD /* WYALevelPaperListModel.m */; };
+		218377F3208033AE0093C95C /* WYAAttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 218377F2208033AE0093C95C /* WYAAttentionViewController.m */; };
+		218377F7208033CE0093C95C /* WYAAttentionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 218377F6208033CE0093C95C /* WYAAttentionTableViewCell.m */; };
+		218377FD208033ED0093C95C /* WYAAdminInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 218377F9208033EC0093C95C /* WYAAdminInfoModel.m */; };
+		218377FE208033ED0093C95C /* WYAAttentionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 218377FC208033ED0093C95C /* WYAAttentionModel.m */; };
+		218378042080340D0093C95C /* WYAAttentionNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 218378002080340C0093C95C /* WYAAttentionNetRequest.m */; };
+		218378052080340D0093C95C /* WYAMineAdminInfoNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 218378022080340C0093C95C /* WYAMineAdminInfoNetRequest.m */; };
+		2183781920805E1D0093C95C /* WYACourseCatalogVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2183781820805E1D0093C95C /* WYACourseCatalogVC.m */; };
+		2183781C20805EB50093C95C /* WYACourseCatalogHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2183781B20805EB50093C95C /* WYACourseCatalogHeadView.m */; };
+		2183781F208060320093C95C /* WYACourseCatalogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2183781E208060320093C95C /* WYACourseCatalogCell.m */; };
+		21837823208062510093C95C /* WYACourseCatalogNetRequst.m in Sources */ = {isa = PBXBuildFile; fileRef = 21837822208062510093C95C /* WYACourseCatalogNetRequst.m */; };
+		21837826208081FD0093C95C /* WYACourseCatalogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21837825208081FD0093C95C /* WYACourseCatalogModel.m */; };
+		218378292080B95D0093C95C /* UILabel+WYALabelAlighTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 218378282080B95D0093C95C /* UILabel+WYALabelAlighTop.m */; };
+		2183782C2080B9740093C95C /* WYAArticleDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2183782B2080B9740093C95C /* WYAArticleDetailModel.m */; };
+		2183782F20818CD60093C95C /* WYACourseCatalogFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2183782E20818CD60093C95C /* WYACourseCatalogFootView.m */; };
+		21837836208196B40093C95C /* WYACourseDownloadTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 21837835208196B40093C95C /* WYACourseDownloadTableVC.m */; };
+		21837839208197840093C95C /* WYACourseDownloadNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 21837838208197840093C95C /* WYACourseDownloadNetRequest.m */; };
+		2183783C20819CB70093C95C /* WYACourseDownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2183783B20819CB70093C95C /* WYACourseDownloadModel.m */; };
+		2183783F20819EA10093C95C /* WYACourseDownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2183783E20819EA10093C95C /* WYACourseDownloadCell.m */; };
+		218378482081F4FA0093C95C /* WYAQuickLookFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 218378472081F4FA0093C95C /* WYAQuickLookFileVC.m */; };
+		2183784B208200510093C95C /* WYACourseDownloadNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2183784A208200510093C95C /* WYACourseDownloadNavView.m */; };
+		2183784F208208BC0093C95C /* WYATestVolumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2183784D208208BB0093C95C /* WYATestVolumeViewController.m */; };
+		21837857208208E90093C95C /* WYATestBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21837855208208E90093C95C /* WYATestBottomView.m */; };
+		21837858208208E90093C95C /* WYATestSingleSelectedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21837856208208E90093C95C /* WYATestSingleSelectedTableViewCell.m */; };
+		2183785B208478870093C95C /* WYACourseTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2183785A208478870093C95C /* WYACourseTestView.m */; };
+		2183785F208486130093C95C /* WYAMineCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2183785E208486130093C95C /* WYAMineCollectionVC.m */; };
+		218378662084A2F20093C95C /* WYAMineCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 218378652084A2F20093C95C /* WYAMineCollectionCell.m */; };
+		2183786A2084A7620093C95C /* WYAMineCollectionNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 218378692084A7620093C95C /* WYAMineCollectionNetRequest.m */; };
+		2183786E2084ABA00093C95C /* WYAMineCollectionCourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2183786D2084ABA00093C95C /* WYAMineCollectionCourseModel.m */; };
+		218378712084ABB80093C95C /* WYAMineCollectionArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 218378702084ABB80093C95C /* WYAMineCollectionArticleModel.m */; };
+		218484AF20B439C90050EB47 /* AppDelegate+SODownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 218484AD20B439C80050EB47 /* AppDelegate+SODownloader.m */; };
+		21AA50B5207D9EC400864205 /* WYACourseDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50B4207D9EC400864205 /* WYACourseDetailVC.m */; };
+		21AA50BC207DB69100864205 /* NSDate+WYADate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50B7207DB69100864205 /* NSDate+WYADate.m */; };
+		21AA50BD207DB69100864205 /* NSString+WYAString.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50B9207DB69100864205 /* NSString+WYAString.m */; };
+		21AA50BE207DB69100864205 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50BB207DB69100864205 /* UIView+Toast.m */; };
+		21AA50C2207DB6BB00864205 /* WYALecturerPersonalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50C0207DB6BB00864205 /* WYALecturerPersonalVC.m */; };
+		21AA50CA207DB6F800864205 /* WYALecturerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50C8207DB6F800864205 /* WYALecturerHeaderView.m */; };
+		21AA50CB207DB6F800864205 /* WYALecturerPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50C9207DB6F800864205 /* WYALecturerPageView.m */; };
+		21AA50D2207DB74100864205 /* WYAMyCourseListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50CE207DB74000864205 /* WYAMyCourseListVC.m */; };
+		21AA50D3207DB74100864205 /* WYANewCourseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50D0207DB74100864205 /* WYANewCourseVC.m */; };
+		21AA50DA207DB75200864205 /* WYAMyCourseListNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50D5207DB75200864205 /* WYAMyCourseListNetRequest.m */; };
+		21AA50DB207DB75200864205 /* WYANewCourseNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50D9207DB75200864205 /* WYANewCourseNetRequest.m */; };
+		21AA50E2207DB76F00864205 /* WYANewCourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50DE207DB76F00864205 /* WYANewCourseModel.m */; };
+		21AA50E3207DB76F00864205 /* WYAMyCourseListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50E0207DB76F00864205 /* WYAMyCourseListModel.m */; };
+		21AA50EC207DB77A00864205 /* WYANewCourseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50E5207DB77900864205 /* WYANewCourseCell.m */; };
+		21AA50ED207DB77A00864205 /* WYAMyCouresTableNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50E8207DB77A00864205 /* WYAMyCouresTableNoDataView.m */; };
+		21AA50EE207DB77A00864205 /* WYAMyCourseTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50E9207DB77A00864205 /* WYAMyCourseTableCell.m */; };
+		21AA50F3207DB79800864205 /* WYAArticleDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50EF207DB79700864205 /* WYAArticleDetailsVC.m */; };
+		21AA50F4207DB79800864205 /* WYAArticleListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50F2207DB79800864205 /* WYAArticleListVC.m */; };
+		21AA50F7207DB8BF00864205 /* WYACourseDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50F6207DB8BF00864205 /* WYACourseDetailView.m */; };
+		21AA50FA207DE33A00864205 /* WYACourseDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50F9207DE33A00864205 /* WYACourseDetailModel.m */; };
+		21AA5100207E09B400864205 /* WYAVideoControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA50FF207E09B400864205 /* WYAVideoControlView.m */; };
+		21AA512D207E155000864205 /* WYALecturerHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA512C207E155000864205 /* WYALecturerHeaderModel.m */; };
+		21AA5130207E157800864205 /* WYALecturerDetailsNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA512E207E157700864205 /* WYALecturerDetailsNetRequest.m */; };
+		21AA5133207F550D00864205 /* WYANetErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA5132207F550D00864205 /* WYANetErrorView.m */; };
+		21B266052093F6650057A512 /* WYAMainPaperListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B266032093F6640057A512 /* WYAMainPaperListModel.m */; };
+		21B266082093F6870057A512 /* WYAMAinPaperCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B266072093F6860057A512 /* WYAMAinPaperCollectionView.m */; };
+		21B2662420940DC10057A512 /* ZFPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2660A20940DC10057A512 /* ZFPlayerModel.m */; };
+		21B2662520940DC10057A512 /* UIWindow+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2661320940DC10057A512 /* UIWindow+CurrentViewController.m */; };
+		21B2662620940DC10057A512 /* UIView+CustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2661420940DC10057A512 /* UIView+CustomControlView.m */; };
+		21B2662720940DC10057A512 /* UIImageView+ZFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2661520940DC10057A512 /* UIImageView+ZFCache.m */; };
+		21B2662820940DC10057A512 /* UIViewController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2661620940DC10057A512 /* UIViewController+ZFPlayerRotation.m */; };
+		21B2662920940DC10057A512 /* ZFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2661B20940DC10057A512 /* ZFBrightnessView.m */; };
+		21B2662A20940DC10057A512 /* ZFPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21B2661C20940DC10057A512 /* ZFPlayer.bundle */; };
+		21B2662B20940DC10057A512 /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2661E20940DC10057A512 /* ASValuePopUpView.m */; };
+		21B2662C20940DC10057A512 /* ZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2661F20940DC10057A512 /* ZFPlayerControlView.m */; };
+		21B2662D20940DC10057A512 /* ZFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2662020940DC10057A512 /* ZFPlayerView.m */; };
+		21B2662E20940DC10057A512 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2662120940DC10057A512 /* MMMaterialDesignSpinner.m */; };
+		21B2662F20940DC10057A512 /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B2662320940DC10057A512 /* ASValueTrackingSlider.m */; };
+		21C3A9D020B5787200B9AEE0 /* WYALocalVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C3A9CF20B5787200B9AEE0 /* WYALocalVideoVC.m */; };
+		21C3A9D320B57AC000B9AEE0 /* WYAEmptyDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C3A9D220B57ABF00B9AEE0 /* WYAEmptyDataView.m */; };
+		21D627F720AD60C000D8D2B9 /* WYAChooseDownloadHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D627F620AD60C000D8D2B9 /* WYAChooseDownloadHeadView.m */; };
+		21EEBF102099B0A700AC1B78 /* WYACourseShortIntroductionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EEBF0F2099B0A700AC1B78 /* WYACourseShortIntroductionVC.m */; };
+		69E5E46DA58E5C1E5BD27C7A /* libPods-WYA_Project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE01C3DC3523AC21DF39F99 /* libPods-WYA_Project.a */; };
+		9515740E207B67F500257341 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9515740D207B67F500257341 /* UIViewExt.m */; };
+		95157415207B680C00257341 /* WYAOpinionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 95157411207B680B00257341 /* WYAOpinionVC.m */; };
+		95157416207B680C00257341 /* WYASettingTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 95157414207B680B00257341 /* WYASettingTableVC.m */; };
+		9515741B207B681B00257341 /* WYAOpinionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9515741A207B681B00257341 /* WYAOpinionView.m */; };
+		95157420207B682200257341 /* WYASettingCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9515741E207B682200257341 /* WYASettingCellModel.m */; };
+		95157427207B682B00257341 /* WYAOpinionNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 95157423207B682B00257341 /* WYAOpinionNetRequest.m */; };
+		95157428207B682B00257341 /* WYASettingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 95157426207B682B00257341 /* WYASettingViewModel.m */; };
+		9515742B207B687F00257341 /* WYATablePlaceHoldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95157429207B687E00257341 /* WYATablePlaceHoldView.m */; };
+		95C87FDC207AF4C400442744 /* WYALecturerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C87FDB207AF4C400442744 /* WYALecturerModel.m */; };
+		95C87FE2207B01F600442744 /* WYALecturerListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C87FE1207B01F600442744 /* WYALecturerListVC.m */; };
+		95C87FE5207B044E00442744 /* WYALecturerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C87FE4207B044E00442744 /* WYALecturerTableViewCell.m */; };
+		95C87FEB207B39CE00442744 /* WYADataNullCheckTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C87FEA207B39CE00442744 /* WYADataNullCheckTool.m */; };
+		95C87FF4207B436B00442744 /* WYALecturerNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C87FF3207B436B00442744 /* WYALecturerNetRequest.m */; };
+		95C87FF7207B4B5C00442744 /* WYAArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C87FF6207B4B5C00442744 /* WYAArticleTableViewCell.m */; };
+		95C87FFA207B542D00442744 /* WYAArticleCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C87FF9207B542D00442744 /* WYAArticleCategory.m */; };
+		95C87FFD207B544100442744 /* WYAArticleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C87FFC207B544100442744 /* WYAArticleListModel.m */; };
+		95C88000207B5BC600442744 /* WYAArticleNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C87FFF207B5BC600442744 /* WYAArticleNetRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2102ADA420746B6700362AE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2102AD8320746B6700362AE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2102AD8A20746B6700362AE4;
+			remoteInfo = WYA_Project;
+		};
+		2102ADAF20746B6700362AE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2102AD8320746B6700362AE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2102AD8A20746B6700362AE4;
+			remoteInfo = WYA_Project;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2102AD8B20746B6700362AE4 /* WYA_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYA_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2102AD8E20746B6700362AE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2102AD8F20746B6700362AE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2102AD9120746B6700362AE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2102AD9220746B6700362AE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2102AD9520746B6700362AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2102AD9720746B6700362AE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2102AD9A20746B6700362AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2102AD9C20746B6700362AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2102AD9D20746B6700362AE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2102ADA320746B6700362AE4 /* WYA_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYA_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2102ADAE20746B6700362AE4 /* WYA_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYA_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2102ADC020746CAF00362AE4 /* WYA.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYA.pch; sourceTree = "<group>"; };
+		2102ADC120746DB600362AE4 /* ThirdClassHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdClassHeader.h; sourceTree = "<group>"; };
+		2102ADC720746EF100362AE4 /* WYALoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYALoginVC.h; sourceTree = "<group>"; };
+		2102ADC820746EF100362AE4 /* WYALoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYALoginVC.m; sourceTree = "<group>"; };
+		2102ADCA2074708100362AE4 /* WYABaseNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYABaseNetRequest.h; sourceTree = "<group>"; };
+		2102ADCB2074708100362AE4 /* WYABaseNetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYABaseNetRequest.m; sourceTree = "<group>"; };
+		2102ADCF20749CA200362AE4 /* WYATabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYATabbarViewController.h; sourceTree = "<group>"; };
+		2102ADD020749CA200362AE4 /* WYATabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYATabbarViewController.m; sourceTree = "<group>"; };
+		2102ADD220749CFA00362AE4 /* WYANavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYANavigationViewController.h; sourceTree = "<group>"; };
+		2102ADD320749CFA00362AE4 /* WYANavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYANavigationViewController.m; sourceTree = "<group>"; };
+		2102ADE520749F1E00362AE4 /* WYAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAViewController.h; sourceTree = "<group>"; };
+		2102ADE620749F1E00362AE4 /* WYAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAViewController.m; sourceTree = "<group>"; };
+		2102ADE82074A06100362AE4 /* WYASchoolVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYASchoolVC.h; sourceTree = "<group>"; };
+		2102ADE92074A06100362AE4 /* WYASchoolVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYASchoolVC.m; sourceTree = "<group>"; };
+		2102ADEB2074A08600362AE4 /* WYAWeChatBusinessVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAWeChatBusinessVC.h; sourceTree = "<group>"; };
+		2102ADEC2074A08600362AE4 /* WYAWeChatBusinessVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAWeChatBusinessVC.m; sourceTree = "<group>"; };
+		2102ADEE2074A09900362AE4 /* WYAMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineViewController.h; sourceTree = "<group>"; };
+		2102ADEF2074A09900362AE4 /* WYAMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineViewController.m; sourceTree = "<group>"; };
+		2102ADF12074A14000362AE4 /* WYALoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYALoginView.h; sourceTree = "<group>"; };
+		2102ADF22074A14000362AE4 /* WYALoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYALoginView.m; sourceTree = "<group>"; };
+		2102ADF42074CDAA00362AE4 /* UIColor+WYAColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+WYAColor.h"; sourceTree = "<group>"; };
+		2102ADF52074CDAA00362AE4 /* UIColor+WYAColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WYAColor.m"; sourceTree = "<group>"; };
+		2102ADF72074CDED00362AE4 /* WYAProjectHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAProjectHeader.h; sourceTree = "<group>"; };
+		2102ADFE207687DC00362AE4 /* WYAArticleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAArticleVC.h; sourceTree = "<group>"; };
+		2102ADFF207687DC00362AE4 /* WYAArticleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAArticleVC.m; sourceTree = "<group>"; };
+		2102AE01207687F900362AE4 /* WYACouresVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACouresVC.h; sourceTree = "<group>"; };
+		2102AE02207687F900362AE4 /* WYACouresVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACouresVC.m; sourceTree = "<group>"; };
+		2102AE042076881F00362AE4 /* WYALecturerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYALecturerVC.h; sourceTree = "<group>"; };
+		2102AE052076881F00362AE4 /* WYALecturerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYALecturerVC.m; sourceTree = "<group>"; };
+		2102AE072079A64B00362AE4 /* WYALoginNetRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYALoginNetRequest.h; sourceTree = "<group>"; };
+		2102AE082079A64B00362AE4 /* WYALoginNetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYALoginNetRequest.m; sourceTree = "<group>"; };
+		2102AE0B2079B61300362AE4 /* WYAShowMessageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAShowMessageView.h; sourceTree = "<group>"; };
+		2102AE0C2079B61300362AE4 /* WYAShowMessageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAShowMessageView.m; sourceTree = "<group>"; };
+		2102AE0E2079BDEB00362AE4 /* WYAUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAUserModel.h; sourceTree = "<group>"; };
+		2102AE0F2079BDEB00362AE4 /* WYAUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAUserModel.m; sourceTree = "<group>"; };
+		2102AE112079C19800362AE4 /* WYAUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAUserInfo.h; sourceTree = "<group>"; };
+		2102AE122079C19800362AE4 /* WYAUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAUserInfo.m; sourceTree = "<group>"; };
+		2102AE142079C3D100362AE4 /* WYAUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAUrl.h; sourceTree = "<group>"; };
+		2102AE212079EBA400362AE4 /* WYACouresNetRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACouresNetRequest.h; sourceTree = "<group>"; };
+		2102AE222079EBA400362AE4 /* WYACouresNetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACouresNetRequest.m; sourceTree = "<group>"; };
+		2102AE242079F55B00362AE4 /* WYACouresCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACouresCategory.h; sourceTree = "<group>"; };
+		2102AE252079F55B00362AE4 /* WYACouresCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACouresCategory.m; sourceTree = "<group>"; };
+		2102AE2D2079FBE300362AE4 /* WYATableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYATableViewController.h; sourceTree = "<group>"; };
+		2102AE2E2079FBE300362AE4 /* WYATableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYATableViewController.m; sourceTree = "<group>"; };
+		2102AE302079FC4600362AE4 /* WYACouresListTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACouresListTableVC.h; sourceTree = "<group>"; };
+		2102AE312079FC4600362AE4 /* WYACouresListTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACouresListTableVC.m; sourceTree = "<group>"; };
+		2102AE33207A03D500362AE4 /* WYACouresListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACouresListModel.h; sourceTree = "<group>"; };
+		2102AE34207A03D500362AE4 /* WYACouresListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACouresListModel.m; sourceTree = "<group>"; };
+		2102AE36207A087700362AE4 /* WYACouresListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACouresListCell.h; sourceTree = "<group>"; };
+		2102AE37207A087700362AE4 /* WYACouresListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACouresListCell.m; sourceTree = "<group>"; };
+		2102AE3D207A1B6F00362AE4 /* WYAMineHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAMineHeaderView.m; sourceTree = "<group>"; };
+		2102AE3E207A1B6F00362AE4 /* WYAMineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAMineTableViewCell.h; sourceTree = "<group>"; };
+		2102AE3F207A1B7000362AE4 /* WYAMineHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAMineHeaderView.h; sourceTree = "<group>"; };
+		2102AE40207A1B7000362AE4 /* WYAMineTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAMineTableView.m; sourceTree = "<group>"; };
+		2102AE41207A1B7000362AE4 /* WYAMineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAMineTableViewCell.m; sourceTree = "<group>"; };
+		2102AE42207A1B7000362AE4 /* WYAMineTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAMineTableView.h; sourceTree = "<group>"; };
+		2102AE46207A1B9000362AE4 /* WYAMineCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAMineCellModel.m; sourceTree = "<group>"; };
+		2102AE47207A1B9000362AE4 /* WYAMineCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAMineCellModel.h; sourceTree = "<group>"; };
+		2102AE49207A1BA400362AE4 /* WYAMineCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAMineCellViewModel.h; sourceTree = "<group>"; };
+		2102AE4A207A1BA400362AE4 /* WYAMineCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAMineCellViewModel.m; sourceTree = "<group>"; };
+		2102AE4C207A1BBB00362AE4 /* UIView+WYALayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WYALayout.h"; sourceTree = "<group>"; };
+		2102AE4D207A1BBB00362AE4 /* UIView+WYALayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WYALayout.m"; sourceTree = "<group>"; };
+		2102AE4E207A1BBB00362AE4 /* WYA_LJHColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYA_LJHColor.h; sourceTree = "<group>"; };
+		21100C0C2089BD9700474F97 /* WYAMineDownloadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineDownloadVC.h; sourceTree = "<group>"; };
+		21100C0D2089BD9700474F97 /* WYAMineDownloadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineDownloadVC.m; sourceTree = "<group>"; };
+		21100C102089BE2000474F97 /* WYAMineDownloadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineDownloadView.h; sourceTree = "<group>"; };
+		21100C112089BE2000474F97 /* WYAMineDownloadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineDownloadView.m; sourceTree = "<group>"; };
+		21100C142089C6A600474F97 /* WYAMineDownloadNetRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineDownloadNetRequest.h; sourceTree = "<group>"; };
+		21100C152089C6A600474F97 /* WYAMineDownloadNetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineDownloadNetRequest.m; sourceTree = "<group>"; };
+		21100C182089C8CF00474F97 /* WYAMineDownloadModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineDownloadModel.h; sourceTree = "<group>"; };
+		21100C192089C8CF00474F97 /* WYAMineDownloadModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineDownloadModel.m; sourceTree = "<group>"; };
+		21100C1C2089CC1A00474F97 /* WYAMineInfoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineInfoVC.h; sourceTree = "<group>"; };
+		21100C1D2089CC1A00474F97 /* WYAMineInfoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineInfoVC.m; sourceTree = "<group>"; };
+		21100C202089CCB900474F97 /* WYAMineInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineInfoCell.h; sourceTree = "<group>"; };
+		21100C212089CCB900474F97 /* WYAMineInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineInfoCell.m; sourceTree = "<group>"; };
+		21100C232089D31900474F97 /* WYACardReportContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYACardReportContentView.h; sourceTree = "<group>"; };
+		21100C242089D31900474F97 /* WYACardReportContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYACardReportContentView.m; sourceTree = "<group>"; };
+		21100C262089D33900474F97 /* WYATestCaseHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYATestCaseHeaderView.m; sourceTree = "<group>"; };
+		21100C272089D33A00474F97 /* WYATestCaseHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYATestCaseHeaderView.h; sourceTree = "<group>"; };
+		21100C2A2089D6E600474F97 /* WYAMineInfoNetRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineInfoNetRequest.h; sourceTree = "<group>"; };
+		21100C2B2089D6E600474F97 /* WYAMineInfoNetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineInfoNetRequest.m; sourceTree = "<group>"; };
+		21100C2E2089D74C00474F97 /* WYAMineInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineInfoModel.h; sourceTree = "<group>"; };
+		21100C2F2089D74C00474F97 /* WYAMineInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineInfoModel.m; sourceTree = "<group>"; };
+		21100C312089E36A00474F97 /* UIViewController+XHPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XHPhoto.m"; sourceTree = "<group>"; };
+		21100C322089E36A00474F97 /* UIViewController+XHPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XHPhoto.h"; sourceTree = "<group>"; };
+		21100C342089FB4500474F97 /* WYATestVolimeBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYATestVolimeBottomView.m; sourceTree = "<group>"; };
+		21100C352089FB4500474F97 /* WYATestVolimeBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYATestVolimeBottomView.h; sourceTree = "<group>"; };
+		211BEFD9208DB2CF00A66270 /* WYAChangerPasswordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAChangerPasswordVC.h; sourceTree = "<group>"; };
+		211BEFDA208DB2CF00A66270 /* WYAChangerPasswordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAChangerPasswordVC.m; sourceTree = "<group>"; };
+		211BEFDC208DCBFB00A66270 /* WYAMineVideoDownloadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineVideoDownloadCell.h; sourceTree = "<group>"; };
+		211BEFDD208DCBFB00A66270 /* WYAMineVideoDownloadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineVideoDownloadCell.m; sourceTree = "<group>"; };
+		211BEFDF208DD11D00A66270 /* WYAMineArticleDownloadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineArticleDownloadCell.h; sourceTree = "<group>"; };
+		211BEFE0208DD11D00A66270 /* WYAMineArticleDownloadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineArticleDownloadCell.m; sourceTree = "<group>"; };
+		211BEFE2208DDE5600A66270 /* WYAChooseDownloadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAChooseDownloadVC.h; sourceTree = "<group>"; };
+		211BEFE3208DDE5600A66270 /* WYAChooseDownloadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAChooseDownloadVC.m; sourceTree = "<group>"; };
+		211BEFE5208DDF4200A66270 /* WYAChooseDownloadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAChooseDownloadCell.h; sourceTree = "<group>"; };
+		211BEFE6208DDF4200A66270 /* WYAChooseDownloadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAChooseDownloadCell.m; sourceTree = "<group>"; };
+		211BEFE8208DEB2C00A66270 /* WYAChooseDownloadMolde.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAChooseDownloadMolde.h; sourceTree = "<group>"; };
+		211BEFE9208DEB2C00A66270 /* WYAChooseDownloadMolde.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAChooseDownloadMolde.m; sourceTree = "<group>"; };
+		211BEFEB208EC1E600A66270 /* WYAChooseDownloadBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAChooseDownloadBottomView.h; sourceTree = "<group>"; };
+		211BEFEC208EC1E600A66270 /* WYAChooseDownloadBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAChooseDownloadBottomView.m; sourceTree = "<group>"; };
+		211BEFEE208EE09A00A66270 /* WYACardParsingListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYACardParsingListModel.m; sourceTree = "<group>"; };
+		211BEFEF208EE09A00A66270 /* WYACardParsingListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYACardParsingListModel.h; sourceTree = "<group>"; };
+		211BEFF0208EE09A00A66270 /* WYACardParsingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYACardParsingModel.m; sourceTree = "<group>"; };
+		211BEFF1208EE09A00A66270 /* WYACardParsingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYACardParsingModel.h; sourceTree = "<group>"; };
+		211BEFF4208EE0B000A66270 /* WYAPadsingDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAPadsingDetailsCell.m; sourceTree = "<group>"; };
+		211BEFF5208EE0B000A66270 /* WYACardReportBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYACardReportBottomView.h; sourceTree = "<group>"; };
+		211BEFF6208EE0B000A66270 /* WYACardReportBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYACardReportBottomView.m; sourceTree = "<group>"; };
+		211BEFF7208EE0B100A66270 /* WYAPadsingDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAPadsingDetailsCell.h; sourceTree = "<group>"; };
+		211BEFFA208EE11600A66270 /* WYAPadsingDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAPadsingDetailsViewController.m; sourceTree = "<group>"; };
+		211BEFFB208EE11600A66270 /* WYAPadsingDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAPadsingDetailsViewController.h; sourceTree = "<group>"; };
+		211BF00F208F112F00A66270 /* WYAGlobalString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAGlobalString.h; sourceTree = "<group>"; };
+		211BF010208F232A00A66270 /* WYALocalDownloadModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYALocalDownloadModel.h; sourceTree = "<group>"; };
+		211BF011208F232A00A66270 /* WYALocalDownloadModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYALocalDownloadModel.m; sourceTree = "<group>"; };
+		211BF014208F416300A66270 /* WYASearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYASearchViewController.h; sourceTree = "<group>"; };
+		211BF015208F416300A66270 /* WYASearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYASearchViewController.m; sourceTree = "<group>"; };
+		211BF018208F416C00A66270 /* WYASearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYASearchModel.h; sourceTree = "<group>"; };
+		211BF019208F416C00A66270 /* WYASearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYASearchModel.m; sourceTree = "<group>"; };
+		211BF01C208F417900A66270 /* WYASearchNetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYASearchNetRequest.m; sourceTree = "<group>"; };
+		211BF01D208F417900A66270 /* WYASearchNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYASearchNetRequest.h; sourceTree = "<group>"; };
+		211BF020208F418300A66270 /* WYASearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYASearchView.h; sourceTree = "<group>"; };
+		211BF021208F418300A66270 /* WYASearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYASearchView.m; sourceTree = "<group>"; };
+		211BF023208F41AF00A66270 /* WYASearchCourseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYASearchCourseModel.h; sourceTree = "<group>"; };
+		211BF024208F41B000A66270 /* WYASearchCourseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYASearchCourseModel.m; sourceTree = "<group>"; };
+		211BF02D209008A200A66270 /* WYAChooseDownloadNetRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAChooseDownloadNetRequest.h; sourceTree = "<group>"; };
+		211BF02E209008A200A66270 /* WYAChooseDownloadNetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAChooseDownloadNetRequest.m; sourceTree = "<group>"; };
+		211BF0302090570000A66270 /* WYANoticeName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYANoticeName.h; sourceTree = "<group>"; };
+		211BF03220905DAA00A66270 /* WYANowDowmloadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYANowDowmloadVC.h; sourceTree = "<group>"; };
+		211BF03320905DAA00A66270 /* WYANowDowmloadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYANowDowmloadVC.m; sourceTree = "<group>"; };
+		211BF0352090618E00A66270 /* WYATableNameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYATableNameModel.h; sourceTree = "<group>"; };
+		211BF0362090618E00A66270 /* WYATableNameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYATableNameModel.m; sourceTree = "<group>"; };
+		211BF039209065DA00A66270 /* WYANowDownloadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYANowDownloadView.h; sourceTree = "<group>"; };
+		211BF03A209065DA00A66270 /* WYANowDownloadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYANowDownloadView.m; sourceTree = "<group>"; };
+		211BF03C209067A400A66270 /* WYANowDownloadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYANowDownloadCell.h; sourceTree = "<group>"; };
+		211BF03D209067A400A66270 /* WYANowDownloadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYANowDownloadCell.m; sourceTree = "<group>"; };
+		211BF040209074BF00A66270 /* WYANowDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYANowDownloadManager.h; sourceTree = "<group>"; };
+		211BF041209074BF00A66270 /* WYANowDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYANowDownloadManager.m; sourceTree = "<group>"; };
+		211BF0432091692200A66270 /* MBProgressHUD+WYAExpand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+WYAExpand.m"; sourceTree = "<group>"; };
+		211BF0442091692300A66270 /* MBProgressHUD+WYAExpand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+WYAExpand.h"; sourceTree = "<group>"; };
+		211BF0462091694D00A66270 /* WYAArticleDetailsHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAArticleDetailsHeaderView.m; sourceTree = "<group>"; };
+		211BF0472091694E00A66270 /* WYAArticleDetailsHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAArticleDetailsHeaderView.h; sourceTree = "<group>"; };
+		211BF0492091698B00A66270 /* WYASearchCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYASearchCourseViewController.m; sourceTree = "<group>"; };
+		211BF04A2091698B00A66270 /* WYASearchAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYASearchAllViewController.h; sourceTree = "<group>"; };
+		211BF04B2091698C00A66270 /* WYASearchArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYASearchArticleViewController.h; sourceTree = "<group>"; };
+		211BF04C2091698C00A66270 /* WYASearchArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYASearchArticleViewController.m; sourceTree = "<group>"; };
+		211BF04D2091698C00A66270 /* WYASearchCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYASearchCourseViewController.h; sourceTree = "<group>"; };
+		211BF04E2091698C00A66270 /* WYASearchAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYASearchAllViewController.m; sourceTree = "<group>"; };
+		211BF04F2091698C00A66270 /* WYASearchTeacherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYASearchTeacherViewController.m; sourceTree = "<group>"; };
+		211BF0502091698C00A66270 /* WYASearchTeacherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYASearchTeacherViewController.h; sourceTree = "<group>"; };
+		213695312085DD4B0098F673 /* WYAMineCollectionCourseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineCollectionCourseVC.h; sourceTree = "<group>"; };
+		213695322085DD4B0098F673 /* WYAMineCollectionCourseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineCollectionCourseVC.m; sourceTree = "<group>"; };
+		213695342085DD790098F673 /* WYAMineCollectionArticleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineCollectionArticleVC.h; sourceTree = "<group>"; };
+		213695352085DD790098F673 /* WYAMineCollectionArticleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineCollectionArticleVC.m; sourceTree = "<group>"; };
+		2136953B208600410098F673 /* WYATestQuestionListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYATestQuestionListModel.m; sourceTree = "<group>"; };
+		2136953C208600410098F673 /* WYATestQuestionListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYATestQuestionListModel.h; sourceTree = "<group>"; };
+		21369541208601770098F673 /* WYATestDoubleSelectedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYATestDoubleSelectedTableViewCell.h; sourceTree = "<group>"; };
+		21369542208601770098F673 /* WYATestDoubleSelectedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYATestDoubleSelectedTableViewCell.m; sourceTree = "<group>"; };
+		21369544208602B00098F673 /* WYATestVolumeNetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYATestVolumeNetRequest.m; sourceTree = "<group>"; };
+		21369545208602B00098F673 /* WYATestVolumeNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYATestVolumeNetRequest.h; sourceTree = "<group>"; };
+		21369547208603220098F673 /* WYAAnswerCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAAnswerCardViewController.m; sourceTree = "<group>"; };
+		21369548208603230098F673 /* WYAAnswerCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAAnswerCardViewController.h; sourceTree = "<group>"; };
+		2136954A2086D46E0098F673 /* WYATestScoresVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYATestScoresVC.h; sourceTree = "<group>"; };
+		2136954B2086D46E0098F673 /* WYATestScoresVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYATestScoresVC.m; sourceTree = "<group>"; };
+		2136954E2086D6260098F673 /* WYAAnswerCardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAAnswerCardCollectionViewCell.h; sourceTree = "<group>"; };
+		2136954F2086D6270098F673 /* WYAAnswerCardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAAnswerCardCollectionViewCell.m; sourceTree = "<group>"; };
+		213695502086D6270098F673 /* WYAAnswerCardHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAAnswerCardHeaderView.h; sourceTree = "<group>"; };
+		213695512086D6270098F673 /* WYAAnswerCardHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAAnswerCardHeaderView.m; sourceTree = "<group>"; };
+		213695562086D6700098F673 /* WYAJHAnswerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAJHAnswerModel.m; sourceTree = "<group>"; };
+		213695572086D6710098F673 /* WYAJHAnswerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAJHAnswerModel.h; sourceTree = "<group>"; };
+		213695592086DE4F0098F673 /* WYATestScoresNetRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYATestScoresNetRequest.h; sourceTree = "<group>"; };
+		2136955A2086DE4F0098F673 /* WYATestScoresNetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYATestScoresNetRequest.m; sourceTree = "<group>"; };
+		2136955C2086DF260098F673 /* WYAMineTestScoresModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineTestScoresModel.h; sourceTree = "<group>"; };
+		2136955D2086DF260098F673 /* WYAMineTestScoresModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineTestScoresModel.m; sourceTree = "<group>"; };
+		2136955F2086E04F0098F673 /* WYAMineTestScoresVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineTestScoresVC.h; sourceTree = "<group>"; };
+		213695602086E04F0098F673 /* WYAMineTestScoresVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineTestScoresVC.m; sourceTree = "<group>"; };
+		213695622086E0AD0098F673 /* WYALowerLeverTestScoresVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYALowerLeverTestScoresVC.h; sourceTree = "<group>"; };
+		213695632086E0AD0098F673 /* WYALowerLeverTestScoresVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYALowerLeverTestScoresVC.m; sourceTree = "<group>"; };
+		213695652086E43E0098F673 /* WYAMineTestScoresCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineTestScoresCell.h; sourceTree = "<group>"; };
+		213695662086E43E0098F673 /* WYAMineTestScoresCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineTestScoresCell.m; sourceTree = "<group>"; };
+		213695682086ED440098F673 /* WYALowLeverTestScoresCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYALowLeverTestScoresCell.h; sourceTree = "<group>"; };
+		213695692086ED440098F673 /* WYALowLeverTestScoresCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYALowLeverTestScoresCell.m; sourceTree = "<group>"; };
+		213695752086F49A0098F673 /* WYATestPaperVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYATestPaperVC.h; sourceTree = "<group>"; };
+		213695762086F49A0098F673 /* WYATestPaperVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYATestPaperVC.m; sourceTree = "<group>"; };
+		213695782086F6E40098F673 /* WYATestPaperView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYATestPaperView.h; sourceTree = "<group>"; };
+		213695792086F6E40098F673 /* WYATestPaperView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYATestPaperView.m; sourceTree = "<group>"; };
+		2136957B208719010098F673 /* WYATestPaperCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYATestPaperCell.h; sourceTree = "<group>"; };
+		2136957C208719010098F673 /* WYATestPaperCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYATestPaperCell.m; sourceTree = "<group>"; };
+		2136957E20871FF60098F673 /* WYATestPaperNetRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYATestPaperNetRequest.h; sourceTree = "<group>"; };
+		2136957F20871FF60098F673 /* WYATestPaperNetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYATestPaperNetRequest.m; sourceTree = "<group>"; };
+		213695812087253D0098F673 /* WYATestPaperPeopleAndChapterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYATestPaperPeopleAndChapterModel.h; sourceTree = "<group>"; };
+		213695822087253D0098F673 /* WYATestPaperPeopleAndChapterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYATestPaperPeopleAndChapterModel.m; sourceTree = "<group>"; };
+		21369584208828FE0098F673 /* WYATestPaperSelectorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYATestPaperSelectorView.h; sourceTree = "<group>"; };
+		21369585208828FE0098F673 /* WYATestPaperSelectorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYATestPaperSelectorView.m; sourceTree = "<group>"; };
+		213D2A20208D63D30091905E /* WYANickNameVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYANickNameVC.h; sourceTree = "<group>"; };
+		213D2A21208D63D30091905E /* WYANickNameVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYANickNameVC.m; sourceTree = "<group>"; };
+		213D826420B31B26006E60DF /* SODownloader+WYAVideoDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SODownloader+WYAVideoDownload.h"; sourceTree = "<group>"; };
+		213D826520B31B26006E60DF /* SODownloader+WYAVideoDownload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SODownloader+WYAVideoDownload.m"; sourceTree = "<group>"; };
+		213D826A20B3BF67006E60DF /* WYAFMDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAFMDBManager.h; sourceTree = "<group>"; };
+		213D826B20B3BF67006E60DF /* WYAFMDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAFMDBManager.m; sourceTree = "<group>"; };
+		213DE7A620887D7E00F0A3F6 /* WYAJHTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAJHTools.h; sourceTree = "<group>"; };
+		213DE7A720887D7F00F0A3F6 /* WYAJHTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAJHTools.m; sourceTree = "<group>"; };
+		213DE7AB20887DA900F0A3F6 /* WYAPadsingCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAPadsingCardViewController.m; sourceTree = "<group>"; };
+		213DE7AC20887DA900F0A3F6 /* WYAReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAReportViewController.h; sourceTree = "<group>"; };
+		213DE7AD20887DA900F0A3F6 /* WYAReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAReportViewController.m; sourceTree = "<group>"; };
+		213DE7AE20887DA900F0A3F6 /* WYAPadsingCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAPadsingCardViewController.h; sourceTree = "<group>"; };
+		213DE7B420887DBB00F0A3F6 /* WYAJHPieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAJHPieModel.m; sourceTree = "<group>"; };
+		213DE7B520887DBB00F0A3F6 /* WYAJHPieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAJHPieModel.h; sourceTree = "<group>"; };
+		213DE7B820887DC800F0A3F6 /* WYACardReportHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYACardReportHeaderView.m; sourceTree = "<group>"; };
+		213DE7B920887DC800F0A3F6 /* WYAJHPieCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAJHPieCenterView.m; sourceTree = "<group>"; };
+		213DE7BA20887DC800F0A3F6 /* WYAJHPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAJHPieChart.h; sourceTree = "<group>"; };
+		213DE7BB20887DC800F0A3F6 /* WYACardReportHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYACardReportHeaderView.h; sourceTree = "<group>"; };
+		213DE7BC20887DC800F0A3F6 /* WYAJHPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAJHPieChart.m; sourceTree = "<group>"; };
+		213DE7BD20887DC800F0A3F6 /* WYAJHPieCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAJHPieCenterView.h; sourceTree = "<group>"; };
+		213DE7C12088895300F0A3F6 /* WYATestPaperModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYATestPaperModel.h; sourceTree = "<group>"; };
+		213DE7C22088895300F0A3F6 /* WYATestPaperModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYATestPaperModel.m; sourceTree = "<group>"; };
+		213DE7C420888ED300F0A3F6 /* WYATestPaperCollectionHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYATestPaperCollectionHeadView.h; sourceTree = "<group>"; };
+		213DE7C520888ED300F0A3F6 /* WYATestPaperCollectionHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYATestPaperCollectionHeadView.m; sourceTree = "<group>"; };
+		214CC4372091E276009F65A3 /* WYAArticleDetailsBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAArticleDetailsBottomView.h; sourceTree = "<group>"; };
+		214CC4382091E276009F65A3 /* WYAArticleDetailsBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAArticleDetailsBottomView.m; sourceTree = "<group>"; };
+		214CC43A2092B185009F65A3 /* WYANowDownloadEditView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYANowDownloadEditView.h; sourceTree = "<group>"; };
+		214CC43B2092B185009F65A3 /* WYANowDownloadEditView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYANowDownloadEditView.m; sourceTree = "<group>"; };
+		214CC43E2092D05F009F65A3 /* WYAFinishDownloadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAFinishDownloadVC.h; sourceTree = "<group>"; };
+		214CC43F2092D05F009F65A3 /* WYAFinishDownloadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAFinishDownloadVC.m; sourceTree = "<group>"; };
+		214CC4422092D2D5009F65A3 /* WYAFinishDownloadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAFinishDownloadView.h; sourceTree = "<group>"; };
+		214CC4432092D2D5009F65A3 /* WYAFinishDownloadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAFinishDownloadView.m; sourceTree = "<group>"; };
+		214CC4452092D46E009F65A3 /* WYAFinishDownloadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAFinishDownloadCell.h; sourceTree = "<group>"; };
+		214CC4462092D46E009F65A3 /* WYAFinishDownloadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAFinishDownloadCell.m; sourceTree = "<group>"; };
+		214CC4492092E385009F65A3 /* WYAFinishDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAFinishDownloadManager.h; sourceTree = "<group>"; };
+		214CC44A2092E385009F65A3 /* WYAFinishDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAFinishDownloadManager.m; sourceTree = "<group>"; };
+		2155896E20C7F2A6009012B8 /* WYACourseShoreIntroductionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYACourseShoreIntroductionHeaderView.m; sourceTree = "<group>"; };
+		2155896F20C7F2A6009012B8 /* WYACourseShoreIntroductionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYACourseShoreIntroductionHeaderView.h; sourceTree = "<group>"; };
+		216E5E6E20C54DB500968AFD /* WYALevelPaperListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYALevelPaperListModel.h; sourceTree = "<group>"; };
+		216E5E6F20C54DB500968AFD /* WYALevelPaperListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYALevelPaperListModel.m; sourceTree = "<group>"; };
+		218377F1208033AE0093C95C /* WYAAttentionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAAttentionViewController.h; sourceTree = "<group>"; };
+		218377F2208033AE0093C95C /* WYAAttentionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAAttentionViewController.m; sourceTree = "<group>"; };
+		218377F5208033CE0093C95C /* WYAAttentionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAAttentionTableViewCell.h; sourceTree = "<group>"; };
+		218377F6208033CE0093C95C /* WYAAttentionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAAttentionTableViewCell.m; sourceTree = "<group>"; };
+		218377F8208033EC0093C95C /* WYAAdminInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAAdminInfoModel.h; sourceTree = "<group>"; };
+		218377F9208033EC0093C95C /* WYAAdminInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAAdminInfoModel.m; sourceTree = "<group>"; };
+		218377FB208033ED0093C95C /* WYAAttentionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAAttentionModel.h; sourceTree = "<group>"; };
+		218377FC208033ED0093C95C /* WYAAttentionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAAttentionModel.m; sourceTree = "<group>"; };
+		218378002080340C0093C95C /* WYAAttentionNetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAAttentionNetRequest.m; sourceTree = "<group>"; };
+		218378012080340C0093C95C /* WYAAttentionNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAAttentionNetRequest.h; sourceTree = "<group>"; };
+		218378022080340C0093C95C /* WYAMineAdminInfoNetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAMineAdminInfoNetRequest.m; sourceTree = "<group>"; };
+		218378032080340D0093C95C /* WYAMineAdminInfoNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAMineAdminInfoNetRequest.h; sourceTree = "<group>"; };
+		2183781720805E1C0093C95C /* WYACourseCatalogVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYACourseCatalogVC.h; sourceTree = "<group>"; };
+		2183781820805E1D0093C95C /* WYACourseCatalogVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYACourseCatalogVC.m; sourceTree = "<group>"; };
+		2183781A20805EB50093C95C /* WYACourseCatalogHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACourseCatalogHeadView.h; sourceTree = "<group>"; };
+		2183781B20805EB50093C95C /* WYACourseCatalogHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACourseCatalogHeadView.m; sourceTree = "<group>"; };
+		2183781D208060320093C95C /* WYACourseCatalogCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACourseCatalogCell.h; sourceTree = "<group>"; };
+		2183781E208060320093C95C /* WYACourseCatalogCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACourseCatalogCell.m; sourceTree = "<group>"; };
+		21837821208062510093C95C /* WYACourseCatalogNetRequst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACourseCatalogNetRequst.h; sourceTree = "<group>"; };
+		21837822208062510093C95C /* WYACourseCatalogNetRequst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACourseCatalogNetRequst.m; sourceTree = "<group>"; };
+		21837824208081FD0093C95C /* WYACourseCatalogModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACourseCatalogModel.h; sourceTree = "<group>"; };
+		21837825208081FD0093C95C /* WYACourseCatalogModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACourseCatalogModel.m; sourceTree = "<group>"; };
+		218378272080B95D0093C95C /* UILabel+WYALabelAlighTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WYALabelAlighTop.h"; sourceTree = "<group>"; };
+		218378282080B95D0093C95C /* UILabel+WYALabelAlighTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WYALabelAlighTop.m"; sourceTree = "<group>"; };
+		2183782A2080B9740093C95C /* WYAArticleDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAArticleDetailModel.h; sourceTree = "<group>"; };
+		2183782B2080B9740093C95C /* WYAArticleDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAArticleDetailModel.m; sourceTree = "<group>"; };
+		2183782D20818CD60093C95C /* WYACourseCatalogFootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACourseCatalogFootView.h; sourceTree = "<group>"; };
+		2183782E20818CD60093C95C /* WYACourseCatalogFootView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACourseCatalogFootView.m; sourceTree = "<group>"; };
+		21837834208196B40093C95C /* WYACourseDownloadTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACourseDownloadTableVC.h; sourceTree = "<group>"; };
+		21837835208196B40093C95C /* WYACourseDownloadTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACourseDownloadTableVC.m; sourceTree = "<group>"; };
+		21837837208197840093C95C /* WYACourseDownloadNetRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACourseDownloadNetRequest.h; sourceTree = "<group>"; };
+		21837838208197840093C95C /* WYACourseDownloadNetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACourseDownloadNetRequest.m; sourceTree = "<group>"; };
+		2183783A20819CB70093C95C /* WYACourseDownloadModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACourseDownloadModel.h; sourceTree = "<group>"; };
+		2183783B20819CB70093C95C /* WYACourseDownloadModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACourseDownloadModel.m; sourceTree = "<group>"; };
+		2183783D20819EA10093C95C /* WYACourseDownloadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACourseDownloadCell.h; sourceTree = "<group>"; };
+		2183783E20819EA10093C95C /* WYACourseDownloadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACourseDownloadCell.m; sourceTree = "<group>"; };
+		218378462081F4FA0093C95C /* WYAQuickLookFileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAQuickLookFileVC.h; sourceTree = "<group>"; };
+		218378472081F4FA0093C95C /* WYAQuickLookFileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAQuickLookFileVC.m; sourceTree = "<group>"; };
+		21837849208200510093C95C /* WYACourseDownloadNavView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACourseDownloadNavView.h; sourceTree = "<group>"; };
+		2183784A208200510093C95C /* WYACourseDownloadNavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACourseDownloadNavView.m; sourceTree = "<group>"; };
+		2183784D208208BB0093C95C /* WYATestVolumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYATestVolumeViewController.m; sourceTree = "<group>"; };
+		2183784E208208BB0093C95C /* WYATestVolumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYATestVolumeViewController.h; sourceTree = "<group>"; };
+		21837853208208E90093C95C /* WYATestBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYATestBottomView.h; sourceTree = "<group>"; };
+		21837854208208E90093C95C /* WYATestSingleSelectedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYATestSingleSelectedTableViewCell.h; sourceTree = "<group>"; };
+		21837855208208E90093C95C /* WYATestBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYATestBottomView.m; sourceTree = "<group>"; };
+		21837856208208E90093C95C /* WYATestSingleSelectedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYATestSingleSelectedTableViewCell.m; sourceTree = "<group>"; };
+		21837859208478870093C95C /* WYACourseTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACourseTestView.h; sourceTree = "<group>"; };
+		2183785A208478870093C95C /* WYACourseTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACourseTestView.m; sourceTree = "<group>"; };
+		2183785D208486130093C95C /* WYAMineCollectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineCollectionVC.h; sourceTree = "<group>"; };
+		2183785E208486130093C95C /* WYAMineCollectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineCollectionVC.m; sourceTree = "<group>"; };
+		218378642084A2F20093C95C /* WYAMineCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineCollectionCell.h; sourceTree = "<group>"; };
+		218378652084A2F20093C95C /* WYAMineCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineCollectionCell.m; sourceTree = "<group>"; };
+		218378682084A7620093C95C /* WYAMineCollectionNetRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineCollectionNetRequest.h; sourceTree = "<group>"; };
+		218378692084A7620093C95C /* WYAMineCollectionNetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineCollectionNetRequest.m; sourceTree = "<group>"; };
+		2183786C2084ABA00093C95C /* WYAMineCollectionCourseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineCollectionCourseModel.h; sourceTree = "<group>"; };
+		2183786D2084ABA00093C95C /* WYAMineCollectionCourseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineCollectionCourseModel.m; sourceTree = "<group>"; };
+		2183786F2084ABB80093C95C /* WYAMineCollectionArticleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAMineCollectionArticleModel.h; sourceTree = "<group>"; };
+		218378702084ABB80093C95C /* WYAMineCollectionArticleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAMineCollectionArticleModel.m; sourceTree = "<group>"; };
+		218484AD20B439C80050EB47 /* AppDelegate+SODownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+SODownloader.m"; sourceTree = "<group>"; };
+		218484AE20B439C80050EB47 /* AppDelegate+SODownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+SODownloader.h"; sourceTree = "<group>"; };
+		21AA50B3207D9EC400864205 /* WYACourseDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACourseDetailVC.h; sourceTree = "<group>"; };
+		21AA50B4207D9EC400864205 /* WYACourseDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACourseDetailVC.m; sourceTree = "<group>"; };
+		21AA50B6207DB69100864205 /* NSDate+WYADate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WYADate.h"; sourceTree = "<group>"; };
+		21AA50B7207DB69100864205 /* NSDate+WYADate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WYADate.m"; sourceTree = "<group>"; };
+		21AA50B8207DB69100864205 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		21AA50B9207DB69100864205 /* NSString+WYAString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WYAString.m"; sourceTree = "<group>"; };
+		21AA50BA207DB69100864205 /* NSString+WYAString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WYAString.h"; sourceTree = "<group>"; };
+		21AA50BB207DB69100864205 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		21AA50C0207DB6BB00864205 /* WYALecturerPersonalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYALecturerPersonalVC.m; sourceTree = "<group>"; };
+		21AA50C1207DB6BB00864205 /* WYALecturerPersonalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYALecturerPersonalVC.h; sourceTree = "<group>"; };
+		21AA50C6207DB6F800864205 /* WYALecturerHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYALecturerHeaderView.h; sourceTree = "<group>"; };
+		21AA50C7207DB6F800864205 /* WYALecturerPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYALecturerPageView.h; sourceTree = "<group>"; };
+		21AA50C8207DB6F800864205 /* WYALecturerHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYALecturerHeaderView.m; sourceTree = "<group>"; };
+		21AA50C9207DB6F800864205 /* WYALecturerPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYALecturerPageView.m; sourceTree = "<group>"; };
+		21AA50CD207DB74000864205 /* WYAMyCourseListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAMyCourseListVC.h; sourceTree = "<group>"; };
+		21AA50CE207DB74000864205 /* WYAMyCourseListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAMyCourseListVC.m; sourceTree = "<group>"; };
+		21AA50D0207DB74100864205 /* WYANewCourseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYANewCourseVC.m; sourceTree = "<group>"; };
+		21AA50D1207DB74100864205 /* WYANewCourseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYANewCourseVC.h; sourceTree = "<group>"; };
+		21AA50D5207DB75200864205 /* WYAMyCourseListNetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAMyCourseListNetRequest.m; sourceTree = "<group>"; };
+		21AA50D6207DB75200864205 /* WYAMyCourseListNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAMyCourseListNetRequest.h; sourceTree = "<group>"; };
+		21AA50D8207DB75200864205 /* WYANewCourseNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYANewCourseNetRequest.h; sourceTree = "<group>"; };
+		21AA50D9207DB75200864205 /* WYANewCourseNetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYANewCourseNetRequest.m; sourceTree = "<group>"; };
+		21AA50DD207DB76F00864205 /* WYANewCourseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYANewCourseModel.h; sourceTree = "<group>"; };
+		21AA50DE207DB76F00864205 /* WYANewCourseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYANewCourseModel.m; sourceTree = "<group>"; };
+		21AA50E0207DB76F00864205 /* WYAMyCourseListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAMyCourseListModel.m; sourceTree = "<group>"; };
+		21AA50E1207DB76F00864205 /* WYAMyCourseListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAMyCourseListModel.h; sourceTree = "<group>"; };
+		21AA50E5207DB77900864205 /* WYANewCourseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYANewCourseCell.m; sourceTree = "<group>"; };
+		21AA50E6207DB77900864205 /* WYANewCourseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYANewCourseCell.h; sourceTree = "<group>"; };
+		21AA50E8207DB77A00864205 /* WYAMyCouresTableNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAMyCouresTableNoDataView.m; sourceTree = "<group>"; };
+		21AA50E9207DB77A00864205 /* WYAMyCourseTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAMyCourseTableCell.m; sourceTree = "<group>"; };
+		21AA50EA207DB77A00864205 /* WYAMyCouresTableNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAMyCouresTableNoDataView.h; sourceTree = "<group>"; };
+		21AA50EB207DB77A00864205 /* WYAMyCourseTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAMyCourseTableCell.h; sourceTree = "<group>"; };
+		21AA50EF207DB79700864205 /* WYAArticleDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAArticleDetailsVC.m; sourceTree = "<group>"; };
+		21AA50F0207DB79800864205 /* WYAArticleListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAArticleListVC.h; sourceTree = "<group>"; };
+		21AA50F1207DB79800864205 /* WYAArticleDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAArticleDetailsVC.h; sourceTree = "<group>"; };
+		21AA50F2207DB79800864205 /* WYAArticleListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAArticleListVC.m; sourceTree = "<group>"; };
+		21AA50F5207DB8BF00864205 /* WYACourseDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACourseDetailView.h; sourceTree = "<group>"; };
+		21AA50F6207DB8BF00864205 /* WYACourseDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACourseDetailView.m; sourceTree = "<group>"; };
+		21AA50F8207DE33A00864205 /* WYACourseDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYACourseDetailModel.h; sourceTree = "<group>"; };
+		21AA50F9207DE33A00864205 /* WYACourseDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYACourseDetailModel.m; sourceTree = "<group>"; };
+		21AA50FE207E09B400864205 /* WYAVideoControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAVideoControlView.h; sourceTree = "<group>"; };
+		21AA50FF207E09B400864205 /* WYAVideoControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAVideoControlView.m; sourceTree = "<group>"; };
+		21AA512B207E155000864205 /* WYALecturerHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYALecturerHeaderModel.h; sourceTree = "<group>"; };
+		21AA512C207E155000864205 /* WYALecturerHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYALecturerHeaderModel.m; sourceTree = "<group>"; };
+		21AA512E207E157700864205 /* WYALecturerDetailsNetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYALecturerDetailsNetRequest.m; sourceTree = "<group>"; };
+		21AA512F207E157800864205 /* WYALecturerDetailsNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYALecturerDetailsNetRequest.h; sourceTree = "<group>"; };
+		21AA5131207F550D00864205 /* WYANetErrorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYANetErrorView.h; sourceTree = "<group>"; };
+		21AA5132207F550D00864205 /* WYANetErrorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYANetErrorView.m; sourceTree = "<group>"; };
+		21B266032093F6640057A512 /* WYAMainPaperListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAMainPaperListModel.m; sourceTree = "<group>"; };
+		21B266042093F6650057A512 /* WYAMainPaperListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAMainPaperListModel.h; sourceTree = "<group>"; };
+		21B266062093F6860057A512 /* WYAMAinPaperCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAMAinPaperCollectionView.h; sourceTree = "<group>"; };
+		21B266072093F6860057A512 /* WYAMAinPaperCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAMAinPaperCollectionView.m; sourceTree = "<group>"; };
+		21B2660A20940DC10057A512 /* ZFPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerModel.m; sourceTree = "<group>"; };
+		21B2660B20940DC10057A512 /* ZFPlayerControlViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlViewDelegate.h; sourceTree = "<group>"; };
+		21B2660C20940DC10057A512 /* ZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlView.h; sourceTree = "<group>"; };
+		21B2660D20940DC10057A512 /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		21B2660F20940DC10057A512 /* UIWindow+CurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CurrentViewController.h"; sourceTree = "<group>"; };
+		21B2661020940DC10057A512 /* UIView+CustomControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomControlView.h"; sourceTree = "<group>"; };
+		21B2661120940DC10057A512 /* UIViewController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		21B2661220940DC10057A512 /* UIImageView+ZFCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZFCache.h"; sourceTree = "<group>"; };
+		21B2661320940DC10057A512 /* UIWindow+CurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CurrentViewController.m"; sourceTree = "<group>"; };
+		21B2661420940DC10057A512 /* UIView+CustomControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomControlView.m"; sourceTree = "<group>"; };
+		21B2661520940DC10057A512 /* UIImageView+ZFCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZFCache.m"; sourceTree = "<group>"; };
+		21B2661620940DC10057A512 /* UIViewController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		21B2661720940DC10057A512 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		21B2661820940DC10057A512 /* ZFPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerView.h; sourceTree = "<group>"; };
+		21B2661920940DC10057A512 /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		21B2661A20940DC10057A512 /* ZFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayer.h; sourceTree = "<group>"; };
+		21B2661B20940DC10057A512 /* ZFBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBrightnessView.m; sourceTree = "<group>"; };
+		21B2661C20940DC10057A512 /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
+		21B2661D20940DC10057A512 /* ZFPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerModel.h; sourceTree = "<group>"; };
+		21B2661E20940DC10057A512 /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		21B2661F20940DC10057A512 /* ZFPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerControlView.m; sourceTree = "<group>"; };
+		21B2662020940DC10057A512 /* ZFPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerView.m; sourceTree = "<group>"; };
+		21B2662120940DC10057A512 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		21B2662220940DC10057A512 /* ZFBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBrightnessView.h; sourceTree = "<group>"; };
+		21B2662320940DC10057A512 /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		21C3A9CE20B5787200B9AEE0 /* WYALocalVideoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYALocalVideoVC.h; sourceTree = "<group>"; };
+		21C3A9CF20B5787200B9AEE0 /* WYALocalVideoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYALocalVideoVC.m; sourceTree = "<group>"; };
+		21C3A9D120B57ABF00B9AEE0 /* WYAEmptyDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAEmptyDataView.h; sourceTree = "<group>"; };
+		21C3A9D220B57ABF00B9AEE0 /* WYAEmptyDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAEmptyDataView.m; sourceTree = "<group>"; };
+		21D627F520AD60BF00D8D2B9 /* WYAChooseDownloadHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAChooseDownloadHeadView.h; sourceTree = "<group>"; };
+		21D627F620AD60C000D8D2B9 /* WYAChooseDownloadHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAChooseDownloadHeadView.m; sourceTree = "<group>"; };
+		21EEBF0E2099B0A700AC1B78 /* WYACourseShortIntroductionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYACourseShortIntroductionVC.h; sourceTree = "<group>"; };
+		21EEBF0F2099B0A700AC1B78 /* WYACourseShortIntroductionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYACourseShortIntroductionVC.m; sourceTree = "<group>"; };
+		3DE01C3DC3523AC21DF39F99 /* libPods-WYA_Project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYA_Project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C33458D26F30975C19F26C5 /* Pods-WYA_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYA_Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYA_Project/Pods-WYA_Project.debug.xcconfig"; sourceTree = "<group>"; };
+		9515740C207B67F500257341 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		9515740D207B67F500257341 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		95157410207B680B00257341 /* WYAOpinionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAOpinionVC.h; sourceTree = "<group>"; };
+		95157411207B680B00257341 /* WYAOpinionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAOpinionVC.m; sourceTree = "<group>"; };
+		95157413207B680B00257341 /* WYASettingTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYASettingTableVC.h; sourceTree = "<group>"; };
+		95157414207B680B00257341 /* WYASettingTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYASettingTableVC.m; sourceTree = "<group>"; };
+		95157419207B681B00257341 /* WYAOpinionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAOpinionView.h; sourceTree = "<group>"; };
+		9515741A207B681B00257341 /* WYAOpinionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAOpinionView.m; sourceTree = "<group>"; };
+		9515741D207B682200257341 /* WYASettingCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYASettingCellModel.h; sourceTree = "<group>"; };
+		9515741E207B682200257341 /* WYASettingCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYASettingCellModel.m; sourceTree = "<group>"; };
+		95157422207B682B00257341 /* WYAOpinionNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAOpinionNetRequest.h; sourceTree = "<group>"; };
+		95157423207B682B00257341 /* WYAOpinionNetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAOpinionNetRequest.m; sourceTree = "<group>"; };
+		95157425207B682B00257341 /* WYASettingViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYASettingViewModel.h; sourceTree = "<group>"; };
+		95157426207B682B00257341 /* WYASettingViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYASettingViewModel.m; sourceTree = "<group>"; };
+		95157429207B687E00257341 /* WYATablePlaceHoldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYATablePlaceHoldView.m; sourceTree = "<group>"; };
+		9515742A207B687F00257341 /* WYATablePlaceHoldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYATablePlaceHoldView.h; sourceTree = "<group>"; };
+		95C87FDA207AF4C400442744 /* WYALecturerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYALecturerModel.h; sourceTree = "<group>"; };
+		95C87FDB207AF4C400442744 /* WYALecturerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYALecturerModel.m; sourceTree = "<group>"; };
+		95C87FE0207B01F600442744 /* WYALecturerListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYALecturerListVC.h; sourceTree = "<group>"; };
+		95C87FE1207B01F600442744 /* WYALecturerListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYALecturerListVC.m; sourceTree = "<group>"; };
+		95C87FE3207B044E00442744 /* WYALecturerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYALecturerTableViewCell.h; sourceTree = "<group>"; };
+		95C87FE4207B044E00442744 /* WYALecturerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYALecturerTableViewCell.m; sourceTree = "<group>"; };
+		95C87FE9207B39CE00442744 /* WYADataNullCheckTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYADataNullCheckTool.h; sourceTree = "<group>"; };
+		95C87FEA207B39CE00442744 /* WYADataNullCheckTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYADataNullCheckTool.m; sourceTree = "<group>"; };
+		95C87FF2207B436A00442744 /* WYALecturerNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYALecturerNetRequest.h; sourceTree = "<group>"; };
+		95C87FF3207B436B00442744 /* WYALecturerNetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYALecturerNetRequest.m; sourceTree = "<group>"; };
+		95C87FF5207B4B5C00442744 /* WYAArticleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAArticleTableViewCell.h; sourceTree = "<group>"; };
+		95C87FF6207B4B5C00442744 /* WYAArticleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAArticleTableViewCell.m; sourceTree = "<group>"; };
+		95C87FF8207B542D00442744 /* WYAArticleCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAArticleCategory.h; sourceTree = "<group>"; };
+		95C87FF9207B542D00442744 /* WYAArticleCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAArticleCategory.m; sourceTree = "<group>"; };
+		95C87FFB207B544100442744 /* WYAArticleListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAArticleListModel.h; sourceTree = "<group>"; };
+		95C87FFC207B544100442744 /* WYAArticleListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAArticleListModel.m; sourceTree = "<group>"; };
+		95C87FFE207B5BC600442744 /* WYAArticleNetRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAArticleNetRequest.h; sourceTree = "<group>"; };
+		95C87FFF207B5BC600442744 /* WYAArticleNetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAArticleNetRequest.m; sourceTree = "<group>"; };
+		FFD0E9F65E7136745B2505D8 /* Pods-WYA_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYA_Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYA_Project/Pods-WYA_Project.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2102AD8820746B6700362AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E5E46DA58E5C1E5BD27C7A /* libPods-WYA_Project.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2102ADA020746B6700362AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2102ADAB20746B6700362AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2102AD8220746B6700362AE4 = {
+			isa = PBXGroup;
+			children = (
+				2102AD8D20746B6700362AE4 /* WYA_Project */,
+				2102AD8C20746B6700362AE4 /* Products */,
+				B1926A2ED47ADF6DE12887C0 /* Pods */,
+				8D75A789A60350C3973B85C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2102AD8C20746B6700362AE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2102AD8B20746B6700362AE4 /* WYA_Project.app */,
+				2102ADA320746B6700362AE4 /* WYA_ProjectTests.xctest */,
+				2102ADAE20746B6700362AE4 /* WYA_ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2102AD8D20746B6700362AE4 /* WYA_Project */ = {
+			isa = PBXGroup;
+			children = (
+				2102AD8E20746B6700362AE4 /* AppDelegate.h */,
+				2102AD8F20746B6700362AE4 /* AppDelegate.m */,
+				2102AD9120746B6700362AE4 /* ViewController.h */,
+				2102AD9220746B6700362AE4 /* ViewController.m */,
+				2102ADC220746E5F00362AE4 /* WYALogin */,
+				2102ADD520749E4F00362AE4 /* WYASchool */,
+				2102ADDA20749E5600362AE4 /* WYAWeChatBusiness */,
+				2102ADDF20749E5D00362AE4 /* WYAMine */,
+				2102ADE420749EF500362AE4 /* WYACategory */,
+				2102AE0A2079B5EF00362AE4 /* WYATool */,
+				2102ADCD2074710D00362AE4 /* WYABaseFile */,
+				2102ADCE2074717000362AE4 /* WYAConfigFile */,
+				2102AD9420746B6700362AE4 /* Main.storyboard */,
+				2102AD9720746B6700362AE4 /* Assets.xcassets */,
+				2102AD9920746B6700362AE4 /* LaunchScreen.storyboard */,
+				2102AD9C20746B6700362AE4 /* Info.plist */,
+				2102AD9D20746B6700362AE4 /* main.m */,
+			);
+			path = WYA_Project;
+			sourceTree = "<group>";
+		};
+		2102ADC220746E5F00362AE4 /* WYALogin */ = {
+			isa = PBXGroup;
+			children = (
+				2102ADC520746E5F00362AE4 /* Model */,
+				2102ADC620746E5F00362AE4 /* View */,
+				2102ADC320746E5F00362AE4 /* ViewModel */,
+				2102ADC420746E5F00362AE4 /* Controller */,
+			);
+			path = WYALogin;
+			sourceTree = "<group>";
+		};
+		2102ADC320746E5F00362AE4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2102AE072079A64B00362AE4 /* WYALoginNetRequest.h */,
+				2102AE082079A64B00362AE4 /* WYALoginNetRequest.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2102ADC420746E5F00362AE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2102ADC720746EF100362AE4 /* WYALoginVC.h */,
+				2102ADC820746EF100362AE4 /* WYALoginVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2102ADC520746E5F00362AE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2102AE0E2079BDEB00362AE4 /* WYAUserModel.h */,
+				2102AE0F2079BDEB00362AE4 /* WYAUserModel.m */,
+				2102AE112079C19800362AE4 /* WYAUserInfo.h */,
+				2102AE122079C19800362AE4 /* WYAUserInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2102ADC620746E5F00362AE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2102ADF12074A14000362AE4 /* WYALoginView.h */,
+				2102ADF22074A14000362AE4 /* WYALoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2102ADCD2074710D00362AE4 /* WYABaseFile */ = {
+			isa = PBXGroup;
+			children = (
+				21C3A9D120B57ABF00B9AEE0 /* WYAEmptyDataView.h */,
+				9515742A207B687F00257341 /* WYATablePlaceHoldView.h */,
+				95157429207B687E00257341 /* WYATablePlaceHoldView.m */,
+				2102ADCA2074708100362AE4 /* WYABaseNetRequest.h */,
+				2102ADCB2074708100362AE4 /* WYABaseNetRequest.m */,
+				2102ADCF20749CA200362AE4 /* WYATabbarViewController.h */,
+				21C3A9D220B57ABF00B9AEE0 /* WYAEmptyDataView.m */,
+				2102ADD020749CA200362AE4 /* WYATabbarViewController.m */,
+				2102ADD220749CFA00362AE4 /* WYANavigationViewController.h */,
+				2102ADD320749CFA00362AE4 /* WYANavigationViewController.m */,
+				2102ADE520749F1E00362AE4 /* WYAViewController.h */,
+				2102ADE620749F1E00362AE4 /* WYAViewController.m */,
+				2102AE2D2079FBE300362AE4 /* WYATableViewController.h */,
+				2102AE2E2079FBE300362AE4 /* WYATableViewController.m */,
+			);
+			path = WYABaseFile;
+			sourceTree = "<group>";
+		};
+		2102ADCE2074717000362AE4 /* WYAConfigFile */ = {
+			isa = PBXGroup;
+			children = (
+				2102ADC120746DB600362AE4 /* ThirdClassHeader.h */,
+				2102ADF72074CDED00362AE4 /* WYAProjectHeader.h */,
+				2102ADC020746CAF00362AE4 /* WYA.pch */,
+				211BF00F208F112F00A66270 /* WYAGlobalString.h */,
+				211BF0302090570000A66270 /* WYANoticeName.h */,
+				2102AE142079C3D100362AE4 /* WYAUrl.h */,
+			);
+			path = WYAConfigFile;
+			sourceTree = "<group>";
+		};
+		2102ADD520749E4F00362AE4 /* WYASchool */ = {
+			isa = PBXGroup;
+			children = (
+				2102ADD920749E4F00362AE4 /* View */,
+				2102ADD820749E4F00362AE4 /* Model */,
+				2102ADD620749E4F00362AE4 /* ViewModel */,
+				2102ADD720749E4F00362AE4 /* Controller */,
+			);
+			path = WYASchool;
+			sourceTree = "<group>";
+		};
+		2102ADD620749E4F00362AE4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				211BF01B208F417900A66270 /* WYASearchViewModel */,
+				2102AE1A2079EB4F00362AE4 /* WYAArticle */,
+				2102AE192079EB4F00362AE4 /* WYACourse */,
+				2102AE182079EB0400362AE4 /* WYALecturer */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2102ADD720749E4F00362AE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				211BF013208F416300A66270 /* SearchController */,
+				2102ADE82074A06100362AE4 /* WYASchoolVC.h */,
+				2102ADE92074A06100362AE4 /* WYASchoolVC.m */,
+				2102ADFC2076878800362AE4 /* WYAArticle */,
+				2102ADFB2076874200362AE4 /* WYACourse */,
+				2102ADFD207687B800362AE4 /* WYALecturer */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2102ADD820749E4F00362AE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				211BF017208F416C00A66270 /* WYASearchModel */,
+				2102AE1F2079EB6400362AE4 /* WYAArticle */,
+				2102AE1E2079EB6400362AE4 /* WYACourse */,
+				2102AE202079EB6400362AE4 /* WYALecturer */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2102ADD920749E4F00362AE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				211BF01F208F418300A66270 /* WYASearchView */,
+				2102AE1C2079EB5B00362AE4 /* WYAArticle */,
+				2102AE1B2079EB5B00362AE4 /* WYACourse */,
+				2102AE1D2079EB5B00362AE4 /* WYALecturer */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2102ADDA20749E5600362AE4 /* WYAWeChatBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				2102ADDE20749E5600362AE4 /* View */,
+				2102ADDD20749E5600362AE4 /* Model */,
+				2102ADDB20749E5600362AE4 /* ViewModel */,
+				2102ADDC20749E5600362AE4 /* Controller */,
+			);
+			path = WYAWeChatBusiness;
+			sourceTree = "<group>";
+		};
+		2102ADDB20749E5600362AE4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2102ADDC20749E5600362AE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2102ADEB2074A08600362AE4 /* WYAWeChatBusinessVC.h */,
+				2102ADEC2074A08600362AE4 /* WYAWeChatBusinessVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2102ADDD20749E5600362AE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2102ADDE20749E5600362AE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2102ADDF20749E5D00362AE4 /* WYAMine */ = {
+			isa = PBXGroup;
+			children = (
+				2102ADE320749E5D00362AE4 /* View */,
+				2102ADE220749E5D00362AE4 /* Model */,
+				2102ADE020749E5D00362AE4 /* ViewModel */,
+				2102ADE120749E5D00362AE4 /* Controller */,
+			);
+			path = WYAMine;
+			sourceTree = "<group>";
+		};
+		2102ADE020749E5D00362AE4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				21100C292089D6A700474F97 /* WYAMineInfo */,
+				21100C132089C68D00474F97 /* WYAMineDownload */,
+				218378672084A73C0093C95C /* WYAMineCollection */,
+				21837850208208C90093C95C /* WYATestVolumeNetRequest */,
+				218378032080340D0093C95C /* WYAMineAdminInfoNetRequest.h */,
+				218378022080340C0093C95C /* WYAMineAdminInfoNetRequest.m */,
+				213695592086DE4F0098F673 /* WYATestScoresNetRequest.h */,
+				2136955A2086DE4F0098F673 /* WYATestScoresNetRequest.m */,
+				2136957E20871FF60098F673 /* WYATestPaperNetRequest.h */,
+				2136957F20871FF60098F673 /* WYATestPaperNetRequest.m */,
+				218377FF2080340C0093C95C /* WYAMineAttentionViewModel */,
+				21AA50D4207DB75200864205 /* WYAMyCourseTable */,
+				21AA50D7207DB75200864205 /* WYANewCourse */,
+				95157421207B682B00257341 /* WYAOpinion */,
+				95157424207B682B00257341 /* WYASetting */,
+				2102AE49207A1BA400362AE4 /* WYAMineCellViewModel.h */,
+				2102AE4A207A1BA400362AE4 /* WYAMineCellViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2102ADE120749E5D00362AE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21100C0B2089BD7400474F97 /* WYAMineDownload */,
+				2183785C208485F00093C95C /* WYAMineCollection */,
+				2183784C208208BB0093C95C /* WYATestVolumeVC */,
+				218377F0208033AE0093C95C /* WYAMineAttention */,
+				21AA50CC207DB74000864205 /* WYAMyCourseTable */,
+				21AA50CF207DB74100864205 /* WYANewCourse */,
+				9515740F207B680B00257341 /* WYAOpinion */,
+				95157412207B680B00257341 /* WYASetting */,
+				21100C1B2089CB8800474F97 /* WYAMineInfo */,
+				2102ADEE2074A09900362AE4 /* WYAMineViewController.h */,
+				2102ADEF2074A09900362AE4 /* WYAMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2102ADE220749E5D00362AE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21100C2D2089D73300474F97 /* WYAMineInfo */,
+				2102AE47207A1B9000362AE4 /* WYAMineCellModel.h */,
+				2102AE46207A1B9000362AE4 /* WYAMineCellModel.m */,
+				218377F8208033EC0093C95C /* WYAAdminInfoModel.h */,
+				218377F9208033EC0093C95C /* WYAAdminInfoModel.m */,
+				21100C172089C8B900474F97 /* WYAMineDownload */,
+				2136953A208600410098F673 /* WYATestVolumeModel */,
+				2183786B2084AB850093C95C /* WYAMineCollection */,
+				218377FA208033ED0093C95C /* WYAMineAttentionModel */,
+				21AA50DF207DB76F00864205 /* WYAMyCourseTable */,
+				21AA50DC207DB76F00864205 /* WYANewCourse */,
+				9515741F207B682200257341 /* WYAOpinion */,
+				9515741C207B682200257341 /* WYASetting */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2102ADE320749E5D00362AE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21100C1F2089CC7B00474F97 /* WYAMineInfo */,
+				21100C0F2089BE0D00474F97 /* WYAMineDownload */,
+				218378602084926E0093C95C /* WYAMineCollection */,
+				21837852208208E90093C95C /* WYATestVolumeView */,
+				218377F4208033CE0093C95C /* WYAMineAttentionView */,
+				21AA50E7207DB77A00864205 /* WYAMyCourseTable */,
+				21AA50E4207DB77900864205 /* WYANewCourse */,
+				95157418207B681B00257341 /* WYAOpinion */,
+				95157417207B681A00257341 /* WYASetting */,
+				2102AE3F207A1B7000362AE4 /* WYAMineHeaderView.h */,
+				2102AE3D207A1B6F00362AE4 /* WYAMineHeaderView.m */,
+				2102AE42207A1B7000362AE4 /* WYAMineTableView.h */,
+				2102AE40207A1B7000362AE4 /* WYAMineTableView.m */,
+				2102AE3E207A1B6F00362AE4 /* WYAMineTableViewCell.h */,
+				2102AE41207A1B7000362AE4 /* WYAMineTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2102ADE420749EF500362AE4 /* WYACategory */ = {
+			isa = PBXGroup;
+			children = (
+				211BF0442091692300A66270 /* MBProgressHUD+WYAExpand.h */,
+				211BF0432091692200A66270 /* MBProgressHUD+WYAExpand.m */,
+				21100C322089E36A00474F97 /* UIViewController+XHPhoto.h */,
+				21100C312089E36A00474F97 /* UIViewController+XHPhoto.m */,
+				218378272080B95D0093C95C /* UILabel+WYALabelAlighTop.h */,
+				218378282080B95D0093C95C /* UILabel+WYALabelAlighTop.m */,
+				21AA50B6207DB69100864205 /* NSDate+WYADate.h */,
+				21AA50B7207DB69100864205 /* NSDate+WYADate.m */,
+				21AA50BA207DB69100864205 /* NSString+WYAString.h */,
+				21AA50B9207DB69100864205 /* NSString+WYAString.m */,
+				21AA50B8207DB69100864205 /* UIView+Toast.h */,
+				21AA50BB207DB69100864205 /* UIView+Toast.m */,
+				2102ADF42074CDAA00362AE4 /* UIColor+WYAColor.h */,
+				2102ADF52074CDAA00362AE4 /* UIColor+WYAColor.m */,
+				2102AE4C207A1BBB00362AE4 /* UIView+WYALayout.h */,
+				2102AE4D207A1BBB00362AE4 /* UIView+WYALayout.m */,
+				2102AE4E207A1BBB00362AE4 /* WYA_LJHColor.h */,
+			);
+			path = WYACategory;
+			sourceTree = "<group>";
+		};
+		2102ADFB2076874200362AE4 /* WYACourse */ = {
+			isa = PBXGroup;
+			children = (
+				2102AE01207687F900362AE4 /* WYACouresVC.h */,
+				2102AE02207687F900362AE4 /* WYACouresVC.m */,
+				2102AE302079FC4600362AE4 /* WYACouresListTableVC.h */,
+				2102AE312079FC4600362AE4 /* WYACouresListTableVC.m */,
+				21AA50B3207D9EC400864205 /* WYACourseDetailVC.h */,
+				21AA50B4207D9EC400864205 /* WYACourseDetailVC.m */,
+				211BF028209007ED00A66270 /* WYAChooseDownload */,
+				21AA5134207F5BE700864205 /* WYACourseShortIntroduction */,
+				2183781620805DE40093C95C /* WYACourseCatalog */,
+				21837830208195FC0093C95C /* WYACourseDownload */,
+			);
+			path = WYACourse;
+			sourceTree = "<group>";
+		};
+		2102ADFC2076878800362AE4 /* WYAArticle */ = {
+			isa = PBXGroup;
+			children = (
+				21AA50F1207DB79800864205 /* WYAArticleDetailsVC.h */,
+				21AA50EF207DB79700864205 /* WYAArticleDetailsVC.m */,
+				21AA50F0207DB79800864205 /* WYAArticleListVC.h */,
+				21AA50F2207DB79800864205 /* WYAArticleListVC.m */,
+				2102ADFE207687DC00362AE4 /* WYAArticleVC.h */,
+				2102ADFF207687DC00362AE4 /* WYAArticleVC.m */,
+			);
+			path = WYAArticle;
+			sourceTree = "<group>";
+		};
+		2102ADFD207687B800362AE4 /* WYALecturer */ = {
+			isa = PBXGroup;
+			children = (
+				2102AE042076881F00362AE4 /* WYALecturerVC.h */,
+				2102AE052076881F00362AE4 /* WYALecturerVC.m */,
+				95C87FE0207B01F600442744 /* WYALecturerListVC.h */,
+				95C87FE1207B01F600442744 /* WYALecturerListVC.m */,
+				21AA50BF207DB6BB00864205 /* WYALecturerpersonal */,
+			);
+			path = WYALecturer;
+			sourceTree = "<group>";
+		};
+		2102AE0A2079B5EF00362AE4 /* WYATool */ = {
+			isa = PBXGroup;
+			children = (
+				21B2660920940DC10057A512 /* ZFPlayer */,
+				213DE7A620887D7E00F0A3F6 /* WYAJHTools.h */,
+				213DE7A720887D7F00F0A3F6 /* WYAJHTools.m */,
+				213695572086D6710098F673 /* WYAJHAnswerModel.h */,
+				213695562086D6700098F673 /* WYAJHAnswerModel.m */,
+				9515740C207B67F500257341 /* UIViewExt.h */,
+				9515740D207B67F500257341 /* UIViewExt.m */,
+				2102AE0B2079B61300362AE4 /* WYAShowMessageView.h */,
+				2102AE0C2079B61300362AE4 /* WYAShowMessageView.m */,
+				95C87FE9207B39CE00442744 /* WYADataNullCheckTool.h */,
+				95C87FEA207B39CE00442744 /* WYADataNullCheckTool.m */,
+				213D826420B31B26006E60DF /* SODownloader+WYAVideoDownload.h */,
+				213D826520B31B26006E60DF /* SODownloader+WYAVideoDownload.m */,
+				218484AE20B439C80050EB47 /* AppDelegate+SODownloader.h */,
+				218484AD20B439C80050EB47 /* AppDelegate+SODownloader.m */,
+				213D826A20B3BF67006E60DF /* WYAFMDBManager.h */,
+				213D826B20B3BF67006E60DF /* WYAFMDBManager.m */,
+			);
+			path = WYATool;
+			sourceTree = "<group>";
+		};
+		2102AE182079EB0400362AE4 /* WYALecturer */ = {
+			isa = PBXGroup;
+			children = (
+				21AA50C3207DB6DE00864205 /* WYALecturerpersonalViewModel */,
+				95C87FF2207B436A00442744 /* WYALecturerNetRequest.h */,
+				95C87FF3207B436B00442744 /* WYALecturerNetRequest.m */,
+			);
+			path = WYALecturer;
+			sourceTree = "<group>";
+		};
+		2102AE192079EB4F00362AE4 /* WYACourse */ = {
+			isa = PBXGroup;
+			children = (
+				2102AE212079EBA400362AE4 /* WYACouresNetRequest.h */,
+				2102AE222079EBA400362AE4 /* WYACouresNetRequest.m */,
+				211BF027209007CF00A66270 /* WYAChooseDownload */,
+				218378202080622F0093C95C /* WYACourseCatalog */,
+				21837831208196200093C95C /* WYACourseDownload */,
+			);
+			path = WYACourse;
+			sourceTree = "<group>";
+		};
+		2102AE1A2079EB4F00362AE4 /* WYAArticle */ = {
+			isa = PBXGroup;
+			children = (
+				95C87FFE207B5BC600442744 /* WYAArticleNetRequest.h */,
+				95C87FFF207B5BC600442744 /* WYAArticleNetRequest.m */,
+			);
+			path = WYAArticle;
+			sourceTree = "<group>";
+		};
+		2102AE1B2079EB5B00362AE4 /* WYACourse */ = {
+			isa = PBXGroup;
+			children = (
+				2102AE36207A087700362AE4 /* WYACouresListCell.h */,
+				2102AE37207A087700362AE4 /* WYACouresListCell.m */,
+				21AA50F5207DB8BF00864205 /* WYACourseDetailView.h */,
+				21AA50F6207DB8BF00864205 /* WYACourseDetailView.m */,
+				21AA50FE207E09B400864205 /* WYAVideoControlView.h */,
+				21AA50FF207E09B400864205 /* WYAVideoControlView.m */,
+				21837859208478870093C95C /* WYACourseTestView.h */,
+				2183785A208478870093C95C /* WYACourseTestView.m */,
+				21AA5131207F550D00864205 /* WYANetErrorView.h */,
+				21AA5132207F550D00864205 /* WYANetErrorView.m */,
+				211BF0292090080A00A66270 /* WYAChooseDownload */,
+				21AA5135207F5C5F00864205 /* WYACourseShortIntroduction */,
+				2183781420805DC50093C95C /* WYACourseCatalog */,
+				218378332081965F0093C95C /* WYACourseDownload */,
+			);
+			path = WYACourse;
+			sourceTree = "<group>";
+		};
+		2102AE1C2079EB5B00362AE4 /* WYAArticle */ = {
+			isa = PBXGroup;
+			children = (
+				214CC4372091E276009F65A3 /* WYAArticleDetailsBottomView.h */,
+				214CC4382091E276009F65A3 /* WYAArticleDetailsBottomView.m */,
+				211BF0472091694E00A66270 /* WYAArticleDetailsHeaderView.h */,
+				211BF0462091694D00A66270 /* WYAArticleDetailsHeaderView.m */,
+				95C87FF5207B4B5C00442744 /* WYAArticleTableViewCell.h */,
+				95C87FF6207B4B5C00442744 /* WYAArticleTableViewCell.m */,
+			);
+			path = WYAArticle;
+			sourceTree = "<group>";
+		};
+		2102AE1D2079EB5B00362AE4 /* WYALecturer */ = {
+			isa = PBXGroup;
+			children = (
+				21AA50C5207DB6F800864205 /* WYALecturerpersonalView */,
+				95C87FE3207B044E00442744 /* WYALecturerTableViewCell.h */,
+				95C87FE4207B044E00442744 /* WYALecturerTableViewCell.m */,
+			);
+			path = WYALecturer;
+			sourceTree = "<group>";
+		};
+		2102AE1E2079EB6400362AE4 /* WYACourse */ = {
+			isa = PBXGroup;
+			children = (
+				211BF023208F41AF00A66270 /* WYASearchCourseModel.h */,
+				211BF024208F41B000A66270 /* WYASearchCourseModel.m */,
+				2102AE242079F55B00362AE4 /* WYACouresCategory.h */,
+				2102AE252079F55B00362AE4 /* WYACouresCategory.m */,
+				2102AE33207A03D500362AE4 /* WYACouresListModel.h */,
+				2102AE34207A03D500362AE4 /* WYACouresListModel.m */,
+				21AA50F8207DE33A00864205 /* WYACourseDetailModel.h */,
+				21AA50F9207DE33A00864205 /* WYACourseDetailModel.m */,
+				211BF026209007A600A66270 /* WYAChooseDownload */,
+				2183781520805DD70093C95C /* WYACourseCatalog */,
+				218378322081964D0093C95C /* WYACourseDownload */,
+			);
+			path = WYACourse;
+			sourceTree = "<group>";
+		};
+		2102AE1F2079EB6400362AE4 /* WYAArticle */ = {
+			isa = PBXGroup;
+			children = (
+				2183782A2080B9740093C95C /* WYAArticleDetailModel.h */,
+				2183782B2080B9740093C95C /* WYAArticleDetailModel.m */,
+				95C87FF8207B542D00442744 /* WYAArticleCategory.h */,
+				95C87FF9207B542D00442744 /* WYAArticleCategory.m */,
+				95C87FFB207B544100442744 /* WYAArticleListModel.h */,
+				95C87FFC207B544100442744 /* WYAArticleListModel.m */,
+			);
+			path = WYAArticle;
+			sourceTree = "<group>";
+		};
+		2102AE202079EB6400362AE4 /* WYALecturer */ = {
+			isa = PBXGroup;
+			children = (
+				21AA50C4207DB6EA00864205 /* WYALecturerpersonalModel */,
+				95C87FDA207AF4C400442744 /* WYALecturerModel.h */,
+				95C87FDB207AF4C400442744 /* WYALecturerModel.m */,
+			);
+			path = WYALecturer;
+			sourceTree = "<group>";
+		};
+		21100C0B2089BD7400474F97 /* WYAMineDownload */ = {
+			isa = PBXGroup;
+			children = (
+				21100C0C2089BD9700474F97 /* WYAMineDownloadVC.h */,
+				21100C0D2089BD9700474F97 /* WYAMineDownloadVC.m */,
+				214CC43D2092D042009F65A3 /* WYAFinishDownload */,
+				211BF03120905D9100A66270 /* WYANowDownload */,
+			);
+			path = WYAMineDownload;
+			sourceTree = "<group>";
+		};
+		21100C0F2089BE0D00474F97 /* WYAMineDownload */ = {
+			isa = PBXGroup;
+			children = (
+				214CC4412092D0B1009F65A3 /* WYAFinishDownload */,
+				211BF038209065BB00A66270 /* WYANowDownload */,
+				21100C102089BE2000474F97 /* WYAMineDownloadView.h */,
+				21100C112089BE2000474F97 /* WYAMineDownloadView.m */,
+				211BEFDC208DCBFB00A66270 /* WYAMineVideoDownloadCell.h */,
+				211BEFDD208DCBFB00A66270 /* WYAMineVideoDownloadCell.m */,
+				211BEFDF208DD11D00A66270 /* WYAMineArticleDownloadCell.h */,
+				211BEFE0208DD11D00A66270 /* WYAMineArticleDownloadCell.m */,
+			);
+			path = WYAMineDownload;
+			sourceTree = "<group>";
+		};
+		21100C132089C68D00474F97 /* WYAMineDownload */ = {
+			isa = PBXGroup;
+			children = (
+				211BF03F209074A900A66270 /* WYANowDownload */,
+				214CC4482092E2A7009F65A3 /* WYAFinishDownload */,
+				21100C142089C6A600474F97 /* WYAMineDownloadNetRequest.h */,
+				21100C152089C6A600474F97 /* WYAMineDownloadNetRequest.m */,
+			);
+			path = WYAMineDownload;
+			sourceTree = "<group>";
+		};
+		21100C172089C8B900474F97 /* WYAMineDownload */ = {
+			isa = PBXGroup;
+			children = (
+				21100C182089C8CF00474F97 /* WYAMineDownloadModel.h */,
+				21100C192089C8CF00474F97 /* WYAMineDownloadModel.m */,
+			);
+			path = WYAMineDownload;
+			sourceTree = "<group>";
+		};
+		21100C1B2089CB8800474F97 /* WYAMineInfo */ = {
+			isa = PBXGroup;
+			children = (
+				21100C1C2089CC1A00474F97 /* WYAMineInfoVC.h */,
+				21100C1D2089CC1A00474F97 /* WYAMineInfoVC.m */,
+				213D2A20208D63D30091905E /* WYANickNameVC.h */,
+				213D2A21208D63D30091905E /* WYANickNameVC.m */,
+				211BEFD9208DB2CF00A66270 /* WYAChangerPasswordVC.h */,
+				211BEFDA208DB2CF00A66270 /* WYAChangerPasswordVC.m */,
+			);
+			path = WYAMineInfo;
+			sourceTree = "<group>";
+		};
+		21100C1F2089CC7B00474F97 /* WYAMineInfo */ = {
+			isa = PBXGroup;
+			children = (
+				21100C202089CCB900474F97 /* WYAMineInfoCell.h */,
+				21100C212089CCB900474F97 /* WYAMineInfoCell.m */,
+			);
+			path = WYAMineInfo;
+			sourceTree = "<group>";
+		};
+		21100C292089D6A700474F97 /* WYAMineInfo */ = {
+			isa = PBXGroup;
+			children = (
+				21100C2A2089D6E600474F97 /* WYAMineInfoNetRequest.h */,
+				21100C2B2089D6E600474F97 /* WYAMineInfoNetRequest.m */,
+			);
+			path = WYAMineInfo;
+			sourceTree = "<group>";
+		};
+		21100C2D2089D73300474F97 /* WYAMineInfo */ = {
+			isa = PBXGroup;
+			children = (
+				21100C2E2089D74C00474F97 /* WYAMineInfoModel.h */,
+				21100C2F2089D74C00474F97 /* WYAMineInfoModel.m */,
+			);
+			path = WYAMineInfo;
+			sourceTree = "<group>";
+		};
+		211BF013208F416300A66270 /* SearchController */ = {
+			isa = PBXGroup;
+			children = (
+				211BF04A2091698B00A66270 /* WYASearchAllViewController.h */,
+				211BF04E2091698C00A66270 /* WYASearchAllViewController.m */,
+				211BF04B2091698C00A66270 /* WYASearchArticleViewController.h */,
+				211BF04C2091698C00A66270 /* WYASearchArticleViewController.m */,
+				211BF04D2091698C00A66270 /* WYASearchCourseViewController.h */,
+				211BF0492091698B00A66270 /* WYASearchCourseViewController.m */,
+				211BF0502091698C00A66270 /* WYASearchTeacherViewController.h */,
+				211BF04F2091698C00A66270 /* WYASearchTeacherViewController.m */,
+				211BF014208F416300A66270 /* WYASearchViewController.h */,
+				211BF015208F416300A66270 /* WYASearchViewController.m */,
+			);
+			path = SearchController;
+			sourceTree = "<group>";
+		};
+		211BF017208F416C00A66270 /* WYASearchModel */ = {
+			isa = PBXGroup;
+			children = (
+				211BF018208F416C00A66270 /* WYASearchModel.h */,
+				211BF019208F416C00A66270 /* WYASearchModel.m */,
+			);
+			path = WYASearchModel;
+			sourceTree = "<group>";
+		};
+		211BF01B208F417900A66270 /* WYASearchViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				211BF01C208F417900A66270 /* WYASearchNetRequest.m */,
+				211BF01D208F417900A66270 /* WYASearchNetRequest.h */,
+			);
+			path = WYASearchViewModel;
+			sourceTree = "<group>";
+		};
+		211BF01F208F418300A66270 /* WYASearchView */ = {
+			isa = PBXGroup;
+			children = (
+				211BF020208F418300A66270 /* WYASearchView.h */,
+				211BF021208F418300A66270 /* WYASearchView.m */,
+			);
+			path = WYASearchView;
+			sourceTree = "<group>";
+		};
+		211BF026209007A600A66270 /* WYAChooseDownload */ = {
+			isa = PBXGroup;
+			children = (
+				211BEFE8208DEB2C00A66270 /* WYAChooseDownloadMolde.h */,
+				211BEFE9208DEB2C00A66270 /* WYAChooseDownloadMolde.m */,
+				211BF010208F232A00A66270 /* WYALocalDownloadModel.h */,
+				211BF011208F232A00A66270 /* WYALocalDownloadModel.m */,
+				211BF0352090618E00A66270 /* WYATableNameModel.h */,
+				211BF0362090618E00A66270 /* WYATableNameModel.m */,
+			);
+			path = WYAChooseDownload;
+			sourceTree = "<group>";
+		};
+		211BF027209007CF00A66270 /* WYAChooseDownload */ = {
+			isa = PBXGroup;
+			children = (
+				211BF02D209008A200A66270 /* WYAChooseDownloadNetRequest.h */,
+				211BF02E209008A200A66270 /* WYAChooseDownloadNetRequest.m */,
+			);
+			path = WYAChooseDownload;
+			sourceTree = "<group>";
+		};
+		211BF028209007ED00A66270 /* WYAChooseDownload */ = {
+			isa = PBXGroup;
+			children = (
+				211BEFE2208DDE5600A66270 /* WYAChooseDownloadVC.h */,
+				211BEFE3208DDE5600A66270 /* WYAChooseDownloadVC.m */,
+			);
+			path = WYAChooseDownload;
+			sourceTree = "<group>";
+		};
+		211BF0292090080A00A66270 /* WYAChooseDownload */ = {
+			isa = PBXGroup;
+			children = (
+				21D627F520AD60BF00D8D2B9 /* WYAChooseDownloadHeadView.h */,
+				21D627F620AD60C000D8D2B9 /* WYAChooseDownloadHeadView.m */,
+				211BEFE5208DDF4200A66270 /* WYAChooseDownloadCell.h */,
+				211BEFE6208DDF4200A66270 /* WYAChooseDownloadCell.m */,
+				211BEFEB208EC1E600A66270 /* WYAChooseDownloadBottomView.h */,
+				211BEFEC208EC1E600A66270 /* WYAChooseDownloadBottomView.m */,
+			);
+			path = WYAChooseDownload;
+			sourceTree = "<group>";
+		};
+		211BF03120905D9100A66270 /* WYANowDownload */ = {
+			isa = PBXGroup;
+			children = (
+				211BF03220905DAA00A66270 /* WYANowDowmloadVC.h */,
+				211BF03320905DAA00A66270 /* WYANowDowmloadVC.m */,
+			);
+			path = WYANowDownload;
+			sourceTree = "<group>";
+		};
+		211BF038209065BB00A66270 /* WYANowDownload */ = {
+			isa = PBXGroup;
+			children = (
+				211BF039209065DA00A66270 /* WYANowDownloadView.h */,
+				211BF03A209065DA00A66270 /* WYANowDownloadView.m */,
+				211BF03C209067A400A66270 /* WYANowDownloadCell.h */,
+				211BF03D209067A400A66270 /* WYANowDownloadCell.m */,
+				214CC43A2092B185009F65A3 /* WYANowDownloadEditView.h */,
+				214CC43B2092B185009F65A3 /* WYANowDownloadEditView.m */,
+			);
+			path = WYANowDownload;
+			sourceTree = "<group>";
+		};
+		211BF03F209074A900A66270 /* WYANowDownload */ = {
+			isa = PBXGroup;
+			children = (
+				211BF040209074BF00A66270 /* WYANowDownloadManager.h */,
+				211BF041209074BF00A66270 /* WYANowDownloadManager.m */,
+			);
+			path = WYANowDownload;
+			sourceTree = "<group>";
+		};
+		2136953A208600410098F673 /* WYATestVolumeModel */ = {
+			isa = PBXGroup;
+			children = (
+				21B266042093F6650057A512 /* WYAMainPaperListModel.h */,
+				21B266032093F6640057A512 /* WYAMainPaperListModel.m */,
+				216E5E6E20C54DB500968AFD /* WYALevelPaperListModel.h */,
+				216E5E6F20C54DB500968AFD /* WYALevelPaperListModel.m */,
+				213DE7B320887DBB00F0A3F6 /* WYATestQuestionParsingModel */,
+				2136953B208600410098F673 /* WYATestQuestionListModel.m */,
+				2136953C208600410098F673 /* WYATestQuestionListModel.h */,
+				2136955C2086DF260098F673 /* WYAMineTestScoresModel.h */,
+				2136955D2086DF260098F673 /* WYAMineTestScoresModel.m */,
+				213695812087253D0098F673 /* WYATestPaperPeopleAndChapterModel.h */,
+				213695822087253D0098F673 /* WYATestPaperPeopleAndChapterModel.m */,
+				213DE7C12088895300F0A3F6 /* WYATestPaperModel.h */,
+				213DE7C22088895300F0A3F6 /* WYATestPaperModel.m */,
+			);
+			path = WYATestVolumeModel;
+			sourceTree = "<group>";
+		};
+		213DE7A920887DA900F0A3F6 /* WYATestQuestionParsing */ = {
+			isa = PBXGroup;
+			children = (
+				211BEFFB208EE11600A66270 /* WYAPadsingDetailsViewController.h */,
+				211BEFFA208EE11600A66270 /* WYAPadsingDetailsViewController.m */,
+				213DE7AB20887DA900F0A3F6 /* WYAPadsingCardViewController.m */,
+				213DE7AC20887DA900F0A3F6 /* WYAReportViewController.h */,
+				213DE7AD20887DA900F0A3F6 /* WYAReportViewController.m */,
+				213DE7AE20887DA900F0A3F6 /* WYAPadsingCardViewController.h */,
+			);
+			path = WYATestQuestionParsing;
+			sourceTree = "<group>";
+		};
+		213DE7B320887DBB00F0A3F6 /* WYATestQuestionParsingModel */ = {
+			isa = PBXGroup;
+			children = (
+				211BEFEF208EE09A00A66270 /* WYACardParsingListModel.h */,
+				211BEFEE208EE09A00A66270 /* WYACardParsingListModel.m */,
+				211BEFF1208EE09A00A66270 /* WYACardParsingModel.h */,
+				211BEFF0208EE09A00A66270 /* WYACardParsingModel.m */,
+				213DE7B420887DBB00F0A3F6 /* WYAJHPieModel.m */,
+				213DE7B520887DBB00F0A3F6 /* WYAJHPieModel.h */,
+			);
+			path = WYATestQuestionParsingModel;
+			sourceTree = "<group>";
+		};
+		213DE7B720887DC800F0A3F6 /* WYATestQuestionParsingView */ = {
+			isa = PBXGroup;
+			children = (
+				211BEFF5208EE0B000A66270 /* WYACardReportBottomView.h */,
+				211BEFF6208EE0B000A66270 /* WYACardReportBottomView.m */,
+				211BEFF7208EE0B100A66270 /* WYAPadsingDetailsCell.h */,
+				211BEFF4208EE0B000A66270 /* WYAPadsingDetailsCell.m */,
+				21100C232089D31900474F97 /* WYACardReportContentView.h */,
+				21100C242089D31900474F97 /* WYACardReportContentView.m */,
+				213DE7B820887DC800F0A3F6 /* WYACardReportHeaderView.m */,
+				213DE7B920887DC800F0A3F6 /* WYAJHPieCenterView.m */,
+				213DE7BA20887DC800F0A3F6 /* WYAJHPieChart.h */,
+				213DE7BB20887DC800F0A3F6 /* WYACardReportHeaderView.h */,
+				213DE7BC20887DC800F0A3F6 /* WYAJHPieChart.m */,
+				213DE7BD20887DC800F0A3F6 /* WYAJHPieCenterView.h */,
+			);
+			path = WYATestQuestionParsingView;
+			sourceTree = "<group>";
+		};
+		214CC43D2092D042009F65A3 /* WYAFinishDownload */ = {
+			isa = PBXGroup;
+			children = (
+				214CC43E2092D05F009F65A3 /* WYAFinishDownloadVC.h */,
+				214CC43F2092D05F009F65A3 /* WYAFinishDownloadVC.m */,
+				21C3A9CE20B5787200B9AEE0 /* WYALocalVideoVC.h */,
+				21C3A9CF20B5787200B9AEE0 /* WYALocalVideoVC.m */,
+			);
+			path = WYAFinishDownload;
+			sourceTree = "<group>";
+		};
+		214CC4412092D0B1009F65A3 /* WYAFinishDownload */ = {
+			isa = PBXGroup;
+			children = (
+				214CC4422092D2D5009F65A3 /* WYAFinishDownloadView.h */,
+				214CC4432092D2D5009F65A3 /* WYAFinishDownloadView.m */,
+				214CC4452092D46E009F65A3 /* WYAFinishDownloadCell.h */,
+				214CC4462092D46E009F65A3 /* WYAFinishDownloadCell.m */,
+			);
+			path = WYAFinishDownload;
+			sourceTree = "<group>";
+		};
+		214CC4482092E2A7009F65A3 /* WYAFinishDownload */ = {
+			isa = PBXGroup;
+			children = (
+				214CC4492092E385009F65A3 /* WYAFinishDownloadManager.h */,
+				214CC44A2092E385009F65A3 /* WYAFinishDownloadManager.m */,
+			);
+			path = WYAFinishDownload;
+			sourceTree = "<group>";
+		};
+		218377F0208033AE0093C95C /* WYAMineAttention */ = {
+			isa = PBXGroup;
+			children = (
+				218377F1208033AE0093C95C /* WYAAttentionViewController.h */,
+				218377F2208033AE0093C95C /* WYAAttentionViewController.m */,
+			);
+			path = WYAMineAttention;
+			sourceTree = "<group>";
+		};
+		218377F4208033CE0093C95C /* WYAMineAttentionView */ = {
+			isa = PBXGroup;
+			children = (
+				218377F5208033CE0093C95C /* WYAAttentionTableViewCell.h */,
+				218377F6208033CE0093C95C /* WYAAttentionTableViewCell.m */,
+			);
+			path = WYAMineAttentionView;
+			sourceTree = "<group>";
+		};
+		218377FA208033ED0093C95C /* WYAMineAttentionModel */ = {
+			isa = PBXGroup;
+			children = (
+				218377FB208033ED0093C95C /* WYAAttentionModel.h */,
+				218377FC208033ED0093C95C /* WYAAttentionModel.m */,
+			);
+			path = WYAMineAttentionModel;
+			sourceTree = "<group>";
+		};
+		218377FF2080340C0093C95C /* WYAMineAttentionViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				218378002080340C0093C95C /* WYAAttentionNetRequest.m */,
+				218378012080340C0093C95C /* WYAAttentionNetRequest.h */,
+			);
+			path = WYAMineAttentionViewModel;
+			sourceTree = "<group>";
+		};
+		2183781420805DC50093C95C /* WYACourseCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				2183781A20805EB50093C95C /* WYACourseCatalogHeadView.h */,
+				2183781B20805EB50093C95C /* WYACourseCatalogHeadView.m */,
+				2183782D20818CD60093C95C /* WYACourseCatalogFootView.h */,
+				2183782E20818CD60093C95C /* WYACourseCatalogFootView.m */,
+				2183781D208060320093C95C /* WYACourseCatalogCell.h */,
+				2183781E208060320093C95C /* WYACourseCatalogCell.m */,
+			);
+			path = WYACourseCatalog;
+			sourceTree = "<group>";
+		};
+		2183781520805DD70093C95C /* WYACourseCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				21837824208081FD0093C95C /* WYACourseCatalogModel.h */,
+				21837825208081FD0093C95C /* WYACourseCatalogModel.m */,
+			);
+			path = WYACourseCatalog;
+			sourceTree = "<group>";
+		};
+		2183781620805DE40093C95C /* WYACourseCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				2183781720805E1C0093C95C /* WYACourseCatalogVC.h */,
+				2183781820805E1D0093C95C /* WYACourseCatalogVC.m */,
+			);
+			path = WYACourseCatalog;
+			sourceTree = "<group>";
+		};
+		218378202080622F0093C95C /* WYACourseCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				21837821208062510093C95C /* WYACourseCatalogNetRequst.h */,
+				21837822208062510093C95C /* WYACourseCatalogNetRequst.m */,
+			);
+			path = WYACourseCatalog;
+			sourceTree = "<group>";
+		};
+		21837830208195FC0093C95C /* WYACourseDownload */ = {
+			isa = PBXGroup;
+			children = (
+				21837834208196B40093C95C /* WYACourseDownloadTableVC.h */,
+				21837835208196B40093C95C /* WYACourseDownloadTableVC.m */,
+				218378462081F4FA0093C95C /* WYAQuickLookFileVC.h */,
+				218378472081F4FA0093C95C /* WYAQuickLookFileVC.m */,
+			);
+			path = WYACourseDownload;
+			sourceTree = "<group>";
+		};
+		21837831208196200093C95C /* WYACourseDownload */ = {
+			isa = PBXGroup;
+			children = (
+				21837837208197840093C95C /* WYACourseDownloadNetRequest.h */,
+				21837838208197840093C95C /* WYACourseDownloadNetRequest.m */,
+			);
+			path = WYACourseDownload;
+			sourceTree = "<group>";
+		};
+		218378322081964D0093C95C /* WYACourseDownload */ = {
+			isa = PBXGroup;
+			children = (
+				2183783A20819CB70093C95C /* WYACourseDownloadModel.h */,
+				2183783B20819CB70093C95C /* WYACourseDownloadModel.m */,
+			);
+			path = WYACourseDownload;
+			sourceTree = "<group>";
+		};
+		218378332081965F0093C95C /* WYACourseDownload */ = {
+			isa = PBXGroup;
+			children = (
+				2183783D20819EA10093C95C /* WYACourseDownloadCell.h */,
+				2183783E20819EA10093C95C /* WYACourseDownloadCell.m */,
+				21837849208200510093C95C /* WYACourseDownloadNavView.h */,
+				2183784A208200510093C95C /* WYACourseDownloadNavView.m */,
+			);
+			path = WYACourseDownload;
+			sourceTree = "<group>";
+		};
+		2183784C208208BB0093C95C /* WYATestVolumeVC */ = {
+			isa = PBXGroup;
+			children = (
+				213DE7A920887DA900F0A3F6 /* WYATestQuestionParsing */,
+				21369548208603230098F673 /* WYAAnswerCardViewController.h */,
+				21369547208603220098F673 /* WYAAnswerCardViewController.m */,
+				2183784D208208BB0093C95C /* WYATestVolumeViewController.m */,
+				2183784E208208BB0093C95C /* WYATestVolumeViewController.h */,
+				2136954A2086D46E0098F673 /* WYATestScoresVC.h */,
+				2136954B2086D46E0098F673 /* WYATestScoresVC.m */,
+				2136955F2086E04F0098F673 /* WYAMineTestScoresVC.h */,
+				213695602086E04F0098F673 /* WYAMineTestScoresVC.m */,
+				213695622086E0AD0098F673 /* WYALowerLeverTestScoresVC.h */,
+				213695632086E0AD0098F673 /* WYALowerLeverTestScoresVC.m */,
+				213695752086F49A0098F673 /* WYATestPaperVC.h */,
+				213695762086F49A0098F673 /* WYATestPaperVC.m */,
+			);
+			path = WYATestVolumeVC;
+			sourceTree = "<group>";
+		};
+		21837850208208C90093C95C /* WYATestVolumeNetRequest */ = {
+			isa = PBXGroup;
+			children = (
+				21369545208602B00098F673 /* WYATestVolumeNetRequest.h */,
+				21369544208602B00098F673 /* WYATestVolumeNetRequest.m */,
+			);
+			path = WYATestVolumeNetRequest;
+			sourceTree = "<group>";
+		};
+		21837852208208E90093C95C /* WYATestVolumeView */ = {
+			isa = PBXGroup;
+			children = (
+				21B266062093F6860057A512 /* WYAMAinPaperCollectionView.h */,
+				21B266072093F6860057A512 /* WYAMAinPaperCollectionView.m */,
+				21100C352089FB4500474F97 /* WYATestVolimeBottomView.h */,
+				21100C342089FB4500474F97 /* WYATestVolimeBottomView.m */,
+				21100C272089D33A00474F97 /* WYATestCaseHeaderView.h */,
+				21100C262089D33900474F97 /* WYATestCaseHeaderView.m */,
+				213DE7B720887DC800F0A3F6 /* WYATestQuestionParsingView */,
+				2136954E2086D6260098F673 /* WYAAnswerCardCollectionViewCell.h */,
+				2136954F2086D6270098F673 /* WYAAnswerCardCollectionViewCell.m */,
+				213695502086D6270098F673 /* WYAAnswerCardHeaderView.h */,
+				213695512086D6270098F673 /* WYAAnswerCardHeaderView.m */,
+				21369541208601770098F673 /* WYATestDoubleSelectedTableViewCell.h */,
+				21369542208601770098F673 /* WYATestDoubleSelectedTableViewCell.m */,
+				21837853208208E90093C95C /* WYATestBottomView.h */,
+				21837854208208E90093C95C /* WYATestSingleSelectedTableViewCell.h */,
+				21837855208208E90093C95C /* WYATestBottomView.m */,
+				21837856208208E90093C95C /* WYATestSingleSelectedTableViewCell.m */,
+				213695652086E43E0098F673 /* WYAMineTestScoresCell.h */,
+				213695662086E43E0098F673 /* WYAMineTestScoresCell.m */,
+				213695682086ED440098F673 /* WYALowLeverTestScoresCell.h */,
+				213695692086ED440098F673 /* WYALowLeverTestScoresCell.m */,
+				213695782086F6E40098F673 /* WYATestPaperView.h */,
+				213695792086F6E40098F673 /* WYATestPaperView.m */,
+				21369584208828FE0098F673 /* WYATestPaperSelectorView.h */,
+				21369585208828FE0098F673 /* WYATestPaperSelectorView.m */,
+				2136957B208719010098F673 /* WYATestPaperCell.h */,
+				2136957C208719010098F673 /* WYATestPaperCell.m */,
+				213DE7C420888ED300F0A3F6 /* WYATestPaperCollectionHeadView.h */,
+				213DE7C520888ED300F0A3F6 /* WYATestPaperCollectionHeadView.m */,
+			);
+			path = WYATestVolumeView;
+			sourceTree = "<group>";
+		};
+		2183785C208485F00093C95C /* WYAMineCollection */ = {
+			isa = PBXGroup;
+			children = (
+				2183785D208486130093C95C /* WYAMineCollectionVC.h */,
+				2183785E208486130093C95C /* WYAMineCollectionVC.m */,
+				213695312085DD4B0098F673 /* WYAMineCollectionCourseVC.h */,
+				213695322085DD4B0098F673 /* WYAMineCollectionCourseVC.m */,
+				213695342085DD790098F673 /* WYAMineCollectionArticleVC.h */,
+				213695352085DD790098F673 /* WYAMineCollectionArticleVC.m */,
+			);
+			path = WYAMineCollection;
+			sourceTree = "<group>";
+		};
+		218378602084926E0093C95C /* WYAMineCollection */ = {
+			isa = PBXGroup;
+			children = (
+				218378642084A2F20093C95C /* WYAMineCollectionCell.h */,
+				218378652084A2F20093C95C /* WYAMineCollectionCell.m */,
+			);
+			path = WYAMineCollection;
+			sourceTree = "<group>";
+		};
+		218378672084A73C0093C95C /* WYAMineCollection */ = {
+			isa = PBXGroup;
+			children = (
+				218378682084A7620093C95C /* WYAMineCollectionNetRequest.h */,
+				218378692084A7620093C95C /* WYAMineCollectionNetRequest.m */,
+			);
+			path = WYAMineCollection;
+			sourceTree = "<group>";
+		};
+		2183786B2084AB850093C95C /* WYAMineCollection */ = {
+			isa = PBXGroup;
+			children = (
+				2183786C2084ABA00093C95C /* WYAMineCollectionCourseModel.h */,
+				2183786D2084ABA00093C95C /* WYAMineCollectionCourseModel.m */,
+				2183786F2084ABB80093C95C /* WYAMineCollectionArticleModel.h */,
+				218378702084ABB80093C95C /* WYAMineCollectionArticleModel.m */,
+			);
+			path = WYAMineCollection;
+			sourceTree = "<group>";
+		};
+		21AA50BF207DB6BB00864205 /* WYALecturerpersonal */ = {
+			isa = PBXGroup;
+			children = (
+				21AA50C0207DB6BB00864205 /* WYALecturerPersonalVC.m */,
+				21AA50C1207DB6BB00864205 /* WYALecturerPersonalVC.h */,
+			);
+			path = WYALecturerpersonal;
+			sourceTree = "<group>";
+		};
+		21AA50C3207DB6DE00864205 /* WYALecturerpersonalViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				21AA512F207E157800864205 /* WYALecturerDetailsNetRequest.h */,
+				21AA512E207E157700864205 /* WYALecturerDetailsNetRequest.m */,
+			);
+			path = WYALecturerpersonalViewModel;
+			sourceTree = "<group>";
+		};
+		21AA50C4207DB6EA00864205 /* WYALecturerpersonalModel */ = {
+			isa = PBXGroup;
+			children = (
+				21AA512B207E155000864205 /* WYALecturerHeaderModel.h */,
+				21AA512C207E155000864205 /* WYALecturerHeaderModel.m */,
+			);
+			path = WYALecturerpersonalModel;
+			sourceTree = "<group>";
+		};
+		21AA50C5207DB6F800864205 /* WYALecturerpersonalView */ = {
+			isa = PBXGroup;
+			children = (
+				21AA50C6207DB6F800864205 /* WYALecturerHeaderView.h */,
+				21AA50C7207DB6F800864205 /* WYALecturerPageView.h */,
+				21AA50C8207DB6F800864205 /* WYALecturerHeaderView.m */,
+				21AA50C9207DB6F800864205 /* WYALecturerPageView.m */,
+			);
+			path = WYALecturerpersonalView;
+			sourceTree = "<group>";
+		};
+		21AA50CC207DB74000864205 /* WYAMyCourseTable */ = {
+			isa = PBXGroup;
+			children = (
+				21AA50CD207DB74000864205 /* WYAMyCourseListVC.h */,
+				21AA50CE207DB74000864205 /* WYAMyCourseListVC.m */,
+			);
+			path = WYAMyCourseTable;
+			sourceTree = "<group>";
+		};
+		21AA50CF207DB74100864205 /* WYANewCourse */ = {
+			isa = PBXGroup;
+			children = (
+				21AA50D1207DB74100864205 /* WYANewCourseVC.h */,
+				21AA50D0207DB74100864205 /* WYANewCourseVC.m */,
+			);
+			path = WYANewCourse;
+			sourceTree = "<group>";
+		};
+		21AA50D4207DB75200864205 /* WYAMyCourseTable */ = {
+			isa = PBXGroup;
+			children = (
+				21AA50D6207DB75200864205 /* WYAMyCourseListNetRequest.h */,
+				21AA50D5207DB75200864205 /* WYAMyCourseListNetRequest.m */,
+			);
+			path = WYAMyCourseTable;
+			sourceTree = "<group>";
+		};
+		21AA50D7207DB75200864205 /* WYANewCourse */ = {
+			isa = PBXGroup;
+			children = (
+				21AA50D8207DB75200864205 /* WYANewCourseNetRequest.h */,
+				21AA50D9207DB75200864205 /* WYANewCourseNetRequest.m */,
+			);
+			path = WYANewCourse;
+			sourceTree = "<group>";
+		};
+		21AA50DC207DB76F00864205 /* WYANewCourse */ = {
+			isa = PBXGroup;
+			children = (
+				21AA50DD207DB76F00864205 /* WYANewCourseModel.h */,
+				21AA50DE207DB76F00864205 /* WYANewCourseModel.m */,
+			);
+			path = WYANewCourse;
+			sourceTree = "<group>";
+		};
+		21AA50DF207DB76F00864205 /* WYAMyCourseTable */ = {
+			isa = PBXGroup;
+			children = (
+				21AA50E0207DB76F00864205 /* WYAMyCourseListModel.m */,
+				21AA50E1207DB76F00864205 /* WYAMyCourseListModel.h */,
+			);
+			path = WYAMyCourseTable;
+			sourceTree = "<group>";
+		};
+		21AA50E4207DB77900864205 /* WYANewCourse */ = {
+			isa = PBXGroup;
+			children = (
+				21AA50E5207DB77900864205 /* WYANewCourseCell.m */,
+				21AA50E6207DB77900864205 /* WYANewCourseCell.h */,
+			);
+			path = WYANewCourse;
+			sourceTree = "<group>";
+		};
+		21AA50E7207DB77A00864205 /* WYAMyCourseTable */ = {
+			isa = PBXGroup;
+			children = (
+				21AA50EB207DB77A00864205 /* WYAMyCourseTableCell.h */,
+				21AA50E9207DB77A00864205 /* WYAMyCourseTableCell.m */,
+				21AA50EA207DB77A00864205 /* WYAMyCouresTableNoDataView.h */,
+				21AA50E8207DB77A00864205 /* WYAMyCouresTableNoDataView.m */,
+			);
+			path = WYAMyCourseTable;
+			sourceTree = "<group>";
+		};
+		21AA5134207F5BE700864205 /* WYACourseShortIntroduction */ = {
+			isa = PBXGroup;
+			children = (
+				21EEBF0E2099B0A700AC1B78 /* WYACourseShortIntroductionVC.h */,
+				21EEBF0F2099B0A700AC1B78 /* WYACourseShortIntroductionVC.m */,
+			);
+			path = WYACourseShortIntroduction;
+			sourceTree = "<group>";
+		};
+		21AA5135207F5C5F00864205 /* WYACourseShortIntroduction */ = {
+			isa = PBXGroup;
+			children = (
+				2155896F20C7F2A6009012B8 /* WYACourseShoreIntroductionHeaderView.h */,
+				2155896E20C7F2A6009012B8 /* WYACourseShoreIntroductionHeaderView.m */,
+			);
+			path = WYACourseShortIntroduction;
+			sourceTree = "<group>";
+		};
+		21B2660920940DC10057A512 /* ZFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				21B2660A20940DC10057A512 /* ZFPlayerModel.m */,
+				21B2660B20940DC10057A512 /* ZFPlayerControlViewDelegate.h */,
+				21B2660C20940DC10057A512 /* ZFPlayerControlView.h */,
+				21B2660D20940DC10057A512 /* ASValuePopUpView.h */,
+				21B2660E20940DC10057A512 /* Category */,
+				21B2661720940DC10057A512 /* MMMaterialDesignSpinner.h */,
+				21B2661820940DC10057A512 /* ZFPlayerView.h */,
+				21B2661920940DC10057A512 /* ASValueTrackingSlider.h */,
+				21B2661A20940DC10057A512 /* ZFPlayer.h */,
+				21B2661B20940DC10057A512 /* ZFBrightnessView.m */,
+				21B2661C20940DC10057A512 /* ZFPlayer.bundle */,
+				21B2661D20940DC10057A512 /* ZFPlayerModel.h */,
+				21B2661E20940DC10057A512 /* ASValuePopUpView.m */,
+				21B2661F20940DC10057A512 /* ZFPlayerControlView.m */,
+				21B2662020940DC10057A512 /* ZFPlayerView.m */,
+				21B2662120940DC10057A512 /* MMMaterialDesignSpinner.m */,
+				21B2662220940DC10057A512 /* ZFBrightnessView.h */,
+				21B2662320940DC10057A512 /* ASValueTrackingSlider.m */,
+			);
+			path = ZFPlayer;
+			sourceTree = "<group>";
+		};
+		21B2660E20940DC10057A512 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				21B2660F20940DC10057A512 /* UIWindow+CurrentViewController.h */,
+				21B2661020940DC10057A512 /* UIView+CustomControlView.h */,
+				21B2661120940DC10057A512 /* UIViewController+ZFPlayerRotation.h */,
+				21B2661220940DC10057A512 /* UIImageView+ZFCache.h */,
+				21B2661320940DC10057A512 /* UIWindow+CurrentViewController.m */,
+				21B2661420940DC10057A512 /* UIView+CustomControlView.m */,
+				21B2661520940DC10057A512 /* UIImageView+ZFCache.m */,
+				21B2661620940DC10057A512 /* UIViewController+ZFPlayerRotation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8D75A789A60350C3973B85C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DE01C3DC3523AC21DF39F99 /* libPods-WYA_Project.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9515740F207B680B00257341 /* WYAOpinion */ = {
+			isa = PBXGroup;
+			children = (
+				95157410207B680B00257341 /* WYAOpinionVC.h */,
+				95157411207B680B00257341 /* WYAOpinionVC.m */,
+			);
+			path = WYAOpinion;
+			sourceTree = "<group>";
+		};
+		95157412207B680B00257341 /* WYASetting */ = {
+			isa = PBXGroup;
+			children = (
+				95157413207B680B00257341 /* WYASettingTableVC.h */,
+				95157414207B680B00257341 /* WYASettingTableVC.m */,
+			);
+			path = WYASetting;
+			sourceTree = "<group>";
+		};
+		95157417207B681A00257341 /* WYASetting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WYASetting;
+			sourceTree = "<group>";
+		};
+		95157418207B681B00257341 /* WYAOpinion */ = {
+			isa = PBXGroup;
+			children = (
+				95157419207B681B00257341 /* WYAOpinionView.h */,
+				9515741A207B681B00257341 /* WYAOpinionView.m */,
+			);
+			path = WYAOpinion;
+			sourceTree = "<group>";
+		};
+		9515741C207B682200257341 /* WYASetting */ = {
+			isa = PBXGroup;
+			children = (
+				9515741D207B682200257341 /* WYASettingCellModel.h */,
+				9515741E207B682200257341 /* WYASettingCellModel.m */,
+			);
+			path = WYASetting;
+			sourceTree = "<group>";
+		};
+		9515741F207B682200257341 /* WYAOpinion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WYAOpinion;
+			sourceTree = "<group>";
+		};
+		95157421207B682B00257341 /* WYAOpinion */ = {
+			isa = PBXGroup;
+			children = (
+				95157422207B682B00257341 /* WYAOpinionNetRequest.h */,
+				95157423207B682B00257341 /* WYAOpinionNetRequest.m */,
+			);
+			path = WYAOpinion;
+			sourceTree = "<group>";
+		};
+		95157424207B682B00257341 /* WYASetting */ = {
+			isa = PBXGroup;
+			children = (
+				95157425207B682B00257341 /* WYASettingViewModel.h */,
+				95157426207B682B00257341 /* WYASettingViewModel.m */,
+			);
+			path = WYASetting;
+			sourceTree = "<group>";
+		};
+		B1926A2ED47ADF6DE12887C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C33458D26F30975C19F26C5 /* Pods-WYA_Project.debug.xcconfig */,
+				FFD0E9F65E7136745B2505D8 /* Pods-WYA_Project.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2102AD8A20746B6700362AE4 /* WYA_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2102ADB720746B6700362AE4 /* Build configuration list for PBXNativeTarget "WYA_Project" */;
+			buildPhases = (
+				EAAC8EB6E6FF933B5BA84F24 /* [CP] Check Pods Manifest.lock */,
+				2102AD8720746B6700362AE4 /* Sources */,
+				2102AD8820746B6700362AE4 /* Frameworks */,
+				2102AD8920746B6700362AE4 /* Resources */,
+				16CD5F8E3A3B18185ECF537B /* [CP] Copy Pods Resources */,
+				951B7B0620C0EBD800BF2594 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYA_Project;
+			productName = WYA_Project;
+			productReference = 2102AD8B20746B6700362AE4 /* WYA_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2102ADA220746B6700362AE4 /* WYA_ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2102ADBA20746B6700362AE4 /* Build configuration list for PBXNativeTarget "WYA_ProjectTests" */;
+			buildPhases = (
+				2102AD9F20746B6700362AE4 /* Sources */,
+				2102ADA020746B6700362AE4 /* Frameworks */,
+				2102ADA120746B6700362AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2102ADA520746B6700362AE4 /* PBXTargetDependency */,
+			);
+			name = WYA_ProjectTests;
+			productName = WYA_ProjectTests;
+			productReference = 2102ADA320746B6700362AE4 /* WYA_ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2102ADAD20746B6700362AE4 /* WYA_ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2102ADBD20746B6700362AE4 /* Build configuration list for PBXNativeTarget "WYA_ProjectUITests" */;
+			buildPhases = (
+				2102ADAA20746B6700362AE4 /* Sources */,
+				2102ADAB20746B6700362AE4 /* Frameworks */,
+				2102ADAC20746B6700362AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2102ADB020746B6700362AE4 /* PBXTargetDependency */,
+			);
+			name = WYA_ProjectUITests;
+			productName = WYA_ProjectUITests;
+			productReference = 2102ADAE20746B6700362AE4 /* WYA_ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2102AD8320746B6700362AE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WYA;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = WeiYiAn;
+				TargetAttributes = {
+					2102AD8A20746B6700362AE4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2102ADA220746B6700362AE4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2102AD8A20746B6700362AE4;
+					};
+					2102ADAD20746B6700362AE4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2102AD8A20746B6700362AE4;
+					};
+				};
+			};
+			buildConfigurationList = 2102AD8620746B6700362AE4 /* Build configuration list for PBXProject "WYA_Project" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2102AD8220746B6700362AE4;
+			productRefGroup = 2102AD8C20746B6700362AE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2102AD8A20746B6700362AE4 /* WYA_Project */,
+				2102ADA220746B6700362AE4 /* WYA_ProjectTests */,
+				2102ADAD20746B6700362AE4 /* WYA_ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2102AD8920746B6700362AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2102AD9B20746B6700362AE4 /* LaunchScreen.storyboard in Resources */,
+				2102AD9820746B6700362AE4 /* Assets.xcassets in Resources */,
+				2102AD9620746B6700362AE4 /* Main.storyboard in Resources */,
+				21B2662A20940DC10057A512 /* ZFPlayer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2102ADA120746B6700362AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2102ADAC20746B6700362AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16CD5F8E3A3B18185ECF537B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WYA_Project/Pods-WYA_Project-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYA_Project/Pods-WYA_Project-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		951B7B0620C0EBD800BF2594 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "BUGLY_APP_ID=\"049a4e200a\"\nBUGLY_APP_KEY=\"614582d0-7999-40d8-b240-45e8886acc95\"\nBUNDLE_IDENTIFIER=\"com.weiyian.ws\"\nUPLOAD_DEBUG_SYMBOLS=1\nUPLOAD_SIMULATOR_SYMBOLS=1";
+			showEnvVarsInLog = 0;
+		};
+		EAAC8EB6E6FF933B5BA84F24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WYA_Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2102AD8720746B6700362AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AA50BE207DB69100864205 /* UIView+Toast.m in Sources */,
+				213695672086E43E0098F673 /* WYAMineTestScoresCell.m in Sources */,
+				21AA5133207F550D00864205 /* WYANetErrorView.m in Sources */,
+				211BF01E208F417A00A66270 /* WYASearchNetRequest.m in Sources */,
+				218378052080340D0093C95C /* WYAMineAdminInfoNetRequest.m in Sources */,
+				21B2662D20940DC10057A512 /* ZFPlayerView.m in Sources */,
+				21100C252089D31A00474F97 /* WYACardReportContentView.m in Sources */,
+				2102AE43207A1B7000362AE4 /* WYAMineHeaderView.m in Sources */,
+				218378662084A2F20093C95C /* WYAMineCollectionCell.m in Sources */,
+				21EEBF102099B0A700AC1B78 /* WYACourseShortIntroductionVC.m in Sources */,
+				21C3A9D320B57AC000B9AEE0 /* WYAEmptyDataView.m in Sources */,
+				95C87FDC207AF4C400442744 /* WYALecturerModel.m in Sources */,
+				21B2662420940DC10057A512 /* ZFPlayerModel.m in Sources */,
+				21B2662720940DC10057A512 /* UIImageView+ZFCache.m in Sources */,
+				213DE7C620888ED300F0A3F6 /* WYATestPaperCollectionHeadView.m in Sources */,
+				2102AE232079EBA400362AE4 /* WYACouresNetRequest.m in Sources */,
+				2136957D208719010098F673 /* WYATestPaperCell.m in Sources */,
+				95157415207B680C00257341 /* WYAOpinionVC.m in Sources */,
+				214CC4472092D46E009F65A3 /* WYAFinishDownloadCell.m in Sources */,
+				21AA50CB207DB6F800864205 /* WYALecturerPageView.m in Sources */,
+				2102AE48207A1B9000362AE4 /* WYAMineCellModel.m in Sources */,
+				2102AE262079F55B00362AE4 /* WYACouresCategory.m in Sources */,
+				21AA50B5207D9EC400864205 /* WYACourseDetailVC.m in Sources */,
+				21369549208603230098F673 /* WYAAnswerCardViewController.m in Sources */,
+				211BF022208F418300A66270 /* WYASearchView.m in Sources */,
+				2102ADED2074A08600362AE4 /* WYAWeChatBusinessVC.m in Sources */,
+				2102AD9320746B6700362AE4 /* ViewController.m in Sources */,
+				218378712084ABB80093C95C /* WYAMineCollectionArticleModel.m in Sources */,
+				211BF025208F41B000A66270 /* WYASearchCourseModel.m in Sources */,
+				21AA50EE207DB77A00864205 /* WYAMyCourseTableCell.m in Sources */,
+				211BF03E209067A400A66270 /* WYANowDownloadCell.m in Sources */,
+				95C87FEB207B39CE00442744 /* WYADataNullCheckTool.m in Sources */,
+				2102ADF32074A14000362AE4 /* WYALoginView.m in Sources */,
+				2183781C20805EB50093C95C /* WYACourseCatalogHeadView.m in Sources */,
+				2102AE102079BDEB00362AE4 /* WYAUserModel.m in Sources */,
+				211BEFED208EC1E600A66270 /* WYAChooseDownloadBottomView.m in Sources */,
+				213695582086D6710098F673 /* WYAJHAnswerModel.m in Sources */,
+				211BEFDE208DCBFB00A66270 /* WYAMineVideoDownloadCell.m in Sources */,
+				214CC44B2092E385009F65A3 /* WYAFinishDownloadManager.m in Sources */,
+				21AA50EC207DB77A00864205 /* WYANewCourseCell.m in Sources */,
+				21AA50CA207DB6F800864205 /* WYALecturerHeaderView.m in Sources */,
+				21369546208602B00098F673 /* WYATestVolumeNetRequest.m in Sources */,
+				2183782C2080B9740093C95C /* WYAArticleDetailModel.m in Sources */,
+				21AA50D2207DB74100864205 /* WYAMyCourseListVC.m in Sources */,
+				211BF02F209008A200A66270 /* WYAChooseDownloadNetRequest.m in Sources */,
+				2136955E2086DF260098F673 /* WYAMineTestScoresModel.m in Sources */,
+				211BEFF9208EE0B100A66270 /* WYACardReportBottomView.m in Sources */,
+				21100C1A2089C8CF00474F97 /* WYAMineDownloadModel.m in Sources */,
+				214CC4442092D2D5009F65A3 /* WYAFinishDownloadView.m in Sources */,
+				211BEFF3208EE09B00A66270 /* WYACardParsingModel.m in Sources */,
+				211BEFF2208EE09B00A66270 /* WYACardParsingListModel.m in Sources */,
+				218377FE208033ED0093C95C /* WYAAttentionModel.m in Sources */,
+				21B2662820940DC10057A512 /* UIViewController+ZFPlayerRotation.m in Sources */,
+				21AA50DA207DB75200864205 /* WYAMyCourseListNetRequest.m in Sources */,
+				95C88000207B5BC600442744 /* WYAArticleNetRequest.m in Sources */,
+				21100C282089D33A00474F97 /* WYATestCaseHeaderView.m in Sources */,
+				213DE7C32088895300F0A3F6 /* WYATestPaperModel.m in Sources */,
+				213DE7BF20887DC800F0A3F6 /* WYAJHPieCenterView.m in Sources */,
+				211BF012208F232A00A66270 /* WYALocalDownloadModel.m in Sources */,
+				211BF01A208F416C00A66270 /* WYASearchModel.m in Sources */,
+				2102AE2F2079FBE300362AE4 /* WYATableViewController.m in Sources */,
+				21837823208062510093C95C /* WYACourseCatalogNetRequst.m in Sources */,
+				211BF03B209065DA00A66270 /* WYANowDownloadView.m in Sources */,
+				2102AE03207687F900362AE4 /* WYACouresVC.m in Sources */,
+				213695332085DD4B0098F673 /* WYAMineCollectionCourseVC.m in Sources */,
+				2102AD9E20746B6700362AE4 /* main.m in Sources */,
+				21B2662E20940DC10057A512 /* MMMaterialDesignSpinner.m in Sources */,
+				21AA50F4207DB79800864205 /* WYAArticleListVC.m in Sources */,
+				211BF042209074BF00A66270 /* WYANowDownloadManager.m in Sources */,
+				2102ADC920746EF100362AE4 /* WYALoginVC.m in Sources */,
+				2183783F20819EA10093C95C /* WYACourseDownloadCell.m in Sources */,
+				21100C2C2089D6E600474F97 /* WYAMineInfoNetRequest.m in Sources */,
+				21AA50F3207DB79800864205 /* WYAArticleDetailsVC.m in Sources */,
+				214CC4392091E276009F65A3 /* WYAArticleDetailsBottomView.m in Sources */,
+				213DE7B120887DA900F0A3F6 /* WYAReportViewController.m in Sources */,
+				21B2662C20940DC10057A512 /* ZFPlayerControlView.m in Sources */,
+				2102AD9020746B6700362AE4 /* AppDelegate.m in Sources */,
+				211BF0522091698C00A66270 /* WYASearchArticleViewController.m in Sources */,
+				21100C122089BE2000474F97 /* WYAMineDownloadView.m in Sources */,
+				213DE7B020887DA900F0A3F6 /* WYAPadsingCardViewController.m in Sources */,
+				95C87FF7207B4B5C00442744 /* WYAArticleTableViewCell.m in Sources */,
+				21AA50ED207DB77A00864205 /* WYAMyCouresTableNoDataView.m in Sources */,
+				9515742B207B687F00257341 /* WYATablePlaceHoldView.m in Sources */,
+				2183785B208478870093C95C /* WYACourseTestView.m in Sources */,
+				211BEFF8208EE0B100A66270 /* WYAPadsingDetailsCell.m in Sources */,
+				211BF0482091694E00A66270 /* WYAArticleDetailsHeaderView.m in Sources */,
+				2102ADD120749CA200362AE4 /* WYATabbarViewController.m in Sources */,
+				211BF0372090618E00A66270 /* WYATableNameModel.m in Sources */,
+				2102ADD420749CFA00362AE4 /* WYANavigationViewController.m in Sources */,
+				21AA50F7207DB8BF00864205 /* WYACourseDetailView.m in Sources */,
+				21B2662920940DC10057A512 /* ZFBrightnessView.m in Sources */,
+				21837839208197840093C95C /* WYACourseDownloadNetRequest.m in Sources */,
+				211BF016208F416400A66270 /* WYASearchViewController.m in Sources */,
+				211BF0542091698C00A66270 /* WYASearchTeacherViewController.m in Sources */,
+				213D826C20B3BF67006E60DF /* WYAFMDBManager.m in Sources */,
+				2183785F208486130093C95C /* WYAMineCollectionVC.m in Sources */,
+				21AA50D3207DB74100864205 /* WYANewCourseVC.m in Sources */,
+				21AA512D207E155000864205 /* WYALecturerHeaderModel.m in Sources */,
+				2102AE132079C19900362AE4 /* WYAUserInfo.m in Sources */,
+				95C87FE2207B01F600442744 /* WYALecturerListVC.m in Sources */,
+				211BEFFC208EE11700A66270 /* WYAPadsingDetailsViewController.m in Sources */,
+				21100C162089C6A600474F97 /* WYAMineDownloadNetRequest.m in Sources */,
+				218377FD208033ED0093C95C /* WYAAdminInfoModel.m in Sources */,
+				211BF0512091698C00A66270 /* WYASearchCourseViewController.m in Sources */,
+				21AA50BC207DB69100864205 /* NSDate+WYADate.m in Sources */,
+				2136953D208600420098F673 /* WYATestQuestionListModel.m in Sources */,
+				211BEFE4208DDE5600A66270 /* WYAChooseDownloadVC.m in Sources */,
+				2102AE4F207A1BBB00362AE4 /* UIView+WYALayout.m in Sources */,
+				21837836208196B40093C95C /* WYACourseDownloadTableVC.m in Sources */,
+				95157420207B682200257341 /* WYASettingCellModel.m in Sources */,
+				21AA5100207E09B400864205 /* WYAVideoControlView.m in Sources */,
+				2136954C2086D46E0098F673 /* WYATestScoresVC.m in Sources */,
+				21100C0E2089BD9700474F97 /* WYAMineDownloadVC.m in Sources */,
+				2102AE00207687DC00362AE4 /* WYAArticleVC.m in Sources */,
+				2102AE39207A087700362AE4 /* WYACouresListCell.m in Sources */,
+				213DE7B620887DBB00F0A3F6 /* WYAJHPieModel.m in Sources */,
+				216E5E7020C54DB500968AFD /* WYALevelPaperListModel.m in Sources */,
+				21AA50E2207DB76F00864205 /* WYANewCourseModel.m in Sources */,
+				214CC43C2092B185009F65A3 /* WYANowDownloadEditView.m in Sources */,
+				21B266052093F6650057A512 /* WYAMainPaperListModel.m in Sources */,
+				213695542086D6270098F673 /* WYAAnswerCardHeaderView.m in Sources */,
+				21AA5130207E157800864205 /* WYALecturerDetailsNetRequest.m in Sources */,
+				2102AE44207A1B7000362AE4 /* WYAMineTableView.m in Sources */,
+				2102ADE720749F1E00362AE4 /* WYAViewController.m in Sources */,
+				2136957A2086F6E40098F673 /* WYATestPaperView.m in Sources */,
+				2102AE35207A03D500362AE4 /* WYACouresListModel.m in Sources */,
+				95C87FFA207B542D00442744 /* WYAArticleCategory.m in Sources */,
+				2183784B208200510093C95C /* WYACourseDownloadNavView.m in Sources */,
+				213695532086D6270098F673 /* WYAAnswerCardCollectionViewCell.m in Sources */,
+				213695642086E0AD0098F673 /* WYALowerLeverTestScoresVC.m in Sources */,
+				21AA50DB207DB75200864205 /* WYANewCourseNetRequest.m in Sources */,
+				2102AE45207A1B7000362AE4 /* WYAMineTableViewCell.m in Sources */,
+				2102ADEA2074A06100362AE4 /* WYASchoolVC.m in Sources */,
+				21837857208208E90093C95C /* WYATestBottomView.m in Sources */,
+				21100C302089D74C00474F97 /* WYAMineInfoModel.m in Sources */,
+				213D826620B31B26006E60DF /* SODownloader+WYAVideoDownload.m in Sources */,
+				211BEFE7208DDF4200A66270 /* WYAChooseDownloadCell.m in Sources */,
+				95C87FE5207B044E00442744 /* WYALecturerTableViewCell.m in Sources */,
+				211BF0532091698C00A66270 /* WYASearchAllViewController.m in Sources */,
+				2102AE4B207A1BA500362AE4 /* WYAMineCellViewModel.m in Sources */,
+				21837858208208E90093C95C /* WYATestSingleSelectedTableViewCell.m in Sources */,
+				21C3A9D020B5787200B9AEE0 /* WYALocalVideoVC.m in Sources */,
+				213DE7A820887D7F00F0A3F6 /* WYAJHTools.m in Sources */,
+				213695612086E04F0098F673 /* WYAMineTestScoresVC.m in Sources */,
+				211BF03420905DAA00A66270 /* WYANowDowmloadVC.m in Sources */,
+				95157416207B680C00257341 /* WYASettingTableVC.m in Sources */,
+				21AA50E3207DB76F00864205 /* WYAMyCourseListModel.m in Sources */,
+				21B266082093F6870057A512 /* WYAMAinPaperCollectionView.m in Sources */,
+				21369543208601770098F673 /* WYATestDoubleSelectedTableViewCell.m in Sources */,
+				21AA50FA207DE33A00864205 /* WYACourseDetailModel.m in Sources */,
+				21B2662520940DC10057A512 /* UIWindow+CurrentViewController.m in Sources */,
+				21100C362089FB4600474F97 /* WYATestVolimeBottomView.m in Sources */,
+				211BEFE1208DD11D00A66270 /* WYAMineArticleDownloadCell.m in Sources */,
+				214CC4402092D05F009F65A3 /* WYAFinishDownloadVC.m in Sources */,
+				211BEFEA208DEB2C00A66270 /* WYAChooseDownloadMolde.m in Sources */,
+				2183784F208208BC0093C95C /* WYATestVolumeViewController.m in Sources */,
+				2136955B2086DE4F0098F673 /* WYATestScoresNetRequest.m in Sources */,
+				21D627F720AD60C000D8D2B9 /* WYAChooseDownloadHeadView.m in Sources */,
+				21AA50C2207DB6BB00864205 /* WYALecturerPersonalVC.m in Sources */,
+				218378482081F4FA0093C95C /* WYAQuickLookFileVC.m in Sources */,
+				218377F3208033AE0093C95C /* WYAAttentionViewController.m in Sources */,
+				21100C1E2089CC1A00474F97 /* WYAMineInfoVC.m in Sources */,
+				213D2A22208D63D30091905E /* WYANickNameVC.m in Sources */,
+				2102ADCC2074708100362AE4 /* WYABaseNetRequest.m in Sources */,
+				2183786E2084ABA00093C95C /* WYAMineCollectionCourseModel.m in Sources */,
+				95C87FFD207B544100442744 /* WYAArticleListModel.m in Sources */,
+				2102AE0D2079B61300362AE4 /* WYAShowMessageView.m in Sources */,
+				2102AE092079A64B00362AE4 /* WYALoginNetRequest.m in Sources */,
+				2102ADF02074A09900362AE4 /* WYAMineViewController.m in Sources */,
+				213695832087253D0098F673 /* WYATestPaperPeopleAndChapterModel.m in Sources */,
+				21B2662620940DC10057A512 /* UIView+CustomControlView.m in Sources */,
+				213695772086F49A0098F673 /* WYATestPaperVC.m in Sources */,
+				2183781920805E1D0093C95C /* WYACourseCatalogVC.m in Sources */,
+				95157428207B682B00257341 /* WYASettingViewModel.m in Sources */,
+				218378292080B95D0093C95C /* UILabel+WYALabelAlighTop.m in Sources */,
+				213DE7C020887DC800F0A3F6 /* WYAJHPieChart.m in Sources */,
+				21AA50BD207DB69100864205 /* NSString+WYAString.m in Sources */,
+				21100C332089E36B00474F97 /* UIViewController+XHPhoto.m in Sources */,
+				218377F7208033CE0093C95C /* WYAAttentionTableViewCell.m in Sources */,
+				2102ADF62074CDAA00362AE4 /* UIColor+WYAColor.m in Sources */,
+				2183781F208060320093C95C /* WYACourseCatalogCell.m in Sources */,
+				21837826208081FD0093C95C /* WYACourseCatalogModel.m in Sources */,
+				218484AF20B439C90050EB47 /* AppDelegate+SODownloader.m in Sources */,
+				21369586208828FE0098F673 /* WYATestPaperSelectorView.m in Sources */,
+				2102AE322079FC4600362AE4 /* WYACouresListTableVC.m in Sources */,
+				213695362085DD790098F673 /* WYAMineCollectionArticleVC.m in Sources */,
+				2155897020C7F2A7009012B8 /* WYACourseShoreIntroductionHeaderView.m in Sources */,
+				2136956A2086ED440098F673 /* WYALowLeverTestScoresCell.m in Sources */,
+				9515740E207B67F500257341 /* UIViewExt.m in Sources */,
+				2102AE062076881F00362AE4 /* WYALecturerVC.m in Sources */,
+				2136958020871FF60098F673 /* WYATestPaperNetRequest.m in Sources */,
+				95C87FF4207B436B00442744 /* WYALecturerNetRequest.m in Sources */,
+				218378042080340D0093C95C /* WYAAttentionNetRequest.m in Sources */,
+				211BEFDB208DB2CF00A66270 /* WYAChangerPasswordVC.m in Sources */,
+				21B2662B20940DC10057A512 /* ASValuePopUpView.m in Sources */,
+				2183782F20818CD60093C95C /* WYACourseCatalogFootView.m in Sources */,
+				2183786A2084A7620093C95C /* WYAMineCollectionNetRequest.m in Sources */,
+				95157427207B682B00257341 /* WYAOpinionNetRequest.m in Sources */,
+				21100C222089CCB900474F97 /* WYAMineInfoCell.m in Sources */,
+				9515741B207B681B00257341 /* WYAOpinionView.m in Sources */,
+				211BF0452091692300A66270 /* MBProgressHUD+WYAExpand.m in Sources */,
+				2183783C20819CB70093C95C /* WYACourseDownloadModel.m in Sources */,
+				213DE7BE20887DC800F0A3F6 /* WYACardReportHeaderView.m in Sources */,
+				21B2662F20940DC10057A512 /* ASValueTrackingSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2102AD9F20746B6700362AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2102ADAA20746B6700362AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2102ADA520746B6700362AE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2102AD8A20746B6700362AE4 /* WYA_Project */;
+			targetProxy = 2102ADA420746B6700362AE4 /* PBXContainerItemProxy */;
+		};
+		2102ADB020746B6700362AE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2102AD8A20746B6700362AE4 /* WYA_Project */;
+			targetProxy = 2102ADAF20746B6700362AE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2102AD9420746B6700362AE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2102AD9520746B6700362AE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2102AD9920746B6700362AE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2102AD9A20746B6700362AE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2102ADB520746B6700362AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2102ADB620746B6700362AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2102ADB820746B6700362AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C33458D26F30975C19F26C5 /* Pods-WYA_Project.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J5265ZP7QT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WYA_Project/WYAConfigFile/WYA.pch";
+				INFOPLIST_FILE = WYA_Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiyian.ws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2102ADB920746B6700362AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD0E9F65E7136745B2505D8 /* Pods-WYA_Project.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5265ZP7QT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WYA_Project/WYAConfigFile/WYA.pch";
+				INFOPLIST_FILE = WYA_Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiyian.ws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2102ADBB20746B6700362AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JU7A4SE6U5;
+				INFOPLIST_FILE = WYA_ProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.weiyian.com.WYA-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYA_Project.app/WYA_Project";
+			};
+			name = Debug;
+		};
+		2102ADBC20746B6700362AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JU7A4SE6U5;
+				INFOPLIST_FILE = WYA_ProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.weiyian.com.WYA-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYA_Project.app/WYA_Project";
+			};
+			name = Release;
+		};
+		2102ADBE20746B6700362AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JU7A4SE6U5;
+				INFOPLIST_FILE = WYA_ProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.weiyian.com.WYA-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WYA_Project;
+			};
+			name = Debug;
+		};
+		2102ADBF20746B6700362AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JU7A4SE6U5;
+				INFOPLIST_FILE = WYA_ProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.weiyian.com.WYA-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WYA_Project;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2102AD8620746B6700362AE4 /* Build configuration list for PBXProject "WYA_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2102ADB520746B6700362AE4 /* Debug */,
+				2102ADB620746B6700362AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2102ADB720746B6700362AE4 /* Build configuration list for PBXNativeTarget "WYA_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2102ADB820746B6700362AE4 /* Debug */,
+				2102ADB920746B6700362AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2102ADBA20746B6700362AE4 /* Build configuration list for PBXNativeTarget "WYA_ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2102ADBB20746B6700362AE4 /* Debug */,
+				2102ADBC20746B6700362AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2102ADBD20746B6700362AE4 /* Build configuration list for PBXNativeTarget "WYA_ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2102ADBE20746B6700362AE4 /* Debug */,
+				2102ADBF20746B6700362AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2102AD8320746B6700362AE4 /* Project object */;
+}

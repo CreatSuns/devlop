@@ -1,0 +1,1152 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>订单审核流程</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/订单审核流程/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/订单审核流程/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4296" class="ax_default box_1">
+        <img id="u4296_img" class="img " src="images/订单审核流程/u4296.svg"/>
+        <div id="u4296_text" class="text ">
+          <p><span style="text-decoration:none;">已打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u4297" class="ax_default flow_shape">
+        <img id="u4297_img" class="img " src="images/订单审核流程/u4297.svg"/>
+        <div id="u4297_text" class="text ">
+          <p><span style="text-decoration:none;">已获取订单</span></p><p><span style="text-decoration:none;">{待审核列表}</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u4298" class="ax_default flow_shape">
+        <img id="u4298_img" class="img " src="images/订单审核流程/u4298.svg"/>
+        <div id="u4298_text" class="text ">
+          <p><span style="text-decoration:none;">人工审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u4299" class="ax_default flow_shape">
+        <img id="u4299_img" class="img " src="images/订单审核流程/u4299.svg"/>
+        <div id="u4299_text" class="text ">
+          <p><span style="text-decoration:none;">开启自动审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4300" class="ax_default flow_shape">
+        <img id="u4300_img" class="img " src="images/订单审核流程/u4300.svg"/>
+        <div id="u4300_text" class="text ">
+          <p><span style="text-decoration:none;">分配仓库</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4301" class="ax_default flow_shape">
+        <img id="u4301_img" class="img " src="images/订单审核流程/u4300.svg"/>
+        <div id="u4301_text" class="text ">
+          <p><span style="text-decoration:none;">单个订单生成对应发货单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4302" class="ax_default flow_shape">
+        <img id="u4302_img" class="img " src="images/订单审核流程/u4300.svg"/>
+        <div id="u4302_text" class="text ">
+          <p><span style="text-decoration:none;">合并生成</span></p><p><span style="text-decoration:none;">发货单显示已合并图标</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4303" class="ax_default _文本段落">
+        <div id="u4303_div" class=""></div>
+        <div id="u4303_text" class="text ">
+          <p><span style="text-decoration:none;">订单可分组后审核，分组可用于发货单；</span></p><p><span style="text-decoration:none;">暂不发货列表改为复审订单；</span></p><p><span style="text-decoration:none;">审核时选择一个仓库和快递，在初次打印之前不获取电子面单；</span></p><p><span style="text-decoration:none;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4304" class="ax_default _连接线">
+        <img id="u4304_seg0" class="img " src="images/订单审核流程/u4304_seg0.svg" alt="u4304_seg0"/>
+        <img id="u4304_seg1" class="img " src="images/订单审核流程/u4304_seg1.svg" alt="u4304_seg1"/>
+        <img id="u4304_seg2" class="img " src="images/订单审核流程/u4304_seg2.svg" alt="u4304_seg2"/>
+        <img id="u4304_seg3" class="img " src="images/订单审核流程/u4304_seg3.svg" alt="u4304_seg3"/>
+        <img id="u4304_seg4" class="img " src="images/订单审核流程/u4304_seg4.svg" alt="u4304_seg4"/>
+        <div id="u4304_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4305" class="ax_default _连接线">
+        <img id="u4305_seg0" class="img " src="images/订单审核流程/u4305_seg0.svg" alt="u4305_seg0"/>
+        <img id="u4305_seg1" class="img " src="images/订单审核流程/u4305_seg1.svg" alt="u4305_seg1"/>
+        <div id="u4305_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u4306" class="ax_default flow_shape">
+        <img id="u4306_img" class="img " src="images/订单审核流程/u4306.svg"/>
+        <div id="u4306_text" class="text ">
+          <p><span style="text-decoration:none;">待打印</span></p><p><span style="text-decoration:none;">电子面单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4307" class="ax_default _连接线">
+        <img id="u4307_seg0" class="img " src="images/订单审核流程/u4307_seg0.svg" alt="u4307_seg0"/>
+        <img id="u4307_seg1" class="img " src="images/订单审核流程/u4307_seg1.svg" alt="u4307_seg1"/>
+        <div id="u4307_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4308" class="ax_default _连接线">
+        <img id="u4308_seg0" class="img " src="images/订单审核流程/u4308_seg0.svg" alt="u4308_seg0"/>
+        <img id="u4308_seg1" class="img " src="images/订单审核流程/u4308_seg1.svg" alt="u4308_seg1"/>
+        <img id="u4308_seg2" class="img " src="images/订单审核流程/u4308_seg2.svg" alt="u4308_seg2"/>
+        <img id="u4308_seg3" class="img " src="images/订单审核流程/u4308_seg3.svg" alt="u4308_seg3"/>
+        <div id="u4308_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4309" class="ax_default _文本段落">
+        <div id="u4309_div" class=""></div>
+        <div id="u4309_text" class="text ">
+          <p><span style="text-decoration:none;">发货单打印时可分组，</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u4310" class="ax_default flow_shape">
+        <img id="u4310_img" class="img " src="images/订单审核流程/u4310.svg"/>
+        <div id="u4310_text" class="text ">
+          <p><span style="text-decoration:none;">计算需要打印的备货单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u4311" class="ax_default flow_shape">
+        <img id="u4311_img" class="img " src="images/订单审核流程/u4310.svg"/>
+        <div id="u4311_text" class="text ">
+          <p><span style="text-decoration:none;">打印快递单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4312" class="ax_default _连接线">
+        <img id="u4312_seg0" class="img " src="images/订单审核流程/u4312_seg0.svg" alt="u4312_seg0"/>
+        <img id="u4312_seg1" class="img " src="images/订单审核流程/u4312_seg1.svg" alt="u4312_seg1"/>
+        <div id="u4312_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Beveled Rectangle) -->
+      <div id="u4313" class="ax_default flow_shape">
+        <img id="u4313_img" class="img " src="images/订单审核流程/u4313.svg"/>
+        <div id="u4313_text" class="text ">
+          <p><span style="text-decoration:none;">录入单号</span></p><p><span style="text-decoration:none;">（普通面单）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u4314" class="ax_default flow_shape">
+        <img id="u4314_img" class="img " src="images/订单审核流程/u4310.svg"/>
+        <div id="u4314_text" class="text ">
+          <p><span style="text-decoration:none;">设定单据</span></p><p><span style="text-decoration:none;">都已打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u4315" class="ax_default flow_shape">
+        <img id="u4315_img" class="img " src="images/订单审核流程/u4315.svg"/>
+        <div id="u4315_text" class="text ">
+          <p><span style="text-decoration:none;">待打印</span></p><p><span style="text-decoration:none;">普通面单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4316" class="ax_default _连接线">
+        <img id="u4316_seg0" class="img " src="images/订单审核流程/u4316_seg0.svg" alt="u4316_seg0"/>
+        <img id="u4316_seg1" class="img " src="images/订单审核流程/u4316_seg1.svg" alt="u4316_seg1"/>
+        <img id="u4316_seg2" class="img " src="images/订单审核流程/u4316_seg2.svg" alt="u4316_seg2"/>
+        <div id="u4316_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4317" class="ax_default _连接线">
+        <img id="u4317_seg0" class="img " src="images/订单审核流程/u4317_seg0.svg" alt="u4317_seg0"/>
+        <img id="u4317_seg1" class="img " src="images/订单审核流程/u4317_seg1.svg" alt="u4317_seg1"/>
+        <img id="u4317_seg2" class="img " src="images/订单审核流程/u4317_seg2.svg" alt="u4317_seg2"/>
+        <img id="u4317_seg3" class="img " src="images/订单审核流程/u4317_seg3.svg" alt="u4317_seg3"/>
+        <div id="u4317_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4318" class="ax_default _连接线">
+        <img id="u4318_seg0" class="img " src="images/订单审核流程/u4318_seg0.svg" alt="u4318_seg0"/>
+        <img id="u4318_seg1" class="img " src="images/订单审核流程/u4318_seg1.svg" alt="u4318_seg1"/>
+        <img id="u4318_seg2" class="img " src="images/订单审核流程/u4318_seg2.svg" alt="u4318_seg2"/>
+        <div id="u4318_text" class="text ">
+          <p><span style="text-decoration:none;">成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u4319" class="ax_default flow_shape">
+        <img id="u4319_img" class="img " src="images/订单审核流程/u4319.svg"/>
+        <div id="u4319_text" class="text ">
+          <p><span style="text-decoration:none;">复审订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4320" class="ax_default _连接线">
+        <img id="u4320_seg0" class="img " src="images/订单审核流程/u4320_seg0.svg" alt="u4320_seg0"/>
+        <img id="u4320_seg1" class="img " src="images/订单审核流程/u4320_seg1.svg" alt="u4320_seg1"/>
+        <img id="u4320_seg2" class="img " src="images/订单审核流程/u4320_seg2.svg" alt="u4320_seg2"/>
+        <img id="u4320_seg3" class="img " src="images/订单审核流程/u4320_seg3.svg" alt="u4320_seg3"/>
+        <div id="u4320_text" class="text ">
+          <p><span style="text-decoration:none;">复审</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u4321" class="ax_default line">
+        <img id="u4321_img" class="img " src="images/订单审核流程/u4321.svg"/>
+        <div id="u4321_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4322" class="ax_default _二级标题">
+        <div id="u4322_div" class=""></div>
+        <div id="u4322_text" class="text ">
+          <p><span style="text-decoration:none;">已审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u4323" class="ax_default line">
+        <img id="u4323_img" class="img " src="images/订单审核流程/u4321.svg"/>
+        <div id="u4323_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4324" class="ax_default _二级标题">
+        <div id="u4324_div" class=""></div>
+        <div id="u4324_text" class="text ">
+          <p><span style="text-decoration:none;">已打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u4325" class="ax_default line">
+        <img id="u4325_img" class="img " src="images/订单审核流程/u4321.svg"/>
+        <div id="u4325_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4326" class="ax_default _二级标题">
+        <div id="u4326_div" class=""></div>
+        <div id="u4326_text" class="text ">
+          <p><span style="text-decoration:none;">待发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u4327" class="ax_default flow_shape">
+        <img id="u4327_img" class="img " src="images/订单审核流程/u4327.svg"/>
+        <div id="u4327_text" class="text ">
+          <p><span style="text-decoration:none;">已签收</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u4328" class="ax_default flow_shape">
+        <img id="u4328_img" class="img " src="images/订单审核流程/u4328.svg"/>
+        <div id="u4328_text" class="text ">
+          <p><span style="text-decoration:none;">归档订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4329" class="ax_default _一级标题">
+        <div id="u4329_div" class=""></div>
+        <div id="u4329_text" class="text ">
+          <p><span style="text-decoration:none;">订单暂停、异常、取消发货流程</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4330" class="ax_default label">
+        <div id="u4330_div" class=""></div>
+        <div id="u4330_text" class="text ">
+          <p><span style="text-decoration:none;">初次打印发货单时获取电子面单号，每单从快递鸟获取单号、适配打印模板、将内容发送给批量打印插件、让打印机打印；</span></p><p><span style="text-decoration:none;">多个工作人员操作打印时可有自己的打印队列各自进行</span></p><p><span style="text-decoration:none;">多个商家请求获得电子面单时按打印进行情况分配，各自同时进行打印；</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u4331" class="ax_default flow_shape">
+        <img id="u4331_img" class="img " src="images/订单审核流程/u4331.svg"/>
+        <div id="u4331_text" class="text ">
+          <p><span style="text-decoration:none;">导入订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u4332" class="ax_default flow_shape">
+        <img id="u4332_img" class="img " src="images/订单审核流程/u4332.svg"/>
+        <div id="u4332_text" class="text ">
+          <p><span style="text-decoration:none;">待发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u4333" class="ax_default flow_shape">
+        <img id="u4333_img" class="img " src="images/订单审核流程/u4299.svg"/>
+        <div id="u4333_text" class="text ">
+          <p><span style="text-decoration:none;">开启合并发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4334" class="ax_default flow_shape">
+        <img id="u4334_img" class="img " src="images/订单审核流程/u4334.svg"/>
+        <div id="u4334_text" class="text ">
+          <p><span style="text-decoration:none;">审核一个订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u4335" class="ax_default flow_shape">
+        <img id="u4335_img" class="img " src="images/订单审核流程/u4299.svg"/>
+        <div id="u4335_text" class="text ">
+          <p><span style="text-decoration:none;">订单是（疑似）可以合并</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4336" class="ax_default _连接线">
+        <img id="u4336_seg0" class="img " src="images/订单审核流程/u4336_seg0.svg" alt="u4336_seg0"/>
+        <img id="u4336_seg1" class="img " src="images/订单审核流程/u4336_seg1.svg" alt="u4336_seg1"/>
+        <img id="u4336_seg2" class="img " src="images/订单审核流程/u4336_seg2.svg" alt="u4336_seg2"/>
+        <div id="u4336_text" class="text ">
+          <p><span style="text-decoration:none;">是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4337" class="ax_default _连接线">
+        <img id="u4337_seg0" class="img " src="images/订单审核流程/u4337_seg0.svg" alt="u4337_seg0"/>
+        <img id="u4337_seg1" class="img " src="images/订单审核流程/u4337_seg1.svg" alt="u4337_seg1"/>
+        <img id="u4337_seg2" class="img " src="images/订单审核流程/u4337_seg2.svg" alt="u4337_seg2"/>
+        <img id="u4337_seg3" class="img " src="images/订单审核流程/u4337_seg3.svg" alt="u4337_seg3"/>
+        <div id="u4337_text" class="text ">
+          <p><span style="text-decoration:none;">否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Bracket) -->
+      <div id="u4338" class="ax_default flow_shape">
+        <img id="u4338_img" class="img " src="images/订单审核流程/u4338.svg"/>
+        <div id="u4338_text" class="text ">
+          <p><span style="text-decoration:none;">自动审核规则</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4339" class="ax_default _连接线">
+        <img id="u4339_seg0" class="img " src="images/订单审核流程/u4339_seg0.svg" alt="u4339_seg0"/>
+        <img id="u4339_seg1" class="img " src="images/订单审核流程/u4339_seg1.svg" alt="u4339_seg1"/>
+        <img id="u4339_seg2" class="img " src="images/订单审核流程/u4339_seg2.svg" alt="u4339_seg2"/>
+        <div id="u4339_text" class="text ">
+          <p><span style="text-decoration:none;">否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4340" class="ax_default flow_shape">
+        <img id="u4340_img" class="img " src="images/订单审核流程/u4300.svg"/>
+        <div id="u4340_text" class="text ">
+          <p><span style="text-decoration:none;">分配物流</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4341" class="ax_default flow_shape">
+        <img id="u4341_img" class="img " src="images/订单审核流程/u4300.svg"/>
+        <div id="u4341_text" class="text ">
+          <p><span style="text-decoration:none;">旗帜标记</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4342" class="ax_default flow_shape">
+        <div id="u4342_div" class=""></div>
+        <div id="u4342_text" class="text ">
+          <p><span style="text-decoration:none;">批量审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4343" class="ax_default flow_shape">
+        <img id="u4343_img" class="img " src="images/订单审核流程/u4300.svg"/>
+        <div id="u4343_text" class="text ">
+          <p><span style="text-decoration:none;">分配仓库</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4344" class="ax_default flow_shape">
+        <img id="u4344_img" class="img " src="images/订单审核流程/u4300.svg"/>
+        <div id="u4344_text" class="text ">
+          <p><span style="text-decoration:none;">分配物流</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4345" class="ax_default flow_shape">
+        <img id="u4345_img" class="img " src="images/订单审核流程/u4300.svg"/>
+        <div id="u4345_text" class="text ">
+          <p><span style="text-decoration:none;">商品列表合并</span></p><p><span style="text-decoration:none;">地址选其一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4346" class="ax_default flow_shape">
+        <div id="u4346_div" class=""></div>
+        <div id="u4346_text" class="text ">
+          <p><span style="text-decoration:none;">逐条审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u4347" class="ax_default flow_shape">
+        <img id="u4347_img" class="img " src="images/订单审核流程/u4299.svg"/>
+        <div id="u4347_text" class="text ">
+          <p><span style="text-decoration:none;">合并发货</span></p><p><span style="text-decoration:none;">人工审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4348" class="ax_default _连接线">
+        <img id="u4348_seg0" class="img " src="images/订单审核流程/u4348_seg0.svg" alt="u4348_seg0"/>
+        <img id="u4348_seg1" class="img " src="images/订单审核流程/u4348_seg1.svg" alt="u4348_seg1"/>
+        <div id="u4348_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4349" class="ax_default flow_shape">
+        <img id="u4349_img" class="img " src="images/订单审核流程/u4300.svg"/>
+        <div id="u4349_text" class="text ">
+          <p><span style="text-decoration:none;">分配仓库</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4350" class="ax_default flow_shape">
+        <img id="u4350_img" class="img " src="images/订单审核流程/u4300.svg"/>
+        <div id="u4350_text" class="text ">
+          <p><span style="text-decoration:none;">分配物流</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4351" class="ax_default flow_shape">
+        <img id="u4351_img" class="img " src="images/订单审核流程/u4300.svg"/>
+        <div id="u4351_text" class="text ">
+          <p><span style="text-decoration:none;">旗帜标记</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4352" class="ax_default flow_shape">
+        <img id="u4352_img" class="img " src="images/订单审核流程/u4300.svg"/>
+        <div id="u4352_text" class="text ">
+          <p><span style="text-decoration:none;">分配仓库</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4353" class="ax_default flow_shape">
+        <img id="u4353_img" class="img " src="images/订单审核流程/u4300.svg"/>
+        <div id="u4353_text" class="text ">
+          <p><span style="text-decoration:none;">分配物流</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4354" class="ax_default flow_shape">
+        <img id="u4354_img" class="img " src="images/订单审核流程/u4300.svg"/>
+        <div id="u4354_text" class="text ">
+          <p><span style="text-decoration:none;">旗帜标记</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4355" class="ax_default flow_shape">
+        <img id="u4355_img" class="img " src="images/订单审核流程/u4300.svg"/>
+        <div id="u4355_text" class="text ">
+          <p><span style="text-decoration:none;">旗帜标记</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4356" class="ax_default _连接线">
+        <img id="u4356_seg0" class="img " src="images/订单审核流程/u4356_seg0.svg" alt="u4356_seg0"/>
+        <img id="u4356_seg1" class="img " src="images/订单审核流程/u4356_seg1.svg" alt="u4356_seg1"/>
+        <div id="u4356_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4357" class="ax_default _连接线">
+        <img id="u4357_seg0" class="img " src="images/订单审核流程/u4357_seg0.svg" alt="u4357_seg0"/>
+        <img id="u4357_seg1" class="img " src="images/订单审核流程/u4357_seg1.svg" alt="u4357_seg1"/>
+        <div id="u4357_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4358" class="ax_default _连接线">
+        <img id="u4358_seg0" class="img " src="images/订单审核流程/u4358_seg0.svg" alt="u4358_seg0"/>
+        <img id="u4358_seg1" class="img " src="images/订单审核流程/u4358_seg1.svg" alt="u4358_seg1"/>
+        <img id="u4358_seg2" class="img " src="images/订单审核流程/u4358_seg2.svg" alt="u4358_seg2"/>
+        <img id="u4358_seg3" class="img " src="images/订单审核流程/u4358_seg3.svg" alt="u4358_seg3"/>
+        <div id="u4358_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4359" class="ax_default _连接线">
+        <img id="u4359_seg0" class="img " src="images/订单审核流程/u4359_seg0.svg" alt="u4359_seg0"/>
+        <img id="u4359_seg1" class="img " src="images/订单审核流程/u4359_seg1.svg" alt="u4359_seg1"/>
+        <div id="u4359_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4360" class="ax_default _连接线">
+        <img id="u4360_seg0" class="img " src="images/订单审核流程/u4360_seg0.svg" alt="u4360_seg0"/>
+        <img id="u4360_seg1" class="img " src="images/订单审核流程/u4360_seg1.svg" alt="u4360_seg1"/>
+        <img id="u4360_seg2" class="img " src="images/订单审核流程/u4360_seg2.svg" alt="u4360_seg2"/>
+        <img id="u4360_seg3" class="img " src="images/订单审核流程/u4360_seg3.svg" alt="u4360_seg3"/>
+        <div id="u4360_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4361" class="ax_default _连接线">
+        <img id="u4361_seg0" class="img " src="images/订单审核流程/u4361_seg0.svg" alt="u4361_seg0"/>
+        <img id="u4361_seg1" class="img " src="images/订单审核流程/u4361_seg1.svg" alt="u4361_seg1"/>
+        <div id="u4361_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4362" class="ax_default flow_shape">
+        <div id="u4362_div" class=""></div>
+        <div id="u4362_text" class="text ">
+          <p><span style="text-decoration:none;">拆分订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4363" class="ax_default _连接线">
+        <img id="u4363_seg0" class="img " src="images/订单审核流程/u4363_seg0.svg" alt="u4363_seg0"/>
+        <img id="u4363_seg1" class="img " src="images/订单审核流程/u4363_seg1.svg" alt="u4363_seg1"/>
+        <div id="u4363_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4364" class="ax_default label">
+        <div id="u4364_div" class=""></div>
+        <div id="u4364_text" class="text ">
+          <p><span style="text-decoration:none;">拆分后的订单为子订单，订单号可加后缀产生；</span></p><p><span style="text-decoration:none;">审核时子订单为独立订单，可以和其他订单合并发货；</span></p><p><span style="text-decoration:none;">审核列表中先显示拆分订单、可合并订单、疑似可合并订单；</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4365" class="ax_default _连接线">
+        <img id="u4365_seg0" class="img " src="images/订单审核流程/u4365_seg0.svg" alt="u4365_seg0"/>
+        <img id="u4365_seg1" class="img " src="images/订单审核流程/u4365_seg1.svg" alt="u4365_seg1"/>
+        <img id="u4365_seg2" class="img " src="images/订单审核流程/u4365_seg2.svg" alt="u4365_seg2"/>
+        <img id="u4365_seg3" class="img " src="images/订单审核流程/u4365_seg3.svg" alt="u4365_seg3"/>
+        <div id="u4365_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4366" class="ax_default label">
+        <div id="u4366_div" class=""></div>
+        <div id="u4366_text" class="text ">
+          <p><span style="text-decoration:none;">店铺拆分包裹后同步的订单，每个包裹作为子订单分配订单号；</span></p><p><span style="text-decoration:none;">店铺拆分后某包裹已发货，也同步在订单详情用灰色显示，但待审核列表当作不存在这个子订单，审核时不显示；</span></p><p><span style="text-decoration:none;">拆分订单审核前列表显示[多]，审核后显示[分]，查看详情时发货信息显示原订单号及其他相关发货单号；</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4367" class="ax_default _连接线">
+        <img id="u4367_seg0" class="img " src="images/订单审核流程/u4367_seg0.svg" alt="u4367_seg0"/>
+        <img id="u4367_seg1" class="img " src="images/订单审核流程/u4367_seg1.svg" alt="u4367_seg1"/>
+        <img id="u4367_seg2" class="img " src="images/订单审核流程/u4367_seg2.svg" alt="u4367_seg2"/>
+        <img id="u4367_seg3" class="img " src="images/订单审核流程/u4367_seg3.svg" alt="u4367_seg3"/>
+        <div id="u4367_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4368" class="ax_default flow_shape">
+        <img id="u4368_img" class="img " src="images/订单审核流程/u4368.svg"/>
+        <div id="u4368_text" class="text ">
+          <p><span style="text-decoration:none;">快递鸟API</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4369" class="ax_default _连接线">
+        <img id="u4369_seg0" class="img " src="images/订单审核流程/u4369_seg0.svg" alt="u4369_seg0"/>
+        <img id="u4369_seg1" class="img " src="images/订单审核流程/u4369_seg1.svg" alt="u4369_seg1"/>
+        <div id="u4369_text" class="text ">
+          <p><span style="text-decoration:none;">普通面单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4370" class="ax_default _连接线">
+        <img id="u4370_seg0" class="img " src="images/订单审核流程/u4370_seg0.svg" alt="u4370_seg0"/>
+        <img id="u4370_seg1" class="img " src="images/订单审核流程/u4370_seg1.svg" alt="u4370_seg1"/>
+        <img id="u4370_seg2" class="img " src="images/订单审核流程/u4370_seg2.svg" alt="u4370_seg2"/>
+        <div id="u4370_text" class="text ">
+          <p><span style="text-decoration:none;">电子面单</span></p><p><span style="text-decoration:none;">可用自定义模板</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u4371" class="ax_default flow_shape">
+        <img id="u4371_img" class="img " src="images/订单审核流程/u4310.svg"/>
+        <div id="u4371_text" class="text ">
+          <p><span style="text-decoration:none;">打印发货单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4372" class="ax_default _连接线">
+        <img id="u4372_seg0" class="img " src="images/订单审核流程/u4372_seg0.svg" alt="u4372_seg0"/>
+        <img id="u4372_seg1" class="img " src="images/订单审核流程/u4372_seg1.svg" alt="u4372_seg1"/>
+        <div id="u4372_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4373" class="ax_default flow_shape">
+        <div id="u4373_div" class=""></div>
+        <div id="u4373_text" class="text ">
+          <p><span style="text-decoration:none;">一键打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4374" class="ax_default flow_shape">
+        <div id="u4374_div" class=""></div>
+        <div id="u4374_text" class="text ">
+          <p><span style="text-decoration:none;">批量发货</span></p><p><span style="text-decoration:none;">（分组/逐单）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4375" class="ax_default flow_shape">
+        <img id="u4375_img" class="img " src="images/订单审核流程/u4368.svg"/>
+        <div id="u4375_text" class="text ">
+          <p><span style="text-decoration:none;">平台店铺API</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u4376" class="ax_default flow_shape">
+        <img id="u4376_img" class="img " src="images/订单审核流程/u4376.svg"/>
+        <div id="u4376_text" class="text ">
+          <p><span style="text-decoration:none;">异常订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4377" class="ax_default _连接线">
+        <img id="u4377_seg0" class="img " src="images/订单审核流程/u4377_seg0.svg" alt="u4377_seg0"/>
+        <img id="u4377_seg1" class="img " src="images/订单审核流程/u4377_seg1.svg" alt="u4377_seg1"/>
+        <div id="u4377_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4378" class="ax_default _连接线">
+        <img id="u4378_seg0" class="img " src="images/订单审核流程/u4378_seg0.svg" alt="u4378_seg0"/>
+        <img id="u4378_seg1" class="img " src="images/订单审核流程/u4378_seg1.svg" alt="u4378_seg1"/>
+        <img id="u4378_seg2" class="img " src="images/订单审核流程/u4378_seg2.svg" alt="u4378_seg2"/>
+        <img id="u4378_seg3" class="img " src="images/订单审核流程/u4378_seg3.svg" alt="u4378_seg3"/>
+        <div id="u4378_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4379" class="ax_default flow_shape">
+        <div id="u4379_div" class=""></div>
+        <div id="u4379_text" class="text ">
+          <p><span style="text-decoration:none;">发货失败</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4380" class="ax_default flow_shape">
+        <div id="u4380_div" class=""></div>
+        <div id="u4380_text" class="text ">
+          <p><span style="text-decoration:none;">手动异常</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4381" class="ax_default _连接线">
+        <img id="u4381_seg0" class="img " src="images/订单审核流程/u4381_seg0.svg" alt="u4381_seg0"/>
+        <img id="u4381_seg1" class="img " src="images/订单审核流程/u4381_seg1.svg" alt="u4381_seg1"/>
+        <img id="u4381_seg2" class="img " src="images/订单审核流程/u4381_seg2.svg" alt="u4381_seg2"/>
+        <img id="u4381_seg3" class="img " src="images/订单审核流程/u4381_seg3.svg" alt="u4381_seg3"/>
+        <div id="u4381_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Hexagon) -->
+      <div id="u4382" class="ax_default flow_shape">
+        <img id="u4382_img" class="img " src="images/订单审核流程/u4382.svg"/>
+        <div id="u4382_text" class="text ">
+          <p><span style="text-decoration:none;">追溯系统</span></p><p><span style="text-decoration:none;">录码</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u4383" class="ax_default flow_shape">
+        <img id="u4383_img" class="img " src="images/订单审核流程/u4376.svg"/>
+        <div id="u4383_text" class="text ">
+          <p><span style="text-decoration:none;">异常订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u4384" class="ax_default flow_shape">
+        <img id="u4384_img" class="img " src="images/订单审核流程/u4384.svg"/>
+        <div id="u4384_text" class="text ">
+          <p><span style="text-decoration:none;">待发货</span></p><p><span style="text-decoration:none;">状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u4385" class="ax_default flow_shape">
+        <img id="u4385_img" class="img " src="images/订单审核流程/u4384.svg"/>
+        <div id="u4385_text" class="text ">
+          <p><span style="text-decoration:none;">开启追溯</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4386" class="ax_default _连接线">
+        <img id="u4386_seg0" class="img " src="images/订单审核流程/u4386_seg0.svg" alt="u4386_seg0"/>
+        <img id="u4386_seg1" class="img " src="images/订单审核流程/u4386_seg1.svg" alt="u4386_seg1"/>
+        <div id="u4386_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u4387" class="ax_default flow_shape">
+        <img id="u4387_img" class="img " src="images/订单审核流程/u4384.svg"/>
+        <div id="u4387_text" class="text ">
+          <p><span style="text-decoration:none;">已录码</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4388" class="ax_default _连接线">
+        <img id="u4388_seg0" class="img " src="images/订单审核流程/u4388_seg0.svg" alt="u4388_seg0"/>
+        <img id="u4388_seg1" class="img " src="images/订单审核流程/u4388_seg1.svg" alt="u4388_seg1"/>
+        <img id="u4388_seg2" class="img " src="images/订单审核流程/u4388_seg2.svg" alt="u4388_seg2"/>
+        <div id="u4388_text" class="text ">
+          <p><span style="text-decoration:none;">是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u4389" class="ax_default flow_shape">
+        <img id="u4389_img" class="img " src="images/订单审核流程/u4384.svg"/>
+        <div id="u4389_text" class="text ">
+          <p><span style="text-decoration:none;">标记发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4390" class="ax_default _连接线">
+        <img id="u4390_seg0" class="img " src="images/订单审核流程/u4390_seg0.svg" alt="u4390_seg0"/>
+        <img id="u4390_seg1" class="img " src="images/订单审核流程/u4390_seg1.svg" alt="u4390_seg1"/>
+        <div id="u4390_text" class="text ">
+          <p><span style="text-decoration:none;">发货异常</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u4391" class="ax_default flow_shape">
+        <img id="u4391_img" class="img " src="images/订单审核流程/u4332.svg"/>
+        <div id="u4391_text" class="text ">
+          <p><span style="text-decoration:none;">已发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4392" class="ax_default _连接线">
+        <img id="u4392_seg0" class="img " src="images/订单审核流程/u4392_seg0.svg" alt="u4392_seg0"/>
+        <img id="u4392_seg1" class="img " src="images/订单审核流程/u4392_seg1.svg" alt="u4392_seg1"/>
+        <img id="u4392_seg2" class="img " src="images/订单审核流程/u4392_seg2.svg" alt="u4392_seg2"/>
+        <div id="u4392_text" class="text ">
+          <p><span style="text-decoration:none;">状态异常</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u4393" class="ax_default flow_shape">
+        <img id="u4393_img" class="img " src="images/订单审核流程/u4393.svg"/>
+        <div id="u4393_text" class="text ">
+          <p><span style="text-decoration:none;">店铺待发货</span></p><p><span style="text-decoration:none;">订单发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4394" class="ax_default _连接线">
+        <img id="u4394_seg0" class="img " src="images/订单审核流程/u4394_seg0.svg" alt="u4394_seg0"/>
+        <img id="u4394_seg1" class="img " src="images/订单审核流程/u4394_seg1.svg" alt="u4394_seg1"/>
+        <img id="u4394_seg2" class="img " src="images/订单审核流程/u4394_seg2.svg" alt="u4394_seg2"/>
+        <img id="u4394_seg3" class="img " src="images/订单审核流程/u4394_seg3.svg" alt="u4394_seg3"/>
+        <div id="u4394_text" class="text ">
+          <p><span style="text-decoration:none;">店铺API</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Bracket) -->
+      <div id="u4395" class="ax_default flow_shape">
+        <img id="u4395_img" class="img " src="images/订单审核流程/u4338.svg"/>
+        <div id="u4395_text" class="text ">
+          <p><span style="text-decoration:none;">复审</span></p><p><span style="text-decoration:none;">打印</span></p><p><span style="text-decoration:none;">发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4396" class="ax_default _连接线">
+        <img id="u4396_seg0" class="img " src="images/订单审核流程/u4396_seg0.svg" alt="u4396_seg0"/>
+        <img id="u4396_seg1" class="img " src="images/订单审核流程/u4396_seg1.svg" alt="u4396_seg1"/>
+        <div id="u4396_text" class="text ">
+          <p><span style="text-decoration:none;">已处理</span></p><p><span style="text-decoration:none;">移到</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4397" class="ax_default _连接线">
+        <img id="u4397_seg0" class="img " src="images/订单审核流程/u4397_seg0.svg" alt="u4397_seg0"/>
+        <img id="u4397_seg1" class="img " src="images/订单审核流程/u4397_seg1.svg" alt="u4397_seg1"/>
+        <div id="u4397_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4398" class="ax_default _连接线">
+        <img id="u4398_seg0" class="img " src="images/订单审核流程/u4398_seg0.svg" alt="u4398_seg0"/>
+        <img id="u4398_seg1" class="img " src="images/订单审核流程/u4398_seg1.svg" alt="u4398_seg1"/>
+        <div id="u4398_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4399" class="ax_default _连接线">
+        <img id="u4399_seg0" class="img " src="images/订单审核流程/u4399_seg0.svg" alt="u4399_seg0"/>
+        <img id="u4399_seg1" class="img " src="images/订单审核流程/u4399_seg1.svg" alt="u4399_seg1"/>
+        <div id="u4399_text" class="text ">
+          <p><span style="text-decoration:none;">是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4400" class="ax_default _连接线">
+        <img id="u4400_seg0" class="img " src="images/订单审核流程/u4400_seg0.svg" alt="u4400_seg0"/>
+        <img id="u4400_seg1" class="img " src="images/订单审核流程/u4400_seg1.svg" alt="u4400_seg1"/>
+        <div id="u4400_text" class="text ">
+          <p><span style="text-decoration:none;">是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4401" class="ax_default _连接线">
+        <img id="u4401_seg0" class="img " src="images/订单审核流程/u4401_seg0.svg" alt="u4401_seg0"/>
+        <img id="u4401_seg1" class="img " src="images/订单审核流程/u4401_seg1.svg" alt="u4401_seg1"/>
+        <div id="u4401_text" class="text ">
+          <p><span style="text-decoration:none;">否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4402" class="ax_default _连接线">
+        <img id="u4402_seg0" class="img " src="images/订单审核流程/u4402_seg0.svg" alt="u4402_seg0"/>
+        <img id="u4402_seg1" class="img " src="images/订单审核流程/u4402_seg1.svg" alt="u4402_seg1"/>
+        <div id="u4402_text" class="text ">
+          <p><span style="text-decoration:none;">通过</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4403" class="ax_default _连接线">
+        <img id="u4403_seg0" class="img " src="images/订单审核流程/u4403_seg0.svg" alt="u4403_seg0"/>
+        <img id="u4403_seg1" class="img " src="images/订单审核流程/u4403_seg1.svg" alt="u4403_seg1"/>
+        <div id="u4403_text" class="text ">
+          <p><span style="text-decoration:none;">未通过</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4404" class="ax_default _连接线">
+        <img id="u4404_seg0" class="img " src="images/订单审核流程/u4404_seg0.svg" alt="u4404_seg0"/>
+        <img id="u4404_seg1" class="img " src="images/订单审核流程/u4404_seg1.svg" alt="u4404_seg1"/>
+        <div id="u4404_text" class="text ">
+          <p><span style="text-decoration:none;">合并</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4405" class="ax_default _连接线">
+        <img id="u4405_seg0" class="img " src="images/订单审核流程/u4405_seg0.svg" alt="u4405_seg0"/>
+        <img id="u4405_seg1" class="img " src="images/订单审核流程/u4405_seg1.svg" alt="u4405_seg1"/>
+        <div id="u4405_text" class="text ">
+          <p><span style="text-decoration:none;">未合并</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4406" class="ax_default _连接线">
+        <img id="u4406_seg0" class="img " src="images/订单审核流程/u4406_seg0.svg" alt="u4406_seg0"/>
+        <img id="u4406_seg1" class="img " src="images/订单审核流程/u4406_seg1.svg" alt="u4406_seg1"/>
+        <div id="u4406_text" class="text ">
+          <p><span style="text-decoration:none;">电子面单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4407" class="ax_default _连接线">
+        <img id="u4407_seg0" class="img " src="images/订单审核流程/u4407_seg0.svg" alt="u4407_seg0"/>
+        <img id="u4407_seg1" class="img " src="images/订单审核流程/u4407_seg1.svg" alt="u4407_seg1"/>
+        <div id="u4407_text" class="text ">
+          <p><span style="text-decoration:none;">打印完成</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4408" class="ax_default _连接线">
+        <img id="u4408_seg0" class="img " src="images/订单审核流程/u4408_seg0.svg" alt="u4408_seg0"/>
+        <img id="u4408_seg1" class="img " src="images/订单审核流程/u4408_seg1.svg" alt="u4408_seg1"/>
+        <div id="u4408_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4409" class="ax_default _连接线">
+        <img id="u4409_seg0" class="img " src="images/订单审核流程/u4409_seg0.svg" alt="u4409_seg0"/>
+        <img id="u4409_seg1" class="img " src="images/订单审核流程/u4409_seg1.svg" alt="u4409_seg1"/>
+        <div id="u4409_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4410" class="ax_default _连接线">
+        <img id="u4410_seg0" class="img " src="images/订单审核流程/u4410_seg0.svg" alt="u4410_seg0"/>
+        <img id="u4410_seg1" class="img " src="images/订单审核流程/u4410_seg1.svg" alt="u4410_seg1"/>
+        <div id="u4410_text" class="text ">
+          <p><span style="text-decoration:none;">是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4411" class="ax_default _连接线">
+        <img id="u4411_seg0" class="img " src="images/订单审核流程/u4411_seg0.svg" alt="u4411_seg0"/>
+        <img id="u4411_seg1" class="img " src="images/订单审核流程/u4411_seg1.svg" alt="u4411_seg1"/>
+        <img id="u4411_seg2" class="img " src="images/订单审核流程/u4411_seg2.svg" alt="u4411_seg2"/>
+        <img id="u4411_seg3" class="img " src="images/订单审核流程/u4411_seg3.svg" alt="u4411_seg3"/>
+        <div id="u4411_text" class="text ">
+          <p><span style="text-decoration:none;">是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4412" class="ax_default _连接线">
+        <img id="u4412_seg0" class="img " src="images/订单审核流程/u4412_seg0.svg" alt="u4412_seg0"/>
+        <img id="u4412_seg1" class="img " src="images/订单审核流程/u4412_seg1.svg" alt="u4412_seg1"/>
+        <div id="u4412_text" class="text ">
+          <p><span style="text-decoration:none;">否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4413" class="ax_default _连接线">
+        <img id="u4413_seg0" class="img " src="images/订单审核流程/u4413_seg0.svg" alt="u4413_seg0"/>
+        <img id="u4413_seg1" class="img " src="images/订单审核流程/u4413_seg1.svg" alt="u4413_seg1"/>
+        <div id="u4413_text" class="text ">
+          <p><span style="text-decoration:none;">发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4414" class="ax_default _连接线">
+        <img id="u4414_seg0" class="img " src="images/订单审核流程/u4414_seg0.svg" alt="u4414_seg0"/>
+        <img id="u4414_seg1" class="img " src="images/订单审核流程/u4414_seg1.svg" alt="u4414_seg1"/>
+        <div id="u4414_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4415" class="ax_default _连接线">
+        <img id="u4415_seg0" class="img " src="images/订单审核流程/u4415_seg0.svg" alt="u4415_seg0"/>
+        <img id="u4415_seg1" class="img " src="images/订单审核流程/u4415_seg1.svg" alt="u4415_seg1"/>
+        <div id="u4415_text" class="text ">
+          <p><span style="text-decoration:none;">手动/自动</span></p><p><span style="text-decoration:none;">归档</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4416" class="ax_default _连接线">
+        <img id="u4416_seg0" class="img " src="images/订单审核流程/u4416_seg0.svg" alt="u4416_seg0"/>
+        <img id="u4416_seg1" class="img " src="images/订单审核流程/u4416_seg1.svg" alt="u4416_seg1"/>
+        <div id="u4416_text" class="text ">
+          <p><span style="text-decoration:none;">自动归档</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u4417" class="ax_default line">
+        <img id="u4417_img" class="img " src="images/订单审核流程/u4321.svg"/>
+        <div id="u4417_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4418" class="ax_default _二级标题">
+        <div id="u4418_div" class=""></div>
+        <div id="u4418_text" class="text ">
+          <p><span style="text-decoration:none;">已发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4419" class="ax_default _连接线">
+        <img id="u4419_seg0" class="img " src="images/订单审核流程/u4419_seg0.svg" alt="u4419_seg0"/>
+        <img id="u4419_seg1" class="img " src="images/订单审核流程/u4419_seg1.svg" alt="u4419_seg1"/>
+        <img id="u4419_seg2" class="img " src="images/订单审核流程/u4419_seg2.svg" alt="u4419_seg2"/>
+        <img id="u4419_seg3" class="img " src="images/订单审核流程/u4419_seg3.svg" alt="u4419_seg3"/>
+        <div id="u4419_text" class="text ">
+          <p><span style="text-decoration:none;">未录码</span></p><p><span style="text-decoration:none;">待再次发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u4420" class="ax_default _连接线">
+        <img id="u4420_seg0" class="img " src="images/订单审核流程/u4420_seg0.svg" alt="u4420_seg0"/>
+        <img id="u4420_seg1" class="img " src="images/订单审核流程/u4420_seg1.svg" alt="u4420_seg1"/>
+        <div id="u4420_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4421" class="ax_default label">
+        <div id="u4421_div" class=""></div>
+        <div id="u4421_text" class="text ">
+          <p><span style="text-decoration:none;">同步后在闪打拆分的订单，以拆分订单或拆分包裹同步给店铺，</span></p><p><span style="text-decoration:none;">如其他平台店铺不支持拆分，则订单显示多个快递单号；</span></p><p><span style="text-decoration:none;">开启追溯后，标记发货需检查订单已录码才可标记发货，如微商系统订单未录码，</span></p><p><span style="text-decoration:none;">订单待发货状态不改变，提示请先录入追溯码；用户可在微商系统或追溯系统录码；</span></p><p><span style="text-decoration:none;">如订单状态变更可即时同步，则录入单号（获取面单）后即显示可发货</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,420 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>C13添加普通面单</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/c13添加普通面单/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/c13添加普通面单/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4420" class="ax_default _三级标题">
+        <div id="u4420_div" class=""></div>
+        <div id="u4420_text" class="text ">
+          <p><span>添加一个打印模板，独立浏览器窗口</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (主导航) -->
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4422" class="ax_default box_2">
+        <div id="u4422_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4423" class="ax_default box_1">
+        <div id="u4423_div" class=""></div>
+        <div id="u4423_text" class="text ">
+          <p><span>修订历史</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4424" class="ax_default box_1">
+        <div id="u4424_div" class=""></div>
+        <div id="u4424_text" class="text ">
+          <p><span>整体说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4425" class="ax_default box_1">
+        <div id="u4425_div" class=""></div>
+        <div id="u4425_text" class="text ">
+          <p><span>闪打v0.1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4426" class="ax_default box_1">
+        <div id="u4426_div" class=""></div>
+        <div id="u4426_text" class="text ">
+          <p><span>功能列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4427" class="ax_default box_1">
+        <div id="u4427_div" class=""></div>
+        <div id="u4427_text" class="text ">
+          <p><span>原型图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4428" class="ax_default box_1">
+        <div id="u4428_div" class=""></div>
+        <div id="u4428_text" class="text ">
+          <p><span>数据分析</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4429" class="ax_default box_1">
+        <div id="u4429_div" class=""></div>
+        <div id="u4429_text" class="text ">
+          <p><span>体系规则</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Triangle) -->
+      <div id="u4430" class="ax_default _流程形状">
+        <img id="u4430_img" class="img " src="images/思维导图/u17.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4431" class="ax_default box_2">
+        <div id="u4431_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4432" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u4432_div" class=""></div>
+        <div id="u4432_text" class="text ">
+          <p><span>A交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4433" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u4433_div" class=""></div>
+        <div id="u4433_text" class="text ">
+          <p><span>B交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4434" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u4434_div" class=""></div>
+        <div id="u4434_text" class="text ">
+          <p><span>C交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Triangle) -->
+      <div id="u4435" class="ax_default _流程形状">
+        <img id="u4435_img" class="img " src="images/思维导图/u17.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4436" class="ax_default box_2">
+        <div id="u4436_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4437" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u4437_div" class=""></div>
+        <div id="u4437_text" class="text ">
+          <p><span>A交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4438" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u4438_div" class=""></div>
+        <div id="u4438_text" class="text ">
+          <p><span>B交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4439" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u4439_div" class=""></div>
+        <div id="u4439_text" class="text ">
+          <p><span>C交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4440" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u4440_div" class=""></div>
+        <div id="u4440_text" class="text ">
+          <p><span>全局说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4441" class="ax_default axuretraining">
+        <div id="u4441_div" class=""></div>
+        <div id="u4441_text" class="text ">
+          <p style="font-size:18px;text-align:center;"><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;font-style:normal;color:#EB1F85;">添加打印模板</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;">弹出一个独立网页，显示所示选项；</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;">可打印项添加后，图片上方增加一个带名称的区域，四周有拖动锚点，打印中的文字不能超出设定区域，文字过多只打印前面一些字；</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;">背景图每个快递不同，用户可以上传后参考设定内容的位置，可以打印测试页；</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;">页面内容操作选项以开发实现样式显示</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Cursiva', 'Arial Normal', 'Arial';font-weight:400;font-style:italic;color:#999999;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4442" class="ax_default box_1">
+        <div id="u4442_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4443" class="ax_default box_3">
+        <div id="u4443_div" class=""></div>
+        <div id="u4443_text" class="text ">
+          <p><span>快递单打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4444" class="ax_default label">
+        <div id="u4444_div" class=""></div>
+        <div id="u4444_text" class="text ">
+          <p><span>╳</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4445" class="ax_default box_3">
+        <div id="u4445_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4446" class="ax_default box_3">
+        <div id="u4446_div" class=""></div>
+        <div id="u4446_text" class="text ">
+          <p><span>http://www.cmbchina.com/cmbpb/v50/GB/PB/PB_USBKey.htm</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4447" class="ax_default button">
+        <div id="u4447_div" class=""></div>
+        <div id="u4447_text" class="text ">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u4448" class="ax_default droplist">
+        <select id="u4448_input">
+          <option value="添加打印项">添加打印项</option>
+          <option value="快递单号">快递单号</option>
+          <option value="发货人-姓名">发货人-姓名</option>
+          <option value="发货人-电话">发货人-电话</option>
+          <option value="发货人-地址">发货人-地址</option>
+          <option value="发货人-邮编">发货人-邮编</option>
+          <option value="快递单-物品-数量">快递单-物品-数量</option>
+          <option value="收货人-地址-备注">收货人-地址-备注</option>
+          <option value="收货人-地址">收货人-地址</option>
+          <option value="收货人-地区1级">收货人-地区1级</option>
+          <option value="收货人-地区2级">收货人-地区2级</option>
+          <option value="收货人-邮编">收货人-邮编</option>
+          <option value="收货人-姓名">收货人-姓名</option>
+          <option value="收货人-电话">收货人-电话</option>
+          <option value="会员名">会员名</option>
+          <option value="网店名">网店名</option>
+          <option value="快递单-备注">快递单-备注</option>
+          <option value="当日">当日</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4449" class="ax_default button">
+        <div id="u4449_div" class=""></div>
+        <div id="u4449_text" class="text ">
+          <p><span>添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4450" class="ax_default label">
+        <div id="u4450_div" class=""></div>
+        <div id="u4450_text" class="text ">
+          <p><span>纸张尺寸</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4451" class="ax_default label">
+        <div id="u4451_div" class=""></div>
+        <div id="u4451_text" class="text ">
+          <p><span>宽</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u4452" class="ax_default text_field">
+        <input id="u4452_input" type="text" value="127"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4453" class="ax_default label">
+        <div id="u4453_div" class=""></div>
+        <div id="u4453_text" class="text ">
+          <p><span>mm</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4454" class="ax_default label">
+        <div id="u4454_div" class=""></div>
+        <div id="u4454_text" class="text ">
+          <p><span>长</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u4455" class="ax_default text_field">
+        <input id="u4455_input" type="text" value="230"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4456" class="ax_default label">
+        <div id="u4456_div" class=""></div>
+        <div id="u4456_text" class="text ">
+          <p><span>mm</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4457" class="ax_default label">
+        <div id="u4457_div" class=""></div>
+        <div id="u4457_text" class="text ">
+          <p><span>背景图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4458" class="ax_default button">
+        <div id="u4458_div" class=""></div>
+        <div id="u4458_text" class="text ">
+          <p><span>清除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4459" class="ax_default label">
+        <div id="u4459_div" class=""></div>
+        <div id="u4459_text" class="text ">
+          <p><span>打印项</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4460" class="ax_default button">
+        <div id="u4460_div" class=""></div>
+        <div id="u4460_text" class="text ">
+          <p><span>线条</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4461" class="ax_default button">
+        <div id="u4461_div" class=""></div>
+        <div id="u4461_text" class="text ">
+          <p><span>标签</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4462" class="ax_default button">
+        <div id="u4462_div" class=""></div>
+        <div id="u4462_text" class="text ">
+          <p><span>商品信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4463" class="ax_default label">
+        <div id="u4463_div" class=""></div>
+        <div id="u4463_text" class="text ">
+          <p><span>是否启用</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u4464" class="ax_default droplist">
+        <select id="u4464_input">
+          <option value="是">是</option>
+          <option value="否">否</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4465" class="ax_default label">
+        <div id="u4465_div" class=""></div>
+        <div id="u4465_text" class="text ">
+          <p><span>快递单名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u4466" class="ax_default text_field">
+        <input id="u4466_input" type="text" value="EMS"/>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u4467" class="ax_default _图片">
+        <img id="u4467_img" class="img " src="images/c13添加普通面单/u4467.png"/>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u4468" class="ax_default _图片">
+        <img id="u4468_img" class="img " src="images/c13添加普通面单/u4468.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4469" class="ax_default button ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u4469_div" class=""></div>
+        <div id="u4469_text" class="text ">
+          <p><span>打印测试</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u4470" class="ax_default _图片">
+        <img id="u4470_img" class="img " src="images/c13添加普通面单/u4470.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4471" class="ax_default axuretraining">
+        <div id="u4471_div" class=""></div>
+        <div id="u4471_text" class="text ">
+          <p><span>①：打印模板纸张尺寸，高度错误打印出来容易造成上下偏移，宽度错误容易导致打印出来显示不全。</span></p><p><span>②：单据背景图，单据背景模板需要更换可以点击添加</span></p><p><span>③：添加打印项，面单当中没有你需要的打印项，可以在此添加或者更换，</span></p><p><span>④：线条，面单当中需要的相关线条；标签，面单当中添加任意文本；矩形，面单当中添加矩形边框；图片，面单当中加入图片。</span></p><p><span>⑤：打印条码项，面单当中所需的条码选项。</span></p><p><span>⑥：添加二维码，面单当中所需的相关二维码。</span></p><p><span>⑦：公司logo，这里的公司logo是物流公司logo。</span></p><p><span>⑧：编辑文本：点击文本按键盘DELETE键可删除文本或者右键剪切；拉文本框可放大或缩小文本框显示内容的范围；点击文本框可左右移动到指定位置；</span></p><p><span><br></span></p><p><span>下方是常见快递的普通面单尺寸</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u4472" class="ax_default _图片">
+        <img id="u4472_img" class="img " src="images/c13添加普通面单/u4472.png"/>
+      </div>
+    </div>
+  </body>
+</html>

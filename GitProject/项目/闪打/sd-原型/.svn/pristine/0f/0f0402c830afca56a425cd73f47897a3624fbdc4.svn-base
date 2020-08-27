@@ -1,0 +1,541 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>C4打印备货单</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/c4打印备货单/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/c4打印备货单/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5929" class="ax_default _三级标题">
+        <div id="u5929_div" class=""></div>
+        <div id="u5929_text" class="text ">
+          <p><span style="text-decoration:none;">待打印列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (主导航) -->
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5931" class="ax_default box_2">
+        <div id="u5931_div" class=""></div>
+        <div id="u5931_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5932" class="ax_default box_1">
+        <div id="u5932_div" class=""></div>
+        <div id="u5932_text" class="text ">
+          <p><span style="text-decoration:none;">修订历史</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5933" class="ax_default box_1">
+        <div id="u5933_div" class=""></div>
+        <div id="u5933_text" class="text ">
+          <p><span style="text-decoration:none;">整体说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5934" class="ax_default box_1">
+        <div id="u5934_div" class=""></div>
+        <div id="u5934_text" class="text ">
+          <p><span style="text-decoration:none;">闪打v1.1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5935" class="ax_default box_1">
+        <div id="u5935_div" class=""></div>
+        <div id="u5935_text" class="text ">
+          <p><span style="text-decoration:none;">功能列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5936" class="ax_default box_1">
+        <div id="u5936_div" class=""></div>
+        <div id="u5936_text" class="text ">
+          <p><span style="text-decoration:none;">原型图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5937" class="ax_default box_1">
+        <div id="u5937_div" class=""></div>
+        <div id="u5937_text" class="text ">
+          <p><span style="text-decoration:none;">数据分析</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5938" class="ax_default box_1">
+        <div id="u5938_div" class=""></div>
+        <div id="u5938_text" class="text ">
+          <p><span style="text-decoration:none;">体系规则</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Triangle) -->
+      <div id="u5939" class="ax_default _流程形状">
+        <img id="u5939_img" class="img " src="images/思维导图/u15.svg"/>
+        <div id="u5939_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5940" class="ax_default box_2">
+        <div id="u5940_div" class=""></div>
+        <div id="u5940_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5941" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u5941_div" class=""></div>
+        <div id="u5941_text" class="text ">
+          <p><span style="text-decoration:none;">A交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5942" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u5942_div" class=""></div>
+        <div id="u5942_text" class="text ">
+          <p><span style="text-decoration:none;">B交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5943" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u5943_div" class=""></div>
+        <div id="u5943_text" class="text ">
+          <p><span style="text-decoration:none;">C交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Triangle) -->
+      <div id="u5944" class="ax_default _流程形状">
+        <img id="u5944_img" class="img " src="images/思维导图/u15.svg"/>
+        <div id="u5944_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5945" class="ax_default box_2">
+        <div id="u5945_div" class=""></div>
+        <div id="u5945_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5946" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u5946_div" class=""></div>
+        <div id="u5946_text" class="text ">
+          <p><span style="text-decoration:none;">A交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5947" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u5947_div" class=""></div>
+        <div id="u5947_text" class="text ">
+          <p><span style="text-decoration:none;">B交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5948" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u5948_div" class=""></div>
+        <div id="u5948_text" class="text ">
+          <p><span style="text-decoration:none;">C交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5949" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u5949_div" class=""></div>
+        <div id="u5949_text" class="text ">
+          <p><span style="text-decoration:none;">全局说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5950" class="ax_default axuretraining">
+        <div id="u5950_div" class=""></div>
+        <div id="u5950_text" class="text ">
+          <p style="font-size:18px;text-align:center;"><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;font-style:normal;text-decoration:none;color:#EB1F85;">打印备货单</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;">1.一键打印调整，可打印订单备货单，选项根据设置开启显示 ;</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;color:#CC3333;">只打印备货单不变更是否已打印的状态，仍按是否打印发货单和快递单移到已打印；</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;">2.对使用电子面单的快递，默认在初次打印快递面单时获取电子面单，打印前没有物流单号 ;</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;">同时打印备货单和发货单时，先打印备货单，再打印发货单；</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;">开始打印,打印机工作后界面顶栏显示打印机图标,并缓慢闪动表示正在作业;</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;">在打印进行中，批量打印的条目从待打印移除，在打印结束前共同操作的其他人无法重新打印；</span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;text-decoration:none;"><br></span></p><p style="font-size:14px;text-align:left;"><span style="font-family:'Arial Cursiva', 'Arial Normal', 'Arial';font-weight:400;font-style:italic;text-decoration:none;color:#999999;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5951" class="ax_default box_1">
+        <div id="u5951_div" class=""></div>
+        <div id="u5951_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5952" class="ax_default box_3">
+        <div id="u5952_div" class=""></div>
+        <div id="u5952_text" class="text ">
+          <p><span style="text-decoration:none;">打印发货单和快递面单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5953" class="ax_default label">
+        <div id="u5953_div" class=""></div>
+        <div id="u5953_text" class="text ">
+          <p><span style="text-decoration:none;">╳</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5954" class="ax_default box_3">
+        <div id="u5954_div" class=""></div>
+        <div id="u5954_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 一件大衣 (Rectangle) -->
+      <div id="u5955" class="ax_default primary_button" data-label="一件大衣">
+        <div id="u5955_div" class=""></div>
+        <div id="u5955_text" class="text ">
+          <p><span style="text-decoration:none;">打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5956" class="ax_default button">
+        <div id="u5956_div" class=""></div>
+        <div id="u5956_text" class="text ">
+          <p><span style="text-decoration:none;">取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5957" class="ax_default _一级标题">
+        <div id="u5957_div" class=""></div>
+        <div id="u5957_text" class="text ">
+          <p><span style="text-decoration:none;">点击“一键打印”的窗口</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5958" class="ax_default box_1">
+        <div id="u5958_div" class=""></div>
+        <div id="u5958_text" class="text ">
+          <p><span style="text-decoration:none;">&nbsp;&nbsp;&nbsp; 已选择 </span><span style="text-decoration:none;color:#FF3333;">46</span><span style="text-decoration:none;">条，包含 7种商品，共 </span><span style="text-decoration:none;color:#FF3333;">842</span><span style="text-decoration:none;">个商品。请确认以下设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5959" class="ax_default _三级标题">
+        <div id="u5959_div" class=""></div>
+        <div id="u5959_text" class="text ">
+          <p><span style="text-decoration:none;">设置不打印发货单时窗口选项</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5960" class="ax_default box_1">
+        <div id="u5960_div" class=""></div>
+        <div id="u5960_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5961" class="ax_default box_3">
+        <div id="u5961_div" class=""></div>
+        <div id="u5961_text" class="text ">
+          <p><span style="text-decoration:none;">打印发货单和快递面单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5962" class="ax_default label">
+        <div id="u5962_div" class=""></div>
+        <div id="u5962_text" class="text ">
+          <p><span style="text-decoration:none;">╳</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5963" class="ax_default box_3">
+        <div id="u5963_div" class=""></div>
+        <div id="u5963_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 一件大衣 (Rectangle) -->
+      <div id="u5964" class="ax_default primary_button" data-label="一件大衣">
+        <div id="u5964_div" class=""></div>
+        <div id="u5964_text" class="text ">
+          <p><span style="text-decoration:none;">打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5965" class="ax_default button">
+        <div id="u5965_div" class=""></div>
+        <div id="u5965_text" class="text ">
+          <p><span style="text-decoration:none;">取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5966" class="ax_default box_1">
+        <div id="u5966_div" class=""></div>
+        <div id="u5966_text" class="text ">
+          <p><span style="text-decoration:none;">&nbsp;&nbsp;&nbsp; 已选择 </span><span style="text-decoration:none;color:#FF3333;">46</span><span style="text-decoration:none;">条，包含 7种商品，共 </span><span style="text-decoration:none;color:#FF3333;">842</span><span style="text-decoration:none;">个商品。请确认以下设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5967" class="ax_default box_1">
+        <div id="u5967_div" class=""></div>
+        <div id="u5967_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5968" class="ax_default box_1">
+        <div id="u5968_div" class=""></div>
+        <div id="u5968_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5969" class="ax_default label">
+        <div id="u5969_div" class=""></div>
+        <div id="u5969_text" class="text ">
+          <p><span style="text-decoration:none;">所选择的项目将生成一个备货单，在发货单之前打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u5970" class="ax_default droplist">
+        <div id="u5970_div" class=""></div>
+        <select id="u5970_input" class="u5970_input">
+          <option class="u5970_input_option" value="BT483_234(默认打印机）">BT483_234(默认打印机）</option>
+          <option class="u5970_input_option" value="BT23909_LE">BT23909_LE</option>
+          <option class="u5970_input_option" value="RG_478273">RG_478273</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u5971" class="ax_default droplist">
+        <div id="u5971_div" class=""></div>
+        <select id="u5971_input" class="u5971_input">
+          <option class="u5971_input_option" value="BT483_234">BT483_234</option>
+          <option class="u5971_input_option" value="BT23909_LE">BT23909_LE</option>
+          <option class="u5971_input_option" selected value="RG_478273(默认打印机）">RG_478273(默认打印机）</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u5972" class="ax_default checkbox selected">
+        <label for="u5972_input" style="position: absolute; left: 0px;">
+          <img id="u5972_img" class="img " src="images/c4打印备货单/u5972_selected.svg"/>
+          <div id="u5972_text" class="text ">
+            <p><span style="text-decoration:none;">打印发货单</span></p>
+          </div>
+        </label>
+        <input id="u5972_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u5973" class="ax_default checkbox selected">
+        <label for="u5973_input" style="position: absolute; left: 0px;">
+          <img id="u5973_img" class="img " src="images/c4打印备货单/u5973_selected.svg"/>
+          <div id="u5973_text" class="text ">
+            <p><span style="text-decoration:none;">打印快递单</span></p>
+          </div>
+        </label>
+        <input id="u5973_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u5974" class="ax_default checkbox selected">
+        <label for="u5974_input" style="position: absolute; left: 0px;">
+          <img id="u5974_img" class="img " src="images/c4打印备货单/u5974_selected.svg"/>
+          <div id="u5974_text" class="text ">
+            <p><span style="text-decoration:none;">打印备货单</span></p>
+          </div>
+        </label>
+        <input id="u5974_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5975" class="ax_default label">
+        <div id="u5975_div" class=""></div>
+        <div id="u5975_text" class="text ">
+          <p><span style="text-decoration:none;">选择打印机</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5976" class="ax_default label">
+        <div id="u5976_div" class=""></div>
+        <div id="u5976_text" class="text ">
+          <p><span style="text-decoration:none;">选择打印机</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5977" class="ax_default box_1">
+        <div id="u5977_div" class=""></div>
+        <div id="u5977_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5978" class="ax_default box_1">
+        <div id="u5978_div" class=""></div>
+        <div id="u5978_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5979" class="ax_default label">
+        <div id="u5979_div" class=""></div>
+        <div id="u5979_text" class="text ">
+          <p><span style="text-decoration:none;">所选择的项目将生成一个备货单，在发货单之前打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u5980" class="ax_default droplist">
+        <div id="u5980_div" class=""></div>
+        <select id="u5980_input" class="u5980_input">
+          <option class="u5980_input_option" value="BT483_234(默认打印机）">BT483_234(默认打印机）</option>
+          <option class="u5980_input_option" value="BT23909_LE">BT23909_LE</option>
+          <option class="u5980_input_option" value="RG_478273">RG_478273</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u5981" class="ax_default droplist">
+        <div id="u5981_div" class=""></div>
+        <select id="u5981_input" class="u5981_input">
+          <option class="u5981_input_option" value="BT483_234">BT483_234</option>
+          <option class="u5981_input_option" value="BT23909_LE">BT23909_LE</option>
+          <option class="u5981_input_option" selected value="RG_478273(默认打印机）">RG_478273(默认打印机）</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u5982" class="ax_default checkbox selected">
+        <label for="u5982_input" style="position: absolute; left: 0px;">
+          <img id="u5982_img" class="img " src="images/c4打印备货单/u5982_selected.svg"/>
+          <div id="u5982_text" class="text ">
+            <p><span style="text-decoration:none;">打印快递单</span></p>
+          </div>
+        </label>
+        <input id="u5982_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u5983" class="ax_default checkbox selected">
+        <label for="u5983_input" style="position: absolute; left: 0px;">
+          <img id="u5983_img" class="img " src="images/c4打印备货单/u5983_selected.svg"/>
+          <div id="u5983_text" class="text ">
+            <p><span style="text-decoration:none;">打印备货单</span></p>
+          </div>
+        </label>
+        <input id="u5983_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5984" class="ax_default label">
+        <div id="u5984_div" class=""></div>
+        <div id="u5984_text" class="text ">
+          <p><span style="text-decoration:none;">选择打印机</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5985" class="ax_default label">
+        <div id="u5985_div" class=""></div>
+        <div id="u5985_text" class="text ">
+          <p><span style="text-decoration:none;">选择打印机</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5986" class="ax_default label">
+        <div id="u5986_div" class=""></div>
+        <div id="u5986_text" class="text ">
+          <p><span style="text-decoration:none;">设置开启打印备货单才显示</span></p><p><span style="text-decoration:none;">默认勾选各项</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5987" class="ax_default label">
+        <div id="u5987_div" class=""></div>
+        <div id="u5987_text" class="text ">
+          <p><span style="text-decoration:none;">根据设置若不打印发货单，则不显示发货单选项</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>闪打需求文档</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/闪打需求文档/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/闪打需求文档/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2309" class="ax_default box_2">
+        <div id="u2309_div" class=""></div>
+        <div id="u2309_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2310" class="ax_default box_1">
+        <div id="u2310_div" class=""></div>
+        <div id="u2310_text" class="text ">
+          <p><span style="text-decoration:none;">修订历史</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2311" class="ax_default box_1">
+        <div id="u2311_div" class=""></div>
+        <div id="u2311_text" class="text ">
+          <p><span style="text-decoration:none;">整体说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2312" class="ax_default box_1">
+        <div id="u2312_div" class=""></div>
+        <div id="u2312_text" class="text ">
+          <p><span style="text-decoration:none;">闪打v1.0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Triangle) -->
+      <div id="u2313" class="ax_default _流程形状">
+        <img id="u2313_img" class="img " src="images/思维导图/u15.svg"/>
+        <div id="u2313_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2314" class="ax_default box_2">
+        <div id="u2314_div" class=""></div>
+        <div id="u2314_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Table) -->
+      <div id="u2315" class="ax_default">
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u2316" class="ax_default table_cell">
+          <img id="u2316_img" class="img " src="images/闪打需求文档/u2316.png"/>
+          <div id="u2316_text" class="text ">
+            <p><span style="text-decoration:none;">文档名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u2317" class="ax_default table_cell">
+          <img id="u2317_img" class="img " src="images/闪打需求文档/u2317.png"/>
+          <div id="u2317_text" class="text ">
+            <p><span style="text-decoration:none;">闪打发货打单系统</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u2318" class="ax_default table_cell">
+          <img id="u2318_img" class="img " src="images/闪打需求文档/u2318.png"/>
+          <div id="u2318_text" class="text ">
+            <p><span style="text-decoration:none;">版本号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u2319" class="ax_default table_cell">
+          <img id="u2319_img" class="img " src="images/闪打需求文档/u2319.png"/>
+          <div id="u2319_text" class="text ">
+            <p><span style="text-decoration:none;">V2.0</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u2320" class="ax_default table_cell">
+          <img id="u2320_img" class="img " src="images/闪打需求文档/u2316.png"/>
+          <div id="u2320_text" class="text ">
+            <p><span style="text-decoration:none;">编写人</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u2321" class="ax_default table_cell">
+          <img id="u2321_img" class="img " src="images/闪打需求文档/u2317.png"/>
+          <div id="u2321_text" class="text ">
+            <p><span style="text-decoration:none;">郭亚红</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u2322" class="ax_default table_cell">
+          <img id="u2322_img" class="img " src="images/闪打需求文档/u2316.png"/>
+          <div id="u2322_text" class="text ">
+            <p><span style="text-decoration:none;">编写时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u2323" class="ax_default table_cell">
+          <img id="u2323_img" class="img " src="images/闪打需求文档/u2317.png"/>
+          <div id="u2323_text" class="text ">
+            <p><span style="text-decoration:none;">2018-08-22</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u2324" class="ax_default table_cell">
+          <img id="u2324_img" class="img " src="images/闪打需求文档/u2324.png"/>
+          <div id="u2324_text" class="text ">
+            <p><span style="text-decoration:none;">预计上线时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u2325" class="ax_default table_cell">
+          <img id="u2325_img" class="img " src="images/闪打需求文档/u2325.png"/>
+          <div id="u2325_text" class="text ">
+            <p><span style="text-decoration:none;">2018-10-28</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u2326" class="ax_default table_cell">
+          <img id="u2326_img" class="img " src="images/闪打需求文档/u2316.png"/>
+          <div id="u2326_text" class="text ">
+            <p><span style="text-decoration:none;">读者</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u2327" class="ax_default table_cell">
+          <img id="u2327_img" class="img " src="images/闪打需求文档/u2317.png"/>
+          <div id="u2327_text" class="text ">
+            <p><span style="text-decoration:none;">开发人员、测试人员、UI设计师/平台运营人员</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u2328" class="ax_default table_cell">
+          <img id="u2328_img" class="img " src="images/闪打需求文档/u2328.png"/>
+          <div id="u2328_text" class="text ">
+            <p><span style="text-decoration:none;">目的</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u2329" class="ax_default table_cell">
+          <img id="u2329_img" class="img " src="images/闪打需求文档/u2329.png"/>
+          <div id="u2329_text" class="text ">
+            <p><span style="text-decoration:none;">优化操作流程，添加更多特性以尝试提高发货速度</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2330" class="ax_default box_1">
+        <div id="u2330_div" class=""></div>
+        <div id="u2330_text" class="text ">
+          <p><span style="text-decoration:none;">功能列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2331" class="ax_default box_1">
+        <div id="u2331_div" class=""></div>
+        <div id="u2331_text" class="text ">
+          <p><span style="text-decoration:none;">原型图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2332" class="ax_default box_1">
+        <div id="u2332_div" class=""></div>
+        <div id="u2332_text" class="text ">
+          <p><span style="text-decoration:none;">数据分析</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2333" class="ax_default box_1">
+        <div id="u2333_div" class=""></div>
+        <div id="u2333_text" class="text ">
+          <p><span style="text-decoration:none;">体系规则</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

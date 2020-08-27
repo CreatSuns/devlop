@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LSJHCalendar_Example' do
+  pod 'LSJHCalendar', :path => '../'
+
+  target 'LSJHCalendar_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

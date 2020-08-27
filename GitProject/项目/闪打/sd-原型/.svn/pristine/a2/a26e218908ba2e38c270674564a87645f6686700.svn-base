@@ -1,0 +1,595 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>发货异常流程</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/发货异常流程/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/发货异常流程/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8167" class="ax_default box_1">
+        <img id="u8167_img" class="img " src="images/发货异常流程/u8167.png"/>
+        <div id="u8167_text" class="text ">
+          <p><span>已打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u8168" class="ax_default flow_shape">
+        <img id="u8168_img" class="img " src="images/发货异常流程/u8168.png"/>
+        <div id="u8168_text" class="text ">
+          <p><span>已同步订单</span></p><p><span>{待审核列表}</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u8169" class="ax_default flow_shape">
+        <img id="u8169_img" class="img " src="images/发货异常流程/u8169.png"/>
+        <div id="u8169_text" class="text ">
+          <p><span>人工审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u8170" class="ax_default flow_shape">
+        <img id="u8170_img" class="img " src="images/发货异常流程/u8170.png"/>
+        <div id="u8170_text" class="text ">
+          <p><span>自动审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8171" class="ax_default flow_shape">
+        <img id="u8171_img" class="img " src="images/发货异常流程/u8171.png"/>
+        <div id="u8171_text" class="text ">
+          <p><span>每个订单生成对应发货单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8172" class="ax_default flow_shape">
+        <img id="u8172_img" class="img " src="images/发货异常流程/u8171.png"/>
+        <div id="u8172_text" class="text ">
+          <p><span>单个订单生成对应发货单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8173" class="ax_default flow_shape">
+        <img id="u8173_img" class="img " src="images/发货异常流程/u8171.png"/>
+        <div id="u8173_text" class="text ">
+          <p><span>合并生成</span></p><p><span>发货单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8174" class="ax_default _文本段落">
+        <div id="u8174_div" class=""></div>
+        <div id="u8174_text" class="text ">
+          <p><span>1.合并发货开启、自动审核开启后，可合并、疑似可合并订单不经过自动审核；</span></p><p><span>2.合并发货关闭，审核时只可逐单审核，不显示可合并订单信息；</span></p><p><span>3.审核时生成需要发货商品列表，确认使用的发货地址、承运人信息；</span></p><p><span>4.根据发货地址关联的发货单模板，和快递使用的面单，确认需打印单据样式；</span></p><p><span>5.审核后根据快递使用的面单类型，发货流程不同；</span></p><p><span>6.导入订单发货之后不会回传标记发货给店铺</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8175" class="ax_default _连接线">
+        <img id="u8175_seg0" class="img " src="images/发货异常流程/u8175_seg0.png" alt="u8175_seg0"/>
+        <img id="u8175_seg1" class="img " src="images/发货异常流程/u8175_seg1.png" alt="u8175_seg1"/>
+        <img id="u8175_seg2" class="img " src="images/发货异常流程/u8175_seg2.png" alt="u8175_seg2"/>
+        <img id="u8175_seg3" class="img " src="images/q2/u7840_seg1.png" alt="u8175_seg3"/>
+        <div id="u8175_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8176" class="ax_default _连接线">
+        <img id="u8176_seg0" class="img " src="images/发货异常流程/u8176_seg0.png" alt="u8176_seg0"/>
+        <img id="u8176_seg1" class="img " src="images/发货异常流程/u8176_seg1.png" alt="u8176_seg1"/>
+        <img id="u8176_seg2" class="img " src="images/发货异常流程/u8176_seg2.png" alt="u8176_seg2"/>
+        <img id="u8176_seg3" class="img " src="images/发货异常流程/u8176_seg3.png" alt="u8176_seg3"/>
+        <div id="u8176_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8177" class="ax_default _连接线">
+        <img id="u8177_seg0" class="img " src="images/发货异常流程/u8177_seg0.png" alt="u8177_seg0"/>
+        <img id="u8177_seg1" class="img " src="images/发货异常流程/u8177_seg1.png" alt="u8177_seg1"/>
+        <div id="u8177_text" class="text ">
+          <p><span>通过</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8178" class="ax_default _连接线">
+        <img id="u8178_seg0" class="img " src="images/发货异常流程/u8178_seg0.png" alt="u8178_seg0"/>
+        <img id="u8178_seg1" class="img " src="images/发货异常流程/u8178_seg1.png" alt="u8178_seg1"/>
+        <img id="u8178_seg2" class="img " src="images/发货异常流程/u8178_seg2.png" alt="u8178_seg2"/>
+        <img id="u8178_seg3" class="img " src="images/发货异常流程/u8176_seg3.png" alt="u8178_seg3"/>
+        <div id="u8178_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8179" class="ax_default _连接线">
+        <img id="u8179_seg0" class="img " src="images/发货异常流程/u8179_seg0.png" alt="u8179_seg0"/>
+        <img id="u8179_seg1" class="img " src="images/发货异常流程/u8179_seg1.png" alt="u8179_seg1"/>
+        <img id="u8179_seg2" class="img " src="images/发货异常流程/u8179_seg2.png" alt="u8179_seg2"/>
+        <img id="u8179_seg3" class="img " src="images/发货异常流程/u8176_seg3.png" alt="u8179_seg3"/>
+        <div id="u8179_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u8180" class="ax_default flow_shape">
+        <img id="u8180_img" class="img " src="images/发货异常流程/u8180.png"/>
+        <div id="u8180_text" class="text ">
+          <p><span>待打印</span></p><p><span>电子面单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8181" class="ax_default _连接线">
+        <img id="u8181_seg0" class="img " src="images/发货异常流程/u8181_seg0.png" alt="u8181_seg0"/>
+        <img id="u8181_seg1" class="img " src="images/发货异常流程/u8181_seg1.png" alt="u8181_seg1"/>
+        <img id="u8181_seg2" class="img " src="images/发货异常流程/u8181_seg2.png" alt="u8181_seg2"/>
+        <img id="u8181_seg3" class="img " src="images/q2/u7840_seg1.png" alt="u8181_seg3"/>
+        <div id="u8181_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8182" class="ax_default _连接线">
+        <img id="u8182_seg0" class="img " src="images/发货异常流程/u8182_seg0.png" alt="u8182_seg0"/>
+        <img id="u8182_seg1" class="img " src="images/发货异常流程/u8182_seg1.png" alt="u8182_seg1"/>
+        <img id="u8182_seg2" class="img " src="images/发货异常流程/u8182_seg2.png" alt="u8182_seg2"/>
+        <img id="u8182_seg3" class="img " src="images/发货异常流程/u8182_seg3.png" alt="u8182_seg3"/>
+        <div id="u8182_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8183" class="ax_default _连接线">
+        <img id="u8183_seg0" class="img " src="images/发货异常流程/u8182_seg0.png" alt="u8183_seg0"/>
+        <img id="u8183_seg1" class="img " src="images/发货异常流程/u8183_seg1.png" alt="u8183_seg1"/>
+        <img id="u8183_seg2" class="img " src="images/发货异常流程/u8182_seg2.png" alt="u8183_seg2"/>
+        <img id="u8183_seg3" class="img " src="images/发货异常流程/u8182_seg3.png" alt="u8183_seg3"/>
+        <div id="u8183_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8184" class="ax_default _文本段落">
+        <div id="u8184_div" class=""></div>
+        <div id="u8184_text" class="text ">
+          <p><span>1.订单详情可查看审核方式、操作人信息</span></p><p><span>2.如订单在审核时添加备注，审核后保存于发货单的备注信息</span></p><p><span>3.发货前（未完成打印流程）可更换快递，以更换后的快递面单类型决定打印后发货前是否需录入单号</span></p><p><span>4.已打印列表可再次打印出快递单或发货单</span></p><p><span>5.分开打印时快递单必须打印一次，才可移到已发货；发货单可不打印而标记发货</span></p><p><span>6.更换快递后必须打印一次快递单，才可标记发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u8185" class="ax_default flow_shape">
+        <img id="u8185_img" class="img " src="images/发货异常流程/u8185.png"/>
+        <div id="u8185_text" class="text ">
+          <p><span>一键打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u8186" class="ax_default flow_shape">
+        <img id="u8186_img" class="img " src="images/发货异常流程/u8185.png"/>
+        <div id="u8186_text" class="text ">
+          <p><span>打印发货单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u8187" class="ax_default flow_shape">
+        <img id="u8187_img" class="img " src="images/发货异常流程/u8185.png"/>
+        <div id="u8187_text" class="text ">
+          <p><span>打印快递单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8188" class="ax_default _连接线">
+        <img id="u8188_seg0" class="img " src="images/发货异常流程/u8188_seg0.png" alt="u8188_seg0"/>
+        <img id="u8188_seg1" class="img " src="images/发货异常流程/u8188_seg1.png" alt="u8188_seg1"/>
+        <img id="u8188_seg2" class="img " src="images/发货异常流程/u8188_seg2.png" alt="u8188_seg2"/>
+        <img id="u8188_seg3" class="img " src="images/发货异常流程/u8188_seg3.png" alt="u8188_seg3"/>
+        <img id="u8188_seg4" class="img " src="images/q2/u7840_seg1.png" alt="u8188_seg4"/>
+        <div id="u8188_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8189" class="ax_default _连接线">
+        <img id="u8189_seg0" class="img " src="images/发货异常流程/u8189_seg0.png" alt="u8189_seg0"/>
+        <img id="u8189_seg1" class="img " src="images/发货异常流程/u8189_seg1.png" alt="u8189_seg1"/>
+        <img id="u8189_seg2" class="img " src="images/发货异常流程/u8189_seg2.png" alt="u8189_seg2"/>
+        <img id="u8189_seg3" class="img " src="images/发货异常流程/u8189_seg3.png" alt="u8189_seg3"/>
+        <img id="u8189_seg4" class="img " src="images/发货异常流程/u8189_seg4.png" alt="u8189_seg4"/>
+        <div id="u8189_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8190" class="ax_default _连接线">
+        <img id="u8190_seg0" class="img " src="images/发货异常流程/u8189_seg0.png" alt="u8190_seg0"/>
+        <img id="u8190_seg1" class="img " src="images/发货异常流程/u8189_seg1.png" alt="u8190_seg1"/>
+        <img id="u8190_seg2" class="img " src="images/发货异常流程/u8190_seg2.png" alt="u8190_seg2"/>
+        <img id="u8190_seg3" class="img " src="images/发货异常流程/u8189_seg3.png" alt="u8190_seg3"/>
+        <img id="u8190_seg4" class="img " src="images/发货异常流程/u8189_seg4.png" alt="u8190_seg4"/>
+        <div id="u8190_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u8191" class="ax_default flow_shape">
+        <img id="u8191_img" class="img " src="images/发货异常流程/u8191.png"/>
+        <div id="u8191_text" class="text ">
+          <p><span>已发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Beveled Rectangle) -->
+      <div id="u8192" class="ax_default flow_shape">
+        <img id="u8192_img" class="img " src="images/发货异常流程/u8192.png"/>
+        <div id="u8192_text" class="text ">
+          <p><span>录入单号</span></p><p><span>（普通面单）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u8193" class="ax_default flow_shape">
+        <img id="u8193_img" class="img " src="images/发货异常流程/u8185.png"/>
+        <div id="u8193_text" class="text ">
+          <p><span>打印发货单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u8194" class="ax_default flow_shape">
+        <img id="u8194_img" class="img " src="images/发货异常流程/u8185.png"/>
+        <div id="u8194_text" class="text ">
+          <p><span>打印快递单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u8195" class="ax_default flow_shape">
+        <img id="u8195_img" class="img " src="images/发货异常流程/u8195.png"/>
+        <div id="u8195_text" class="text ">
+          <p><span>待打印</span></p><p><span>普通面单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8196" class="ax_default _连接线">
+        <img id="u8196_seg0" class="img " src="images/发货异常流程/u8196_seg0.png" alt="u8196_seg0"/>
+        <img id="u8196_seg1" class="img " src="images/发货异常流程/u8189_seg4.png" alt="u8196_seg1"/>
+        <div id="u8196_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8197" class="ax_default _连接线">
+        <img id="u8197_seg0" class="img " src="images/发货异常流程/u8196_seg0.png" alt="u8197_seg0"/>
+        <img id="u8197_seg1" class="img " src="images/发货异常流程/u8189_seg4.png" alt="u8197_seg1"/>
+        <div id="u8197_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u8198" class="ax_default flow_shape">
+        <img id="u8198_img" class="img " src="images/发货异常流程/u8198.png"/>
+        <div id="u8198_text" class="text ">
+          <p><span>打印完自动</span></p><p><span>标记发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8199" class="ax_default _连接线">
+        <img id="u8199_seg0" class="img " src="images/发货异常流程/u8199_seg0.png" alt="u8199_seg0"/>
+        <img id="u8199_seg1" class="img " src="images/发货异常流程/u8181_seg1.png" alt="u8199_seg1"/>
+        <img id="u8199_seg2" class="img " src="images/发货异常流程/u8199_seg2.png" alt="u8199_seg2"/>
+        <img id="u8199_seg3" class="img " src="images/q2/u7840_seg1.png" alt="u8199_seg3"/>
+        <div id="u8199_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8200" class="ax_default _连接线">
+        <img id="u8200_seg0" class="img " src="images/发货异常流程/u8200_seg0.png" alt="u8200_seg0"/>
+        <img id="u8200_seg1" class="img " src="images/发货异常流程/u8200_seg1.png" alt="u8200_seg1"/>
+        <img id="u8200_seg2" class="img " src="images/发货异常流程/u8200_seg2.png" alt="u8200_seg2"/>
+        <img id="u8200_seg3" class="img " src="images/发货异常流程/u8189_seg4.png" alt="u8200_seg3"/>
+        <div id="u8200_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8201" class="ax_default _连接线">
+        <img id="u8201_seg0" class="img " src="images/发货异常流程/u8201_seg0.png" alt="u8201_seg0"/>
+        <img id="u8201_seg1" class="img " src="images/发货异常流程/u8201_seg1.png" alt="u8201_seg1"/>
+        <img id="u8201_seg2" class="img " src="images/发货异常流程/u8201_seg2.png" alt="u8201_seg2"/>
+        <img id="u8201_seg3" class="img " src="images/发货异常流程/u8189_seg4.png" alt="u8201_seg3"/>
+        <div id="u8201_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8202" class="ax_default _连接线">
+        <img id="u8202_seg0" class="img " src="images/发货异常流程/u8202_seg0.png" alt="u8202_seg0"/>
+        <img id="u8202_seg1" class="img " src="images/q2/u7840_seg1.png" alt="u8202_seg1"/>
+        <div id="u8202_text" class="text ">
+          <p><span>打印成功同时标记发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8203" class="ax_default _连接线">
+        <img id="u8203_seg0" class="img " src="images/发货异常流程/u8203_seg0.png" alt="u8203_seg0"/>
+        <img id="u8203_seg1" class="img " src="images/发货异常流程/u8203_seg1.png" alt="u8203_seg1"/>
+        <img id="u8203_seg2" class="img " src="images/发货异常流程/u8203_seg2.png" alt="u8203_seg2"/>
+        <img id="u8203_seg3" class="img " src="images/发货异常流程/u8203_seg3.png" alt="u8203_seg3"/>
+        <div id="u8203_text" class="text ">
+          <p><span>店铺订单状态正常、发货操作失败，仍显示在已打印列表，可手动标记发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u8204" class="ax_default flow_shape">
+        <img id="u8204_img" class="img " src="images/发货异常流程/u8204.png"/>
+        <div id="u8204_text" class="text ">
+          <p><span>异常订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8205" class="ax_default _连接线">
+        <img id="u8205_seg0" class="img " src="images/发货异常流程/u8205_seg0.png" alt="u8205_seg0"/>
+        <img id="u8205_seg1" class="img " src="images/发货异常流程/u8205_seg1.png" alt="u8205_seg1"/>
+        <div id="u8205_text" class="text ">
+          <p><span>店铺订单已发货</span></p><p><span>已撤单关闭</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8206" class="ax_default _连接线">
+        <img id="u8206_seg0" class="img " src="images/发货异常流程/u8206_seg0.png" alt="u8206_seg0"/>
+        <img id="u8206_seg1" class="img " src="images/发货异常流程/u8206_seg1.png" alt="u8206_seg1"/>
+        <div id="u8206_text" class="text ">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u8207" class="ax_default flow_shape">
+        <img id="u8207_img" class="img " src="images/发货异常流程/u8207.png"/>
+        <div id="u8207_text" class="text ">
+          <p><span>暂不发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8208" class="ax_default _连接线">
+        <img id="u8208_seg0" class="img " src="images/发货异常流程/u8208_seg0.png" alt="u8208_seg0"/>
+        <img id="u8208_seg1" class="img " src="images/发货异常流程/u8208_seg1.png" alt="u8208_seg1"/>
+        <div id="u8208_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u8209" class="ax_default line">
+        <img id="u8209_img" class="img " src="images/发货异常流程/u8209.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8210" class="ax_default _二级标题">
+        <div id="u8210_div" class=""></div>
+        <div id="u8210_text" class="text ">
+          <p><span>已审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u8211" class="ax_default line">
+        <img id="u8211_img" class="img " src="images/发货异常流程/u8209.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8212" class="ax_default _二级标题">
+        <div id="u8212_div" class=""></div>
+        <div id="u8212_text" class="text ">
+          <p><span>已打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u8213" class="ax_default line">
+        <img id="u8213_img" class="img " src="images/发货异常流程/u8209.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8214" class="ax_default _二级标题">
+        <div id="u8214_div" class=""></div>
+        <div id="u8214_text" class="text ">
+          <p><span>已发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8215" class="ax_default _文本段落">
+        <div id="u8215_div" class=""></div>
+        <div id="u8215_text" class="text ">
+          <p><span>1.待打印、已打印列表可更换快递，更换后按新快递确定是否打印后需录入单号</span></p><p><span>2.电子面单打印完毕同时即标记发货，分开打印、未打印另一单据时发货单移到已打印列表，打印完成即标记发货；</span></p><p><span>3.普通面单打印完后移到未录入单号列表，录入单号即标记发货</span></p><p><span>4.系统设置为不打印发货单时，打印快递单后即完成打印标记发货，已在已打印列表的发货单在打印快递单后即标记发货（普通面单仍需录单号后发货）</span></p><p><span>5.标记发货将物流信息回传给店铺，如批量操作中店铺订单已撤销或发货，订单移到异常订单；合并发货单将异常订单移除、剩余订单正常发货；</span></p><p><span>6.标记发货时店铺订单仍未发货，但系统运行中标记发货不成功，则订单移到已打印列表，用户可手动标记发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u8216" class="ax_default flow_shape">
+        <img id="u8216_img" class="img " src="images/发货异常流程/u8216.png"/>
+        <div id="u8216_text" class="text ">
+          <p><span>已签收</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8217" class="ax_default _连接线">
+        <img id="u8217_seg0" class="img " src="images/发货异常流程/u8217_seg0.png" alt="u8217_seg0"/>
+        <img id="u8217_seg1" class="img " src="images/发货异常流程/u8217_seg1.png" alt="u8217_seg1"/>
+        <div id="u8217_text" class="text ">
+          <p><span>接口反馈</span></p><p><span>手动签收</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8218" class="ax_default _连接线">
+        <img id="u8218_seg0" class="img " src="images/发货异常流程/u8218_seg0.png" alt="u8218_seg0"/>
+        <img id="u8218_seg1" class="img " src="images/发货异常流程/u8218_seg1.png" alt="u8218_seg1"/>
+        <img id="u8218_seg2" class="img " src="images/发货异常流程/u8218_seg2.png" alt="u8218_seg2"/>
+        <img id="u8218_seg3" class="img " src="images/发货异常流程/u8218_seg3.png" alt="u8218_seg3"/>
+        <div id="u8218_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8219" class="ax_default _连接线">
+        <img id="u8219_seg0" class="img " src="images/发货异常流程/u8219_seg0.png" alt="u8219_seg0"/>
+        <img id="u8219_seg1" class="img " src="images/q2/u7840_seg1.png" alt="u8219_seg1"/>
+        <div id="u8219_text" class="text ">
+          <p><span>正常发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u8220" class="ax_default flow_shape">
+        <img id="u8220_img" class="img " src="images/发货异常流程/u8220.png"/>
+        <div id="u8220_text" class="text ">
+          <p><span>归档订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8221" class="ax_default _连接线">
+        <img id="u8221_seg0" class="img " src="images/发货异常流程/u8221_seg0.png" alt="u8221_seg0"/>
+        <img id="u8221_seg1" class="img " src="images/发货异常流程/u8221_seg1.png" alt="u8221_seg1"/>
+        <div id="u8221_text" class="text ">
+          <p><span>自动归档</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8222" class="ax_default _连接线">
+        <img id="u8222_seg0" class="img " src="images/发货异常流程/u8222_seg0.png" alt="u8222_seg0"/>
+        <img id="u8222_seg1" class="img " src="images/发货异常流程/u8222_seg1.png" alt="u8222_seg1"/>
+        <div id="u8222_text" class="text ">
+          <p><span>手动归档</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8223" class="ax_default _连接线">
+        <img id="u8223_seg0" class="img " src="images/发货异常流程/u8223_seg0.png" alt="u8223_seg0"/>
+        <img id="u8223_seg1" class="img " src="images/发货异常流程/u8223_seg1.png" alt="u8223_seg1"/>
+        <img id="u8223_seg2" class="img " src="images/发货异常流程/u8223_seg2.png" alt="u8223_seg2"/>
+        <div id="u8223_text" class="text ">
+          <p><span>人工审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u8224" class="ax_default flow_shape">
+        <img id="u8224_img" class="img " src="images/发货异常流程/u8224.png"/>
+        <div id="u8224_text" class="text ">
+          <p><span>店铺订单</span></p><p><span>已发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u8225" class="ax_default flow_shape">
+        <img id="u8225_img" class="img " src="images/发货异常流程/u8225.png"/>
+        <div id="u8225_text" class="text ">
+          <p><span>店铺订单</span></p><p><span>待发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8226" class="ax_default _连接线">
+        <img id="u8226_seg0" class="img " src="images/发货异常流程/u8226_seg0.png" alt="u8226_seg0"/>
+        <img id="u8226_seg1" class="img " src="images/发货异常流程/u8226_seg1.png" alt="u8226_seg1"/>
+        <div id="u8226_text" class="text ">
+          <p><span>手动获取</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8227" class="ax_default _一级标题">
+        <div id="u8227_div" class=""></div>
+        <div id="u8227_text" class="text ">
+          <p><span>订单发货流程</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8228" class="ax_default _连接线">
+        <img id="u8228_seg0" class="img " src="images/发货异常流程/u8228_seg0.png" alt="u8228_seg0"/>
+        <img id="u8228_seg1" class="img " src="images/发货异常流程/u8228_seg1.png" alt="u8228_seg1"/>
+        <img id="u8228_seg2" class="img " src="images/发货异常流程/u8228_seg2.png" alt="u8228_seg2"/>
+        <div id="u8228_text" class="text ">
+          <p><span>移到已发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8229" class="ax_default label">
+        <div id="u8229_div" class=""></div>
+        <div id="u8229_text" class="text ">
+          <p><span>系统设置不需打印发货单时，一键打印只打印快递单，打印快递单即完成打印任务而发货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Stacked Rectangle) -->
+      <div id="u8230" class="ax_default flow_shape">
+        <img id="u8230_img" class="img " src="images/发货异常流程/u8230.png"/>
+        <div id="u8230_text" class="text ">
+          <p><span>导入订单</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
